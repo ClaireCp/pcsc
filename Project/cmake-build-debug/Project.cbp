@@ -110,6 +110,12 @@
 		<Unit filename="/home/claire/Documents/pcsc/Project/MidPointSolver.hpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Simpson2DSolver.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Simpson2DSolver.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/SimpsonSolver.cpp">
 			<Option target="main"/>
 		</Unit>

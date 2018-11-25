@@ -184,6 +184,21 @@ MidPointSolver.s:
 .PHONY : MidPointSolver.s
 
 # target to build an object file
+Simpson2DSolver.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.o
+.PHONY : Simpson2DSolver.o
+
+# target to preprocess a source file
+Simpson2DSolver.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.i
+.PHONY : Simpson2DSolver.i
+
+# target to generate assembly for a file
+Simpson2DSolver.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.s
+.PHONY : Simpson2DSolver.s
+
+# target to build an object file
 SimpsonSolver.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.o
 .PHONY : SimpsonSolver.o
@@ -249,6 +264,9 @@ help:
 	@echo "... MidPointSolver.o"
 	@echo "... MidPointSolver.i"
 	@echo "... MidPointSolver.s"
+	@echo "... Simpson2DSolver.o"
+	@echo "... Simpson2DSolver.i"
+	@echo "... Simpson2DSolver.s"
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"

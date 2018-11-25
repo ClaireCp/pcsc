@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/SimpsonSolver.o"
   "CMakeFiles/main.dir/Abstract2DIntegralSolver.o"
   "CMakeFiles/main.dir/MidPoint2DSolver.o"
+  "CMakeFiles/main.dir/Simpson2DSolver.o"
   "main.pdb"
   "main"
 )
