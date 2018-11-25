@@ -122,6 +122,12 @@
 		<Unit filename="/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Trapez2DSolver.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Trapez2DSolver.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/TrapezSolver.cpp">
 			<Option target="main"/>
 		</Unit>
