@@ -17,6 +17,7 @@ MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double
 
 MidPointSolver::~MidPointSolver() {}
 
+// TODO: simplify the function solveintegral which is unecessarily complicated
 double MidPointSolver::SolveIntegral() {
   double Integral=0;
   double h=GetStepSize();

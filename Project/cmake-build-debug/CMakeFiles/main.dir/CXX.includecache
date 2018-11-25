@@ -7,4 +7,18 @@
 #IncludeRegexTransform: 
 
 /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.cpp
+iostream
+-
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+ostream
+-
 

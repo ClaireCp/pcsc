@@ -154,6 +154,21 @@ AbstractIntegralSolver.s:
 .PHONY : AbstractIntegralSolver.s
 
 # target to build an object file
+MidPoint2DSolver.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.o
+.PHONY : MidPoint2DSolver.o
+
+# target to preprocess a source file
+MidPoint2DSolver.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.i
+.PHONY : MidPoint2DSolver.i
+
+# target to generate assembly for a file
+MidPoint2DSolver.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.s
+.PHONY : MidPoint2DSolver.s
+
+# target to build an object file
 MidPointSolver.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.o
 .PHONY : MidPointSolver.o
@@ -228,6 +243,9 @@ help:
 	@echo "... AbstractIntegralSolver.o"
 	@echo "... AbstractIntegralSolver.i"
 	@echo "... AbstractIntegralSolver.s"
+	@echo "... MidPoint2DSolver.o"
+	@echo "... MidPoint2DSolver.i"
+	@echo "... MidPoint2DSolver.s"
 	@echo "... MidPointSolver.o"
 	@echo "... MidPointSolver.i"
 	@echo "... MidPointSolver.s"

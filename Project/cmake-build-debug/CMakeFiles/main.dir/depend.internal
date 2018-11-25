@@ -3,9 +3,16 @@
 
 CMakeFiles/main.dir/Abstract2DIntegralSolver.o
  /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.cpp
+ /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+ /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/AbstractIntegralSolver.o
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/MidPoint2DSolver.o
+ /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+ /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+ /home/claire/Documents/pcsc/Project/MidPoint2DSolver.cpp
+ /home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
 CMakeFiles/main.dir/MidPointSolver.o
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
  /home/claire/Documents/pcsc/Project/MidPointSolver.cpp

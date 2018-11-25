@@ -98,6 +98,12 @@
 		<Unit filename="/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/MidPoint2DSolver.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/MidPointSolver.cpp">
 			<Option target="main"/>
 		</Unit>

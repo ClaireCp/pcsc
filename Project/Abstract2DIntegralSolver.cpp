@@ -32,6 +32,7 @@ void Abstract2DIntegralSolver::SetNumberOfSteps_y(const double n_y) {
     }
     numberOfSteps_y = n_y;
 };
+
 void Abstract2DIntegralSolver::SetInterval_y(const double y0, const double yf) {
     if (y0 < yf) {
         initialArgument_y = y0;
@@ -45,6 +46,6 @@ void Abstract2DIntegralSolver::SetFunction_xy(double (*f_xy)(double x, double y)
     function_xy = f_xy;
 }
 
-double Abstract2DIntegralSolver::my2DFunction_y(double x, double y) const {
-    return function_xy;
+double Abstract2DIntegralSolver::my2DFunction_xy(double x, double y) const {
+    return function_xy(x, y);
 }

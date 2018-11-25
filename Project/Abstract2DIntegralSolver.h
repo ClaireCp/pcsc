@@ -19,7 +19,7 @@ public:
     void SetInterval_y(double y0, double yf);
     void SetFunction_xy(double (*f_xy)(double x, double y));
 
-    double my2DFunction_y(double x, double y) const;
+    double my2DFunction_xy(double x, double y) const;
     virtual double SolveIntegral() = 0;
 
     // Get methods

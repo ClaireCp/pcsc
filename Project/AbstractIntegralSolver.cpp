@@ -11,6 +11,7 @@
 AbstractIntegralSolver::AbstractIntegralSolver()
     : numberOfSteps(), initialArgument(), finalArgument(), function(0) {}
 
+// TODO: create methods to check if parameters are valid to limit code reuse
 AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
   if (n < 0) {
     std::cout << "The number of iteration has to be strictly superior to 0." << std::endl;
