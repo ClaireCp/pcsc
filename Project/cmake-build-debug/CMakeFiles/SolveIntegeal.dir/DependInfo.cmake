@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o"
   "/home/pcsc/pcsc/Project/MidPointSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/MidPointSolver.o"
+  "/home/pcsc/pcsc/Project/SimpsonSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o"
   "/home/pcsc/pcsc/Project/SolveIntegeal.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o"
+  "/home/pcsc/pcsc/Project/TrapezSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/TrapezSolver.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

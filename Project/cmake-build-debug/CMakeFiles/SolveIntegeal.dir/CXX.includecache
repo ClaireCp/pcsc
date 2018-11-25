@@ -14,6 +14,20 @@ ostream
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 
+/home/pcsc/pcsc/Project/SimpsonSolver.cpp
+cassert
+-
+cmath
+-
+iostream
+-
+SimpsonSolver.hpp
+/home/pcsc/pcsc/Project/SimpsonSolver.hpp
+
+/home/pcsc/pcsc/Project/SimpsonSolver.hpp
+AbstractIntegralSolver.hpp
+/home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
+
 /home/pcsc/pcsc/Project/SolveIntegeal.cpp
 iostream
 -
@@ -23,4 +37,22 @@ AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 MidPointSolver.hpp
 /home/pcsc/pcsc/Project/MidPointSolver.hpp
+TrapezSolver.hpp
+/home/pcsc/pcsc/Project/TrapezSolver.hpp
+SimpsonSolver.hpp
+/home/pcsc/pcsc/Project/SimpsonSolver.hpp
+
+/home/pcsc/pcsc/Project/TrapezSolver.cpp
+cassert
+-
+cmath
+-
+iostream
+-
+TrapezSolver.hpp
+/home/pcsc/pcsc/Project/TrapezSolver.hpp
+
+/home/pcsc/pcsc/Project/TrapezSolver.hpp
+AbstractIntegralSolver.hpp
+/home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 

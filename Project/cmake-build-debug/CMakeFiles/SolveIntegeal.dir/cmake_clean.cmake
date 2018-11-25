@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o"
   "CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o"
   "CMakeFiles/SolveIntegeal.dir/MidPointSolver.o"
+  "CMakeFiles/SolveIntegeal.dir/TrapezSolver.o"
+  "CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o"
   "SolveIntegeal.pdb"
   "SolveIntegeal"
 )

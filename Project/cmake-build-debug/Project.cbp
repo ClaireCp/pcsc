@@ -98,7 +98,19 @@
 		<Unit filename="/home/pcsc/pcsc/Project/MidPointSolver.hpp">
 			<Option target="SolveIntegeal"/>
 		</Unit>
+		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.cpp">
+			<Option target="SolveIntegeal"/>
+		</Unit>
+		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.hpp">
+			<Option target="SolveIntegeal"/>
+		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/SolveIntegeal.cpp">
+			<Option target="SolveIntegeal"/>
+		</Unit>
+		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.cpp">
+			<Option target="SolveIntegeal"/>
+		</Unit>
+		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.hpp">
 			<Option target="SolveIntegeal"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/CMakeLists.txt">

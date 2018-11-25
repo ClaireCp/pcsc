@@ -154,6 +154,21 @@ MidPointSolver.s:
 .PHONY : MidPointSolver.s
 
 # target to build an object file
+SimpsonSolver.o:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o
+.PHONY : SimpsonSolver.o
+
+# target to preprocess a source file
+SimpsonSolver.i:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i
+.PHONY : SimpsonSolver.i
+
+# target to generate assembly for a file
+SimpsonSolver.s:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s
+.PHONY : SimpsonSolver.s
+
+# target to build an object file
 SolveIntegeal.o:
 	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o
 .PHONY : SolveIntegeal.o
@@ -167,6 +182,21 @@ SolveIntegeal.i:
 SolveIntegeal.s:
 	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SolveIntegeal.s
 .PHONY : SolveIntegeal.s
+
+# target to build an object file
+TrapezSolver.o:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.o
+.PHONY : TrapezSolver.o
+
+# target to preprocess a source file
+TrapezSolver.i:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.i
+.PHONY : TrapezSolver.i
+
+# target to generate assembly for a file
+TrapezSolver.s:
+	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.s
+.PHONY : TrapezSolver.s
 
 # Help Target
 help:
@@ -183,9 +213,15 @@ help:
 	@echo "... MidPointSolver.o"
 	@echo "... MidPointSolver.i"
 	@echo "... MidPointSolver.s"
+	@echo "... SimpsonSolver.o"
+	@echo "... SimpsonSolver.i"
+	@echo "... SimpsonSolver.s"
 	@echo "... SolveIntegeal.o"
 	@echo "... SolveIntegeal.i"
 	@echo "... SolveIntegeal.s"
+	@echo "... TrapezSolver.o"
+	@echo "... TrapezSolver.i"
+	@echo "... TrapezSolver.s"
 .PHONY : help
 
 

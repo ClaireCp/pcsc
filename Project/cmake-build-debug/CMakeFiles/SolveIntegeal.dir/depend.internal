@@ -8,7 +8,17 @@ CMakeFiles/SolveIntegeal.dir/MidPointSolver.o
  /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
  /home/pcsc/pcsc/Project/MidPointSolver.cpp
  /home/pcsc/pcsc/Project/MidPointSolver.hpp
+CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o
+ /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
+ /home/pcsc/pcsc/Project/SimpsonSolver.cpp
+ /home/pcsc/pcsc/Project/SimpsonSolver.hpp
 CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o
  /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
  /home/pcsc/pcsc/Project/MidPointSolver.hpp
+ /home/pcsc/pcsc/Project/SimpsonSolver.hpp
  /home/pcsc/pcsc/Project/SolveIntegeal.cpp
+ /home/pcsc/pcsc/Project/TrapezSolver.hpp
+CMakeFiles/SolveIntegeal.dir/TrapezSolver.o
+ /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
+ /home/pcsc/pcsc/Project/TrapezSolver.cpp
+ /home/pcsc/pcsc/Project/TrapezSolver.hpp
