@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcsc/pcsc/Project
+CMAKE_SOURCE_DIR = /home/claire/Documents/pcsc/Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcsc/pcsc/Project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/claire/Documents/pcsc/Project/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SolveIntegeal.dir/depend.make
@@ -57,74 +57,74 @@ include CMakeFiles/SolveIntegeal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SolveIntegeal.dir/flags.make
 
-CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o: CMakeFiles/SolveIntegeal.dir/flags.make
-CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o: ../SolveIntegeal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o -c /home/pcsc/pcsc/Project/SolveIntegeal.cpp
+CMakeFiles/SolveIntegeal.dir/main.o: CMakeFiles/SolveIntegeal.dir/flags.make
+CMakeFiles/SolveIntegeal.dir/main.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SolveIntegeal.dir/main.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/main.o -c /home/claire/Documents/pcsc/Project/main.cpp
 
-CMakeFiles/SolveIntegeal.dir/SolveIntegeal.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/SolveIntegeal.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/SolveIntegeal.cpp > CMakeFiles/SolveIntegeal.dir/SolveIntegeal.i
+CMakeFiles/SolveIntegeal.dir/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/main.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claire/Documents/pcsc/Project/main.cpp > CMakeFiles/SolveIntegeal.dir/main.i
 
-CMakeFiles/SolveIntegeal.dir/SolveIntegeal.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/SolveIntegeal.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/SolveIntegeal.cpp -o CMakeFiles/SolveIntegeal.dir/SolveIntegeal.s
+CMakeFiles/SolveIntegeal.dir/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/main.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claire/Documents/pcsc/Project/main.cpp -o CMakeFiles/SolveIntegeal.dir/main.s
 
 CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o: CMakeFiles/SolveIntegeal.dir/flags.make
 CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o: ../AbstractIntegralSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o -c /home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o -c /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp
 
 CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp > CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp > CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.i
 
 CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp -o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp -o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.s
 
 CMakeFiles/SolveIntegeal.dir/MidPointSolver.o: CMakeFiles/SolveIntegeal.dir/flags.make
 CMakeFiles/SolveIntegeal.dir/MidPointSolver.o: ../MidPointSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SolveIntegeal.dir/MidPointSolver.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/MidPointSolver.o -c /home/pcsc/pcsc/Project/MidPointSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SolveIntegeal.dir/MidPointSolver.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/MidPointSolver.o -c /home/claire/Documents/pcsc/Project/MidPointSolver.cpp
 
 CMakeFiles/SolveIntegeal.dir/MidPointSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/MidPointSolver.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/MidPointSolver.cpp > CMakeFiles/SolveIntegeal.dir/MidPointSolver.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claire/Documents/pcsc/Project/MidPointSolver.cpp > CMakeFiles/SolveIntegeal.dir/MidPointSolver.i
 
 CMakeFiles/SolveIntegeal.dir/MidPointSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/MidPointSolver.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/MidPointSolver.cpp -o CMakeFiles/SolveIntegeal.dir/MidPointSolver.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claire/Documents/pcsc/Project/MidPointSolver.cpp -o CMakeFiles/SolveIntegeal.dir/MidPointSolver.s
 
 CMakeFiles/SolveIntegeal.dir/TrapezSolver.o: CMakeFiles/SolveIntegeal.dir/flags.make
 CMakeFiles/SolveIntegeal.dir/TrapezSolver.o: ../TrapezSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SolveIntegeal.dir/TrapezSolver.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/TrapezSolver.o -c /home/pcsc/pcsc/Project/TrapezSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SolveIntegeal.dir/TrapezSolver.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/TrapezSolver.o -c /home/claire/Documents/pcsc/Project/TrapezSolver.cpp
 
 CMakeFiles/SolveIntegeal.dir/TrapezSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/TrapezSolver.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/TrapezSolver.cpp > CMakeFiles/SolveIntegeal.dir/TrapezSolver.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claire/Documents/pcsc/Project/TrapezSolver.cpp > CMakeFiles/SolveIntegeal.dir/TrapezSolver.i
 
 CMakeFiles/SolveIntegeal.dir/TrapezSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/TrapezSolver.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/TrapezSolver.cpp -o CMakeFiles/SolveIntegeal.dir/TrapezSolver.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claire/Documents/pcsc/Project/TrapezSolver.cpp -o CMakeFiles/SolveIntegeal.dir/TrapezSolver.s
 
 CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o: CMakeFiles/SolveIntegeal.dir/flags.make
 CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o: ../SimpsonSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o -c /home/pcsc/pcsc/Project/SimpsonSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o -c /home/claire/Documents/pcsc/Project/SimpsonSolver.cpp
 
 CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/SimpsonSolver.cpp > CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claire/Documents/pcsc/Project/SimpsonSolver.cpp > CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i
 
 CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/SimpsonSolver.cpp -o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claire/Documents/pcsc/Project/SimpsonSolver.cpp -o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s
 
 # Object files for target SolveIntegeal
 SolveIntegeal_OBJECTS = \
-"CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o" \
+"CMakeFiles/SolveIntegeal.dir/main.o" \
 "CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o" \
 "CMakeFiles/SolveIntegeal.dir/MidPointSolver.o" \
 "CMakeFiles/SolveIntegeal.dir/TrapezSolver.o" \
@@ -133,14 +133,14 @@ SolveIntegeal_OBJECTS = \
 # External object files for target SolveIntegeal
 SolveIntegeal_EXTERNAL_OBJECTS =
 
-SolveIntegeal: CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o
+SolveIntegeal: CMakeFiles/SolveIntegeal.dir/main.o
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/MidPointSolver.o
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/TrapezSolver.o
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/build.make
 SolveIntegeal: CMakeFiles/SolveIntegeal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SolveIntegeal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SolveIntegeal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SolveIntegeal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/SolveIntegeal.dir/clean:
 .PHONY : CMakeFiles/SolveIntegeal.dir/clean
 
 CMakeFiles/SolveIntegeal.dir/depend:
-	cd /home/pcsc/pcsc/Project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcsc/pcsc/Project /home/pcsc/pcsc/Project /home/pcsc/pcsc/Project/cmake-build-debug /home/pcsc/pcsc/Project/cmake-build-debug /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/claire/Documents/pcsc/Project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claire/Documents/pcsc/Project /home/claire/Documents/pcsc/Project /home/claire/Documents/pcsc/Project/cmake-build-debug /home/claire/Documents/pcsc/Project/cmake-build-debug /home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/SolveIntegeal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SolveIntegeal.dir/depend
 

@@ -8,112 +8,118 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
+				<Option working_dir="/home/claire/Documents/pcsc/Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
+				<Option working_dir="/home/claire/Documents/pcsc/Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
+				<Option working_dir="/home/claire/Documents/pcsc/Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SolveIntegeal">
-				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/SolveIntegeal" prefix_auto="0" extension_auto="0"/>
+			<Target title="main">
+				<Option output="/home/claire/Documents/pcsc/Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pcsc/pcsc/Project"/>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/home/claire/Documents/pcsc/Project"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 SolveIntegeal"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SolveIntegeal/fast">
-				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/SolveIntegeal" prefix_auto="0" extension_auto="0"/>
+			<Target title="main/fast">
+				<Option output="/home/claire/Documents/pcsc/Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pcsc/pcsc/Project"/>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/home/claire/Documents/pcsc/Project"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 SolveIntegeal/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/claire/Documents/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.cpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/MidPointSolver.cpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/MidPointSolver.hpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.cpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/MidPointSolver.cpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.hpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/MidPointSolver.hpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/SolveIntegeal.cpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/SimpsonSolver.cpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.cpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.hpp">
-			<Option target="SolveIntegeal"/>
+		<Unit filename="/home/claire/Documents/pcsc/Project/TrapezSolver.cpp">
+			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/CMakeLists.txt">
+		<Unit filename="/home/claire/Documents/pcsc/Project/TrapezSolver.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

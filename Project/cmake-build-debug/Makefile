@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcsc/pcsc/Project
+CMAKE_SOURCE_DIR = /home/claire/Documents/pcsc/Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcsc/pcsc/Project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/claire/Documents/pcsc/Project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/pcsc/pcsc/Project/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles /home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,92 +111,107 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SolveIntegeal
+# Target rules for targets named main
 
 # Build rule for target.
-SolveIntegeal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SolveIntegeal
-.PHONY : SolveIntegeal
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-SolveIntegeal/fast:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/build
-.PHONY : SolveIntegeal/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+# target to build an object file
+Abstract2DIntegralSolver.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.o
+.PHONY : Abstract2DIntegralSolver.o
+
+# target to preprocess a source file
+Abstract2DIntegralSolver.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.i
+.PHONY : Abstract2DIntegralSolver.i
+
+# target to generate assembly for a file
+Abstract2DIntegralSolver.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.s
+.PHONY : Abstract2DIntegralSolver.s
 
 # target to build an object file
 AbstractIntegralSolver.o:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.o
 .PHONY : AbstractIntegralSolver.o
 
 # target to preprocess a source file
 AbstractIntegralSolver.i:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.i
 .PHONY : AbstractIntegralSolver.i
 
 # target to generate assembly for a file
 AbstractIntegralSolver.s:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.s
 .PHONY : AbstractIntegralSolver.s
 
 # target to build an object file
 MidPointSolver.o:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/MidPointSolver.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.o
 .PHONY : MidPointSolver.o
 
 # target to preprocess a source file
 MidPointSolver.i:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/MidPointSolver.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.i
 .PHONY : MidPointSolver.i
 
 # target to generate assembly for a file
 MidPointSolver.s:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/MidPointSolver.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.s
 .PHONY : MidPointSolver.s
 
 # target to build an object file
 SimpsonSolver.o:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.o
 .PHONY : SimpsonSolver.o
 
 # target to preprocess a source file
 SimpsonSolver.i:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.i
 .PHONY : SimpsonSolver.i
 
 # target to generate assembly for a file
 SimpsonSolver.s:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SimpsonSolver.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.s
 .PHONY : SimpsonSolver.s
 
 # target to build an object file
-SolveIntegeal.o:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o
-.PHONY : SolveIntegeal.o
-
-# target to preprocess a source file
-SolveIntegeal.i:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SolveIntegeal.i
-.PHONY : SolveIntegeal.i
-
-# target to generate assembly for a file
-SolveIntegeal.s:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/SolveIntegeal.s
-.PHONY : SolveIntegeal.s
-
-# target to build an object file
 TrapezSolver.o:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.o
 .PHONY : TrapezSolver.o
 
 # target to preprocess a source file
 TrapezSolver.i:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.i
 .PHONY : TrapezSolver.i
 
 # target to generate assembly for a file
 TrapezSolver.s:
-	$(MAKE) -f CMakeFiles/SolveIntegeal.dir/build.make CMakeFiles/SolveIntegeal.dir/TrapezSolver.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.s
 .PHONY : TrapezSolver.s
+
+# target to build an object file
+main.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.o
+.PHONY : main.o
+
+# target to preprocess a source file
+main.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.i
+.PHONY : main.i
+
+# target to generate assembly for a file
+main.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.s
+.PHONY : main.s
 
 # Help Target
 help:
@@ -206,7 +221,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... SolveIntegeal"
+	@echo "... main"
+	@echo "... Abstract2DIntegralSolver.o"
+	@echo "... Abstract2DIntegralSolver.i"
+	@echo "... Abstract2DIntegralSolver.s"
 	@echo "... AbstractIntegralSolver.o"
 	@echo "... AbstractIntegralSolver.i"
 	@echo "... AbstractIntegralSolver.s"
@@ -216,12 +234,12 @@ help:
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"
-	@echo "... SolveIntegeal.o"
-	@echo "... SolveIntegeal.i"
-	@echo "... SolveIntegeal.s"
 	@echo "... TrapezSolver.o"
 	@echo "... TrapezSolver.i"
 	@echo "... TrapezSolver.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

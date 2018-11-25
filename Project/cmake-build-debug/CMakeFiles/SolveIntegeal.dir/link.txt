@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o CMakeFiles/SolveIntegeal.dir/MidPointSolver.o CMakeFiles/SolveIntegeal.dir/TrapezSolver.o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o  -o SolveIntegeal 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/SolveIntegeal.dir/main.o CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o CMakeFiles/SolveIntegeal.dir/MidPointSolver.o CMakeFiles/SolveIntegeal.dir/TrapezSolver.o CMakeFiles/SolveIntegeal.dir/SimpsonSolver.o  -o SolveIntegeal 

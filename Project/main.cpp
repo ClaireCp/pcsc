@@ -52,6 +52,12 @@ int main(int argc, char* argv[])
     std::cout << SIntegral << std::endl;
     delete SSolver;
 
+    // Check if overloaded constructor works
+    MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
+    MSolver2->SetFunction(function);
+    double MIntegral2= MSolver2->SolveIntegral();
+    std::cout << "Constructor overload works: " << MIntegral << std::endl;
+
     return 0;
 }
 

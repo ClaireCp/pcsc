@@ -13,6 +13,7 @@
 class MidPointSolver : public AbstractIntegralSolver {
 public:
   MidPointSolver();
+  MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument);
   virtual ~MidPointSolver();
 
   double SolveIntegral();

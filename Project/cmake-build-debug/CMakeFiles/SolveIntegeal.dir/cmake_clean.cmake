@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SolveIntegeal.dir/SolveIntegeal.o"
+  "CMakeFiles/SolveIntegeal.dir/main.o"
   "CMakeFiles/SolveIntegeal.dir/AbstractIntegralSolver.o"
   "CMakeFiles/SolveIntegeal.dir/MidPointSolver.o"
   "CMakeFiles/SolveIntegeal.dir/TrapezSolver.o"

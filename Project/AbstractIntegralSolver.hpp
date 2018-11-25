@@ -14,6 +14,7 @@ class AbstractIntegralSolver {
 public:
   // Constructor and destructor
   AbstractIntegralSolver();
+  AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument);
   virtual ~AbstractIntegralSolver();
 
   // Other public methods
