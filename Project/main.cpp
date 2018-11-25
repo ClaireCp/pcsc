@@ -16,9 +16,15 @@
 #include "MidPointSolver.hpp"
 #include "TrapezSolver.hpp"
 #include "SimpsonSolver.hpp"
+#include "Abstract2DIntegralSolver.h"
+#include "MidPoint2DSolver.h"
 
 double function(double x) {
     return pow(x,2);
+}
+
+double function2D(double x, double y) {
+    return y*pow(x, 2);
 }
 
 int main(int argc, char* argv[])
@@ -53,10 +59,23 @@ int main(int argc, char* argv[])
     delete SSolver;
 
     // Check if overloaded constructor works
+    // TODO: find out why variables are not assigned 
     MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
     MSolver2->SetFunction(function);
+    std::cout << "MSolver2->initialArgument = " << MSolver2->GetInitialArgument() << std::endl;
+    std::cout << "MSolver2->finalArgument = " << MSolver2->GetFinalArgument() << std::endl;
     double MIntegral2= MSolver2->SolveIntegral();
-    std::cout << "Constructor overload works: " << MIntegral << std::endl;
+    std::cout << "Constructor overload works: " << MIntegral2 << std::endl;
+
+    // Check if 2D solver behaves and builds functions correctly
+    MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+    std::cout << "M2DSolver2->initialArgument_x = " << M2DSolver->GetInitialArgument() << std::endl;
+    std::cout << "M2DSolver2->finalArgument_x = " << M2DSolver->GetFinalArgument() << std::endl;
+    std::cout << "M2DSolver2->initialArgument_y = " << M2DSolver->GetInitialArgument_y() << std::endl;
+    std::cout << "M2DSolver2->finalArgument_y = " << M2DSolver->GetFinalArgument_y() << std::endl;
+    std::flush(std::cout);
+    double M2DIntegral = M2DSolver->SolveIntegral();
+    std::cout << "Abstract and concrete 2D works: " << M2DIntegral << std::endl;
 
     return 0;
 }

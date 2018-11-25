@@ -17,15 +17,27 @@ CMakeFiles/main.dir/MidPointSolver.o: ../AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/MidPointSolver.o: ../MidPointSolver.cpp
 CMakeFiles/main.dir/MidPointSolver.o: ../MidPointSolver.hpp
 
+CMakeFiles/main.dir/Simpson2DSolver.o: ../Abstract2DIntegralSolver.h
+CMakeFiles/main.dir/Simpson2DSolver.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/Simpson2DSolver.o: ../Simpson2DSolver.cpp
+CMakeFiles/main.dir/Simpson2DSolver.o: ../Simpson2DSolver.h
+
 CMakeFiles/main.dir/SimpsonSolver.o: ../AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/SimpsonSolver.o: ../SimpsonSolver.cpp
 CMakeFiles/main.dir/SimpsonSolver.o: ../SimpsonSolver.hpp
+
+CMakeFiles/main.dir/Trapez2DSolver.o: ../Abstract2DIntegralSolver.h
+CMakeFiles/main.dir/Trapez2DSolver.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/Trapez2DSolver.o: ../Trapez2DSolver.cpp
+CMakeFiles/main.dir/Trapez2DSolver.o: ../Trapez2DSolver.h
 
 CMakeFiles/main.dir/TrapezSolver.o: ../AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/TrapezSolver.o: ../TrapezSolver.cpp
 CMakeFiles/main.dir/TrapezSolver.o: ../TrapezSolver.hpp
 
+CMakeFiles/main.dir/main.o: ../Abstract2DIntegralSolver.h
 CMakeFiles/main.dir/main.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/main.o: ../MidPoint2DSolver.h
 CMakeFiles/main.dir/main.o: ../MidPointSolver.hpp
 CMakeFiles/main.dir/main.o: ../SimpsonSolver.hpp
 CMakeFiles/main.dir/main.o: ../TrapezSolver.hpp

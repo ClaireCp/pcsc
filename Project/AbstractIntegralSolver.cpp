@@ -13,6 +13,8 @@ AbstractIntegralSolver::AbstractIntegralSolver()
 
 // TODO: create methods to check if parameters are valid to limit code reuse
 AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
+  std::cout << "Welcome to overloaded constructor" << std::endl;
+  std::flush(std::cout);
   if (n < 0) {
     std::cout << "The number of iteration has to be strictly superior to 0." << std::endl;
     exit(1);

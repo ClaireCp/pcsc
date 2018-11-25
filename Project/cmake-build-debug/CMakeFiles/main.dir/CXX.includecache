@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.cpp
-iostream
--
-AbstractIntegralSolver.hpp
-/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
-Abstract2DIntegralSolver.h
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
-
 /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
@@ -21,4 +13,38 @@ AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 ostream
 -
+
+/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+
+/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+
+/home/claire/Documents/pcsc/Project/main.cpp
+iostream
+-
+cmath
+-
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+MidPointSolver.hpp
+/home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+TrapezSolver.hpp
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+SimpsonSolver.hpp
+/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+MidPoint2DSolver.h
+/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
 
