@@ -15,6 +15,7 @@ public:
   // Constructor and destructor
   AbstractIntegralSolver();
   AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument);
+  AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument, double (*my1DFunction)(double x));
   virtual ~AbstractIntegralSolver();
 
   // Other public methods
