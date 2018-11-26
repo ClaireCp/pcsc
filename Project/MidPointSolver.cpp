@@ -13,7 +13,7 @@
 
 MidPointSolver::MidPointSolver() {}
 
-MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument) {}
+MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument): AbstractIntegralSolver(numberOfSteps, initialArgument, finalArgument) {}
 
 MidPointSolver::~MidPointSolver() {}
 

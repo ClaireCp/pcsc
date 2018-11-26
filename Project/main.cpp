@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
     delete SSolver;
 
     // Check if overloaded constructor works
-    // TODO: find out why variables are not assigned 
+    // TODO: find out why variables are not assigned
     MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
     MSolver2->SetFunction(function);
     std::cout << "MSolver2->initialArgument = " << MSolver2->GetInitialArgument() << std::endl;
