@@ -41,21 +41,14 @@ AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
 AbstractIntegralSolver::~AbstractIntegralSolver() {}
 
 void AbstractIntegralSolver::SetNumberOfSteps(const double n) {
-  if (n < 0) {
-    std::cout << "The number of iteration has to be stricly superior to 0." << std::endl;
-    exit(1);
-  }
+  checkNumberOfSteps(n);
   numberOfSteps = n;
 }
 
-void AbstractIntegralSolver::SetInterval(const double x0, const double xf) {
-  if (x0 < xf) {
-    initialArgument = x0;
-    finalArgument = xf;
-  } else {
-    initialArgument = xf;
-    finalArgument = x0;
-  }
+void AbstractIntegralSolver::SetInterval(double x0, double xf) {
+  checkInterval(&x0, &xf);
+  initialArgument = x0;
+  finalArgument = xf;
 }
 
 void AbstractIntegralSolver::SetFunction(double (*f)(double x)) {
