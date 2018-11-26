@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/claire/Documents/pcsc/Project 
+CXX_INCLUDES = -I/home/pcsc/pcsc/Project 
 
