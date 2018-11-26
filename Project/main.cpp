@@ -77,7 +77,14 @@ int main(int argc, char* argv[])
     std::cout << "Abstract and concrete 2D works: " << M2DIntegral << std::endl;
 
     // Check if parameter check works
-    MidPoint2DSolver* M2DSolverWrongParams = new MidPoint2DSolver(-4, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+    //MidPoint2DSolver* M2DSolverWrongParams = new MidPoint2DSolver(-4, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+
+    // Check if wrong interval is corrected
+    MidPoint2DSolver* M2DSolverWrongParams = new MidPoint2DSolver(4, 3, 1, 6, 3, 1, function2D);
+    std::cout << "M2DSolver2WrongParams->initialArgument_x = " << M2DSolverWrongParams->GetInitialArgument() << std::endl;
+    std::cout << "M2DSolver2WrongParams->finalArgument_x = " << M2DSolverWrongParams->GetFinalArgument() << std::endl;
+    std::cout << "M2DSolver2WrongParams->initialArgument_y = " << M2DSolverWrongParams->GetInitialArgument_y() << std::endl;
+    std::cout << "M2DSolver2WrongParams->finalArgument_y = " << M2DSolverWrongParams->GetFinalArgument_y() << std::endl;
 
     return 0;
 }

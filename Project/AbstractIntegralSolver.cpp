@@ -24,6 +24,10 @@ AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
    */
   checkNumberOfSteps(n);
   numberOfSteps = n;
+  checkInterval(&x0, &xf);
+  initialArgument = x0;
+  finalArgument = xf;
+  /**
   if (x0 < xf) {
     initialArgument = x0;
     finalArgument = xf;
@@ -31,6 +35,7 @@ AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
     initialArgument = xf;
     finalArgument = x0;
   }
+   */
 }
 
 AbstractIntegralSolver::~AbstractIntegralSolver() {}
