@@ -1,3 +1,3 @@
-/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir
