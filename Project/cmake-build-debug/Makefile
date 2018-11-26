@@ -214,6 +214,21 @@ SimpsonSolver.s:
 .PHONY : SimpsonSolver.s
 
 # target to build an object file
+Tools.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.o
+.PHONY : Tools.o
+
+# target to preprocess a source file
+Tools.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.i
+.PHONY : Tools.i
+
+# target to generate assembly for a file
+Tools.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.s
+.PHONY : Tools.s
+
+# target to build an object file
 Trapez2DSolver.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.o
 .PHONY : Trapez2DSolver.o
@@ -285,6 +300,9 @@ help:
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"
+	@echo "... Tools.o"
+	@echo "... Tools.i"
+	@echo "... Tools.s"
 	@echo "... Trapez2DSolver.o"
 	@echo "... Trapez2DSolver.i"
 	@echo "... Trapez2DSolver.s"

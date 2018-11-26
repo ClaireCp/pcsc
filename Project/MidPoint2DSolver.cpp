@@ -30,7 +30,7 @@ double MidPoint2DSolver::SolveIntegral() {
             double y2 = y0 + (i + 1)*h_y;
             double c_y = (y1 + y2)/2;
             // TODO: look at how to implement the solveIntegral for functions with 2 variables
-            Integral += 1;
+            Integral += h_x*h_y*my2DFunction_xy(c_x, c_y);
         }
     }
     return Integral;

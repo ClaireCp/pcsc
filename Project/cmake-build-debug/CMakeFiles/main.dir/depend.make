@@ -7,6 +7,7 @@ CMakeFiles/main.dir/Abstract2DIntegralSolver.o: ../AbstractIntegralSolver.hpp
 
 CMakeFiles/main.dir/AbstractIntegralSolver.o: ../AbstractIntegralSolver.cpp
 CMakeFiles/main.dir/AbstractIntegralSolver.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/AbstractIntegralSolver.o: ../Tools.h
 
 CMakeFiles/main.dir/MidPoint2DSolver.o: ../Abstract2DIntegralSolver.h
 CMakeFiles/main.dir/MidPoint2DSolver.o: ../AbstractIntegralSolver.hpp
@@ -25,6 +26,8 @@ CMakeFiles/main.dir/Simpson2DSolver.o: ../Simpson2DSolver.h
 CMakeFiles/main.dir/SimpsonSolver.o: ../AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/SimpsonSolver.o: ../SimpsonSolver.cpp
 CMakeFiles/main.dir/SimpsonSolver.o: ../SimpsonSolver.hpp
+
+CMakeFiles/main.dir/Tools.o: ../Tools.cpp
 
 CMakeFiles/main.dir/Trapez2DSolver.o: ../Abstract2DIntegralSolver.h
 CMakeFiles/main.dir/Trapez2DSolver.o: ../AbstractIntegralSolver.hpp

@@ -8,7 +8,7 @@
 
 Abstract2DIntegralSolver::Abstract2DIntegralSolver(int n_x, double x0, double xf,
                                                    int n_y, double y0, double yf,
-                                                   double (*my2DFunction)(double x, double y)): AbstractIntegralSolver(n_x, x0, xf) {
+                                                   double (*my2DFunction_xy)(double x, double y)): AbstractIntegralSolver(n_x, x0, xf) {
     if (n_y < 0) {
         std::cout << "The number of iteration has to be strictly superior to 0." << std::endl;
         exit(1);
@@ -21,6 +21,7 @@ Abstract2DIntegralSolver::Abstract2DIntegralSolver(int n_x, double x0, double xf
         initialArgument_y = yf;
         finalArgument_y = y0;
     }
+    SetFunction_xy(my2DFunction_xy);
 }
 
 Abstract2DIntegralSolver::~Abstract2DIntegralSolver() {}

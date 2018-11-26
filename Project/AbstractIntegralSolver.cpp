@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "AbstractIntegralSolver.hpp"
+#include "Tools.h"
 
 AbstractIntegralSolver::AbstractIntegralSolver()
     : numberOfSteps(), initialArgument(), finalArgument(), function(0) {}
@@ -15,10 +16,13 @@ AbstractIntegralSolver::AbstractIntegralSolver()
 AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
   std::cout << "Welcome to overloaded constructor" << std::endl;
   std::flush(std::cout);
+  /**
   if (n < 0) {
     std::cout << "The number of iteration has to be strictly superior to 0." << std::endl;
     exit(1);
   }
+   */
+  checkNumberOfSteps(n);
   numberOfSteps = n;
   if (x0 < xf) {
     initialArgument = x0;

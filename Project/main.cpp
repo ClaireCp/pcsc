@@ -59,7 +59,6 @@ int main(int argc, char* argv[])
     delete SSolver;
 
     // Check if overloaded constructor works
-    // TODO: find out why variables are not assigned
     MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
     MSolver2->SetFunction(function);
     std::cout << "MSolver2->initialArgument = " << MSolver2->GetInitialArgument() << std::endl;
@@ -76,6 +75,9 @@ int main(int argc, char* argv[])
     std::flush(std::cout);
     double M2DIntegral = M2DSolver->SolveIntegral();
     std::cout << "Abstract and concrete 2D works: " << M2DIntegral << std::endl;
+
+    // Check if parameter check works
+    MidPoint2DSolver* M2DSolverWrongParams = new MidPoint2DSolver(-4, 0.1, 1.1, 3, 0.2, 1.2, function2D);
 
     return 0;
 }
