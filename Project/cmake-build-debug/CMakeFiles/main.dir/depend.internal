@@ -47,3 +47,8 @@ CMakeFiles/main.dir/main.o
  /home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
  /home/claire/Documents/pcsc/Project/TrapezSolver.hpp
  /home/claire/Documents/pcsc/Project/main.cpp
+CMakeFiles/main.dir/testSuite1D.o
+ /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+ /home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+ /home/claire/Documents/pcsc/Project/testSuite1D.cpp
+ /home/claire/Documents/pcsc/Project/testSuite1D.h

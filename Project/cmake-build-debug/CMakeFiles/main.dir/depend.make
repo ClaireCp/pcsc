@@ -47,3 +47,8 @@ CMakeFiles/main.dir/main.o: ../SimpsonSolver.hpp
 CMakeFiles/main.dir/main.o: ../TrapezSolver.hpp
 CMakeFiles/main.dir/main.o: ../main.cpp
 
+CMakeFiles/main.dir/testSuite1D.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/testSuite1D.o: ../MidPointSolver.hpp
+CMakeFiles/main.dir/testSuite1D.o: ../testSuite1D.cpp
+CMakeFiles/main.dir/testSuite1D.o: ../testSuite1D.h
+

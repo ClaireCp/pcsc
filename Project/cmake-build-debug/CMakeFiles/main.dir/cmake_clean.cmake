@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Simpson2DSolver.o"
   "CMakeFiles/main.dir/Trapez2DSolver.o"
   "CMakeFiles/main.dir/Tools.o"
+  "CMakeFiles/main.dir/testSuite1D.o"
   "main.pdb"
   "main"
 )

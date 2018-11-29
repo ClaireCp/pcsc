@@ -143,6 +143,12 @@
 		<Unit filename="/home/claire/Documents/pcsc/Project/main.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite1D.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite1D.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

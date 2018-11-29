@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
     std::cout << "MSolverWrongParams->finalArgument = " << MSolverWrongParams->GetFinalArgument() << std::endl;
 
     // Check if third overloaded constructor works
-    MidPointSolver* MSolverThirdConstructor = new MidPointSolver(10, 0, 2, function);
+    MidPointSolver* MSolverThirdConstructor = new MidPointSolver(10, 0., 2., function);
     double MIntegralThirdConstructor = MSolverThirdConstructor->SolveIntegral();
     std::cout << "Check if third overloaded constructor works:" << MIntegralThirdConstructor << std::endl;
 
