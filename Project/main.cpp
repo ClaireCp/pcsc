@@ -19,6 +19,18 @@
 #include "Abstract2DIntegralSolver.h"
 #include "MidPoint2DSolver.h"
 
+/** TODO:
+ * -> is it bad practice to provide multiple constructors?
+ * What if a constructor is empty, meaning that all necessary variables are not initialized on instantiation?
+ * Should we keep such a constructor?
+ * -> ask about the hierarchy we chose to implement with superclass for 1D case and subclass for 2D case, is it OK?
+ * -> code clustering: is our code too clustered due to the use of 3 constructors?
+ * -> Is it possible to make a constructor invisible to the main class, and only visible to subclasses? Such that
+ * client code cannot use it directly?
+ * -> coding conventions: spacing, lowercase letters for variables, ect...
+ * -> doxygen documentation
+ * -> how to use google testing?
+*/
 double function(double x) {
     return pow(x,2);
 }
