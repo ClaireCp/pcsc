@@ -4,7 +4,7 @@
  *  Created on: Nov 25, 2018
  *      Author: beschenk
  */
-
+/**
 #ifndef SIMPSONSOLVER_HPP
 #define SIMPSONSOLVER_HPP
 

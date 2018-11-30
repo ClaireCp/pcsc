@@ -1,6 +1,7 @@
 //
 // Created by claire on 25.11.18.
 //
+/**
 
 #include "Simpson2DSolver.h"
 
@@ -33,3 +34,5 @@ double Simpson2DSolver::SolveIntegral() {
     return Integral;
 
 }
+
+ */

@@ -5,6 +5,7 @@
  *      Author: beschenk
  */
 
+/**
 #include <cassert>
 #include <cmath>
 #include <iostream>
@@ -27,3 +28,4 @@ double SimpsonSolver::SolveIntegral() {
   }
   return Integral;
 }
+*/

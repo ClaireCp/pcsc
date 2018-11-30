@@ -2,6 +2,8 @@
 // Created by claire on 25.11.18.
 //
 
+/**
+
 #ifndef SIMPSON2DSOLVER_H
 #define SIMPSON2DSOLVER_H
 
@@ -20,3 +22,5 @@ public:
 
 
 #endif //SIMPSON2DSOLVER_H
+
+ */

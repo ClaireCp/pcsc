@@ -9,36 +9,22 @@
 #include "AbstractIntegralSolver.hpp"
 #include "Tools.h"
 
-AbstractIntegralSolver::AbstractIntegralSolver()
-    : numberOfSteps(), initialArgument(), finalArgument(), function(0) {}
+//template <typename t>
+//AbstractIntegralSolver<t>::AbstractIntegralSolver()
+//    : numberOfSteps(), initialArgument(), finalArgument(), function() {}
 
 // TODO: create methods to check if parameters are valid to limit code reuse
-AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
+template <typename t>
+AbstractIntegralSolver<t>::AbstractIntegralSolver(int n, double x0, double xf, t f) {
   checkNumberOfSteps(n);
   numberOfSteps = n;
   checkInterval(&x0, &xf);
   initialArgument = x0;
   finalArgument = xf;
+  SetFunction(f);
 }
 
-
-
-AbstractIntegralSolver::~AbstractIntegralSolver() {}
-
-void AbstractIntegralSolver::SetNumberOfSteps(const double n) {
-  checkNumberOfSteps(n);
-  numberOfSteps = n;
-}
-
-void AbstractIntegralSolver::SetInterval(double x0, double xf) {
-  checkInterval(&x0, &xf);
-  initialArgument = x0;
-  finalArgument = xf;
-}
-
-// TODO: transformer ça en fonction lambda -> fonction ne doit pas être virtuelle
-
-
+//AbstractIntegralSolver::~AbstractIntegralSolver() {}
 
 
 

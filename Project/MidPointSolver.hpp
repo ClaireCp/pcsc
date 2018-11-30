@@ -9,15 +9,17 @@
 #define MIDPOINTSOLVER_HPP
 
 #include "AbstractIntegralSolver.hpp"
+#include "Abstract1DIntegralSolver.h"
 
-class MidPointSolver : public AbstractIntegralSolver {
+class MidPointSolver : public Abstract1DIntegralSolver {
 public:
-  MidPointSolver();
-  MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument);
-  MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument, double (*my1DFunction)(double x));
-  virtual ~MidPointSolver();
+    using t = std::function<double(double)>;
+    //MidPointSolver();
+    //MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument);
+    MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument, t function): Abstract1DIntegralSolver(numberOfSteps, initialArgument, finalArgument, function) {}
+    //virtual ~MidPointSolver();
 
-  double SolveIntegral();
+    double SolveIntegral();
 };
 
 #endif /* MIDPOINTSOLVER_HPP */

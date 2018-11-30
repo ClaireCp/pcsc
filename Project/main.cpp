@@ -41,7 +41,10 @@ double function2D(double x, double y) {
 
 int main(int argc, char* argv[])
 {
-	MidPointSolver* MSolver = new MidPointSolver;
+	MidPointSolver* MSolver = new MidPointSolver(10, 0, 2, function);
+    double MIntegral= MSolver->SolveIntegral();
+    std::cout << MIntegral << std::endl;
+	/**
 	MSolver->SetFunction(function);
 	MSolver->SetInterval(0, 2);
 	MSolver->SetNumberOfSteps(10);
@@ -108,6 +111,7 @@ int main(int argc, char* argv[])
     double MIntegralThirdConstructor = MSolverThirdConstructor->SolveIntegral();
     std::cout << "Check if third overloaded constructor works:" << MIntegralThirdConstructor << std::endl;
 
+	 */
 
     return 0;
 }

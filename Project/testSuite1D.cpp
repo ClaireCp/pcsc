@@ -1,7 +1,7 @@
 //
 // Created by claire on 29.11.18.
 //
-
+/**
 #include "testSuite1D.h"
 #include "MidPointSolver.hpp"
 #include <cmath>
@@ -33,5 +33,5 @@ TEST(FullConstructor, base_case) {
     ASSERT_FLOAT_EQ(2.66, mIntegral2);
 }
 
-
+*/
 

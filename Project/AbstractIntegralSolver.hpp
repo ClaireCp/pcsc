@@ -9,21 +9,36 @@
 #define ABSTRACTINTEGRALSOLVER_HPP
 
 #include <ostream>
+#include <functional>
+#include "Tools.h"
 
-class AbstractIntegralSolver {
+template <typename t>
+class AbstractIntegralSolver  {
 public:
+
   // Constructor and destructor
-  AbstractIntegralSolver();
-  AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument);
-  virtual ~AbstractIntegralSolver();
+  //AbstractIntegralSolver();
+  AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument, t function);
+  //virtual ~AbstractIntegralSolver();
 
   // Other public methods
-  void SetNumberOfSteps(double n);
-  void SetInterval(double x0, double xf);
+  void SetNumberOfSteps(const double n) {
+      checkNumberOfSteps(n);
+      numberOfSteps = n;
+  }
 
-  // TODO: How do you make this work?
-  template <typename t> void SetFunction(t f) {
+  void SetInterval(double x0, double xf) {
+      checkInterval(&x0, &xf);
+      initialArgument = x0;
+      finalArgument = xf;
+  }
+
+  void SetFunction(t f) {
       function = f;
+  }
+
+  template <typename param> double myFunction(param x) const {
+      return function(x);
   }
 
   virtual double SolveIntegral() = 0;
@@ -38,8 +53,11 @@ private:
   double numberOfSteps;
   double initialArgument;
   double finalArgument;
-  template <typename  t> t function;
-  //double (*function)(double x);
+  t function;
 };
 
+extern template class AbstractIntegralSolver<std::function<double(double)>>;
+
+
 #endif /* ABSTRACTINTEGRALSOLVER_HPP */
+

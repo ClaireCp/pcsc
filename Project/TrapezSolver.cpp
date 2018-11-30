@@ -5,6 +5,8 @@
  *      Author: beschenk
  */
 
+/**
+
 #include <cassert>
 #include <cmath>
 #include <iostream>
@@ -26,3 +28,5 @@ double TrapezSolver::SolveIntegral() {
   }
   return Integral;
 }
+
+ */

@@ -2,6 +2,8 @@
 // Created by claire on 25.11.18.
 //
 
+/**
+
 #include <iostream>
 #include "AbstractIntegralSolver.hpp"
 #include "Abstract2DIntegralSolver.h"
@@ -38,3 +40,5 @@ void Abstract2DIntegralSolver::SetFunction_xy(double (*f_xy)(double x, double y)
 double Abstract2DIntegralSolver::my2DFunction_xy(double x, double y) const {
     return function_xy(x, y);
 }
+
+ */

@@ -2,6 +2,7 @@
 // Created by claire on 25.11.18.
 //
 
+/**
 #ifndef TRAPEZ2DSOLVER_H
 #define TRAPEZ2DSOLVER_H
 
@@ -18,3 +19,4 @@ public:
 };
 
 #endif //TRAPEZ2DSOLVER_H
+*/

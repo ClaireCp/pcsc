@@ -1,6 +1,7 @@
 //
 // Created by claire on 25.11.18.
 //
+/**
 #include "AbstractIntegralSolver.hpp"
 
 #ifndef ABSTRACT2DINTEGRALSOLVER_H
@@ -36,3 +37,5 @@ private:
 };
 
 #endif //2DABSTRACTINTEGRALSOLVER_H
+
+ */

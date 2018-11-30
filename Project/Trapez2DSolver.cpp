@@ -1,6 +1,7 @@
 //
 // Created by claire on 25.11.18.
 //
+/**
 
 #include "Trapez2DSolver.h"
 #include "Abstract2DIntegralSolver.h"
@@ -33,3 +34,4 @@ double Trapez2DSolver::SolveIntegral() {
     }
     return Integral;
 }
+*/

@@ -2,6 +2,7 @@
 // Created by claire on 25.11.18.
 //
 
+/**
 #ifndef MIDPOINT2DSOLVER_H
 #define MIDPOINT2DSOLVER_H
 
@@ -18,3 +19,4 @@ public:
 };
 
 #endif //MIDPOINT2DSOLVER_H
+*/

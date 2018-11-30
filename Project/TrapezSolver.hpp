@@ -5,6 +5,7 @@
  *      Author: beschenk
  */
 
+/**
 #ifndef TRAPEZSOLVER_HPP
 #define TRAPEZSOLVER_HPP
 

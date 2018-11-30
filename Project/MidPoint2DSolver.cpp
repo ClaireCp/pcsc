@@ -1,7 +1,7 @@
 //
 // Created by claire on 25.11.18.
 //
-
+/**
 #include "MidPoint2DSolver.h"
 
 MidPoint2DSolver::MidPoint2DSolver(int n_x, double x0, double xf,
@@ -35,3 +35,4 @@ double MidPoint2DSolver::SolveIntegral() {
     }
     return Integral;
 }
+ */
