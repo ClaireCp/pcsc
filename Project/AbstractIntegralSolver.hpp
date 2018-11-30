@@ -15,15 +15,17 @@ public:
   // Constructor and destructor
   AbstractIntegralSolver();
   AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument);
-  AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument, double (*my1DFunction)(double x));
   virtual ~AbstractIntegralSolver();
 
   // Other public methods
-  void SetNumberOfSteps(const double n);
-  void SetInterval(const double x0, const double xf);
-  void SetFunction(double (*f)(double x));
+  void SetNumberOfSteps(double n);
+  void SetInterval(double x0, double xf);
 
-  double myFunction(double x) const;
+  // TODO: How do you make this work?
+  template <typename t> void SetFunction(t f) {
+      function = f;
+  }
+
   virtual double SolveIntegral() = 0;
 
   // Get methods
@@ -36,7 +38,8 @@ private:
   double numberOfSteps;
   double initialArgument;
   double finalArgument;
-  double (*function)(double x);
+  template <typename  t> t function;
+  //double (*function)(double x);
 };
 
 #endif /* ABSTRACTINTEGRALSOLVER_HPP */

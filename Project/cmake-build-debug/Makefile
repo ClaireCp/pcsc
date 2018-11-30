@@ -124,6 +124,21 @@ main/fast:
 .PHONY : main/fast
 
 # target to build an object file
+Abstract1DIntegralSolver.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract1DIntegralSolver.o
+.PHONY : Abstract1DIntegralSolver.o
+
+# target to preprocess a source file
+Abstract1DIntegralSolver.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract1DIntegralSolver.i
+.PHONY : Abstract1DIntegralSolver.i
+
+# target to generate assembly for a file
+Abstract1DIntegralSolver.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract1DIntegralSolver.s
+.PHONY : Abstract1DIntegralSolver.s
+
+# target to build an object file
 Abstract2DIntegralSolver.o:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.o
 .PHONY : Abstract2DIntegralSolver.o
@@ -297,6 +312,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... Abstract1DIntegralSolver.o"
+	@echo "... Abstract1DIntegralSolver.i"
+	@echo "... Abstract1DIntegralSolver.s"
 	@echo "... Abstract2DIntegralSolver.o"
 	@echo "... Abstract2DIntegralSolver.i"
 	@echo "... Abstract2DIntegralSolver.s"

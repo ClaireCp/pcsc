@@ -21,12 +21,7 @@ AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf) {
   finalArgument = xf;
 }
 
-AbstractIntegralSolver::AbstractIntegralSolver(int n, double x0, double xf,
-        double (*my1DFunction)(double x)): AbstractIntegralSolver(n, x0, xf) {
-  std::cout << "Welcome to overloaded constructor taking parameters" << std::endl;
-  std::flush(std::cout);
-  SetFunction(my1DFunction);
-}
+
 
 AbstractIntegralSolver::~AbstractIntegralSolver() {}
 
@@ -41,13 +36,9 @@ void AbstractIntegralSolver::SetInterval(double x0, double xf) {
   finalArgument = xf;
 }
 
-void AbstractIntegralSolver::SetFunction(double (*f)(double x)) {
-  function = f;
-}
+// TODO: transformer ça en fonction lambda -> fonction ne doit pas être virtuelle
 
-double AbstractIntegralSolver::myFunction(double x) const {
-  return function(x);
-}
+
 
 
 
