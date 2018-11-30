@@ -17,7 +17,7 @@ public:
 
     MidPointSolver(int n, double x0, double xf, t f): Abstract1DIntegralSolver(n, x0, xf, f) {}
 
-    double SolveIntegral();
+    double SolveIntegral() override;
 };
 
 #endif /* MIDPOINTSOLVER_HPP */

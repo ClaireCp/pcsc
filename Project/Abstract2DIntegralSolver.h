@@ -19,7 +19,7 @@ public:
 
     // Other public methods
     //void SetNumberOfSteps_y(double n);
-    void SetInterval_y(double y0, double yf);
+    //void SetInterval_y(double y0, double yf);
     //void SetFunction_xy(double (*f_xy)(double x, double y));
 
     double myFunction(double x, double y) const {

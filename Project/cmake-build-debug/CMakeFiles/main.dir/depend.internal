@@ -31,6 +31,7 @@ CMakeFiles/main.dir/Simpson2DSolver.o
  /home/claire/Documents/pcsc/Project/Simpson2DSolver.h
  /home/claire/Documents/pcsc/Project/Tools.h
 CMakeFiles/main.dir/SimpsonSolver.o
+ /home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
  /home/claire/Documents/pcsc/Project/SimpsonSolver.cpp
  /home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
@@ -54,6 +55,7 @@ CMakeFiles/main.dir/main.o
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
  /home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
  /home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+ /home/claire/Documents/pcsc/Project/Simpson2DSolver.h
  /home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
  /home/claire/Documents/pcsc/Project/Tools.h
  /home/claire/Documents/pcsc/Project/TrapezSolver.hpp

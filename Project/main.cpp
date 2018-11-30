@@ -18,6 +18,7 @@
 #include "SimpsonSolver.hpp"
 #include "Abstract2DIntegralSolver.h"
 #include "MidPoint2DSolver.h"
+#include "Simpson2DSolver.h"
 
 /** TODO:
  * -> is it bad practice to provide multiple constructors?
@@ -30,6 +31,7 @@
  * -> coding conventions: spacing, lowercase letters for variables, ect...
  * -> doxygen documentation
  * -> how to use google testing?
+ * -> would it be better to put class variables as public so as not to use getters in the subclasses and uncluster code?
 */
 double function(double x) {
     return pow(x,2);
@@ -42,12 +44,20 @@ double function2D(double x, double y) {
 int main(int argc, char* argv[])
 {
 	MidPointSolver* MSolver = new MidPointSolver(10, 0, 2, function);
-    double MIntegral= MSolver->SolveIntegral();
+    double MIntegral = MSolver->SolveIntegral();
     std::cout << MIntegral << std::endl;
+
+    SimpsonSolver* SSolver = new SimpsonSolver(10, 0, 2, function);
+    double SIntegral = SSolver->SolveIntegral();
+    std::cout << SIntegral <<std::endl;
 
     MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double M2DIntegral = M2DSolver->SolveIntegral();
     std::cout << M2DIntegral << std::endl;
+
+    Simpson2DSolver* S2DSolver = new Simpson2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+    double S2DIntegral = S2DSolver->SolveIntegral();
+    std::cout << S2DIntegral << std::endl;
 
 	/**
 	MSolver->SetFunction(function);

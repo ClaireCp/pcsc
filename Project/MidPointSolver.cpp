@@ -13,13 +13,13 @@
 
 // TODO: simplify the function solveintegral which is unecessarily complicated
 double MidPointSolver::SolveIntegral() {
-  double Integral=0;
-  double h=GetStepSize();
-  double a=GetInitialArgument();
-  for (int i=0; i<GetNumberOfSteps(); i++) {
-    double x1=a+i*h;
-    double x2=a+(i+1)*h;
-    double c=(x1+x2)/2;
+  double Integral = 0;
+  double h = GetStepSize();
+  double a = GetInitialArgument();
+  for (int i = 0; i < GetNumberOfSteps(); i++) {
+    double x1 = a + i*h;
+    double x2 = a + (i + 1)*h;
+    double c = (x1 + x2)/2;
     Integral += h*myFunction(c);
   }
   return Integral;

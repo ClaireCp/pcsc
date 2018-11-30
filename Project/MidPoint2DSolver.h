@@ -17,7 +17,7 @@ public:
                      int n_y, double y0, double yf,
                      t f): Abstract2DIntegralSolver(n_x, x0, xf, n_y, y0, yf, f) {}
 
-    double SolveIntegral();
+    double SolveIntegral() override;
 };
 
 #endif //MIDPOINT2DSOLVER_H

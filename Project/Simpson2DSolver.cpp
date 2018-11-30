@@ -1,13 +1,8 @@
 //
 // Created by claire on 25.11.18.
 //
-/**
 
 #include "Simpson2DSolver.h"
-
-Simpson2DSolver::Simpson2DSolver(int n_x, double x0, double xf, int n_y, double y0, double yf,
-                                 double (*my2DFunction)(double x, double y)) :
-                                 Abstract2DIntegralSolver(n_x, x0, xf, n_y, y0, yf, my2DFunction) {}
 
 double Simpson2DSolver::SolveIntegral() {
     double Integral = 0;
@@ -34,5 +29,3 @@ double Simpson2DSolver::SolveIntegral() {
     return Integral;
 
 }
-
- */
