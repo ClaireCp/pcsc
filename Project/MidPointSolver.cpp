@@ -15,6 +15,7 @@ MidPointSolver::MidPointSolver() {}
 
 MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument): AbstractIntegralSolver(numberOfSteps, initialArgument, finalArgument) {}
 
+
 MidPointSolver::~MidPointSolver() {}
 
 // TODO: simplify the function solveintegral which is unecessarily complicated
