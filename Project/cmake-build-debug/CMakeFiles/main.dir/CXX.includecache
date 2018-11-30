@@ -20,27 +20,9 @@ Tools.h
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.cpp
-iostream
--
-AbstractIntegralSolver.hpp
-/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
-Abstract2DIntegralSolver.h
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
-Tools.h
-/home/claire/Documents/pcsc/Project/Tools.h
-
 /home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
-
-/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.cpp
-iostream
--
-AbstractIntegralSolver.hpp
-/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
-Tools.h
-/home/claire/Documents/pcsc/Project/Tools.h
 
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 ostream
@@ -49,10 +31,6 @@ functional
 -
 Tools.h
 /home/claire/Documents/pcsc/Project/Tools.h
-
-/home/claire/Documents/pcsc/Project/MidPoint2DSolver.cpp
-MidPoint2DSolver.h
-/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
 
 /home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
 Abstract2DIntegralSolver.h
@@ -74,49 +52,11 @@ AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.h
 /home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
 
-/home/claire/Documents/pcsc/Project/Simpson2DSolver.cpp
-Simpson2DSolver.h
-/home/claire/Documents/pcsc/Project/Simpson2DSolver.h
-
-/home/claire/Documents/pcsc/Project/Simpson2DSolver.h
-Abstract2DIntegralSolver.h
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
-
-/home/claire/Documents/pcsc/Project/SimpsonSolver.cpp
-cassert
--
-cmath
--
-iostream
--
-SimpsonSolver.hpp
-/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
-
 /home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 
 /home/claire/Documents/pcsc/Project/Tools.h
-
-/home/claire/Documents/pcsc/Project/Trapez2DSolver.cpp
-Trapez2DSolver.h
-/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
-Abstract2DIntegralSolver.h
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
-
-/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
-Abstract2DIntegralSolver.h
-/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
-
-/home/claire/Documents/pcsc/Project/TrapezSolver.cpp
-cassert
--
-cmath
--
-iostream
--
-TrapezSolver.hpp
-/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
 
 /home/claire/Documents/pcsc/Project/TrapezSolver.hpp
 AbstractIntegralSolver.hpp

@@ -14,19 +14,8 @@ public:
 
     //Constructor and destructor
     Abstract1DIntegralSolver(int n, double x0, double xf, t f): AbstractIntegralSolver(n, x0, xf, f) {};
-
-    double SolveIntegral();
-
-    //double Abstract1DIntegralSolver::myFunction(double x) const {
-
-    //}
-
-    //~Abstract1DIntegralSolver() {}
-
-    //double myFunction(double x) const {
-    //    return f(x);
-    //}
-
+    virtual ~Abstract1DIntegralSolver() {}
+    
 };
 
 #endif //ABSTRACT1DINTEGRALSOLVER_H

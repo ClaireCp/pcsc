@@ -9,11 +9,6 @@
 #include "AbstractIntegralSolver.hpp"
 #include "Tools.h"
 
-//template <typename t>
-//AbstractIntegralSolver<t>::AbstractIntegralSolver()
-//    : numberOfSteps(), initialArgument(), finalArgument(), function() {}
-
-// TODO: create methods to check if parameters are valid to limit code reuse
 template <typename t>
 AbstractIntegralSolver<t>::AbstractIntegralSolver(int n, double x0, double xf, t f) {
   checkNumberOfSteps(n);
@@ -23,8 +18,6 @@ AbstractIntegralSolver<t>::AbstractIntegralSolver(int n, double x0, double xf, t
   finalArgument = xf;
   SetFunction(f);
 }
-
-//AbstractIntegralSolver::~AbstractIntegralSolver() {}
 
 
 
