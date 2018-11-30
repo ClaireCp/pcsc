@@ -56,7 +56,7 @@ private:
   t function;
 };
 
-extern template class AbstractIntegralSolver<std::function<double(double)>>;
+template class AbstractIntegralSolver<std::function<double(double)>>;
 
 
 #endif /* ABSTRACTINTEGRALSOLVER_HPP */
