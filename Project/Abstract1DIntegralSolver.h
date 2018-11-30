@@ -15,7 +15,7 @@ public:
     //Constructor and destructor
     Abstract1DIntegralSolver(int n, double x0, double xf, t f): AbstractIntegralSolver(n, x0, xf, f) {};
     virtual ~Abstract1DIntegralSolver() {}
-    
+
 };
 
 #endif //ABSTRACT1DINTEGRALSOLVER_H

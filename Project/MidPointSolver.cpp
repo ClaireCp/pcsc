@@ -11,15 +11,6 @@
 
 #include "MidPointSolver.hpp"
 
-//MidPointSolver::MidPointSolver() {}
-
-//MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument): AbstractIntegralSolver(numberOfSteps, initialArgument, finalArgument) {}
-
-
-//MidPointSolver::MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument, double (*my1DFunction)(double x)) : Abstract1DIntegralSolver(numberOfSteps, initialArgument, finalArgument, my1DFunction) {}
-
-//MidPointSolver::~MidPointSolver() {}
-
 // TODO: simplify the function solveintegral which is unecessarily complicated
 double MidPointSolver::SolveIntegral() {
   double Integral=0;

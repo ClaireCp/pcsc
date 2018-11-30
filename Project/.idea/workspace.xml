@@ -12,22 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2ec21d5-f06c-4d3c-b071-af08b9e88eab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstract1DIntegralSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract1DIntegralSolver.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Abstract1DIntegralSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract1DIntegralSolver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractIntegralSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractIntegralSolver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstract2DIntegralSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Abstract2DIntegralSolver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractIntegralSolver.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractIntegralSolver.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MidPoint2DSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MidPoint2DSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MidPoint2DSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/MidPoint2DSolver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MidPointSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MidPointSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MidPointSolver.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/MidPointSolver.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,9 +88,9 @@
           <entry key="Makefile" value="1" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="2" />
-          <entry key="cpp" value="78" />
-          <entry key="h" value="32" />
-          <entry key="hpp" value="31" />
+          <entry key="cpp" value="90" />
+          <entry key="h" value="38" />
+          <entry key="hpp" value="41" />
           <entry key="txt" value="5" />
           <entry key="xml" value="1" />
         </counts>
@@ -100,16 +99,16 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="141" />
+          <entry key="ObjectiveC" value="169" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6387" />
-          <entry key="h" value="1172" />
-          <entry key="hpp" value="885" />
+          <entry key="cpp" value="6532" />
+          <entry key="h" value="1502" />
+          <entry key="hpp" value="980" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -117,35 +116,45 @@
         <counts>
           <entry key="CMakeLists.txt" value="4" />
           <entry key="Doxygen file" value="27" />
-          <entry key="ObjectiveC" value="8417" />
+          <entry key="ObjectiveC" value="8987" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38519022">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+                <state relative-caret-position="564">
+                  <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
                   <folding>
-                    <element signature="e#87#105#0" expanded="true" />
+                    <element signature="e#248#267#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#95#114#0" expanded="true" />
+                    <element signature="e#182#194#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/MidPointSolver.hpp">
+            <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#142#179#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="375">
+                  <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -155,34 +164,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.h">
+            <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#41#60#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#408#420#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="405">
+                  <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -190,12 +175,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+                <state relative-caret-position="454">
+                  <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
                   <folding>
                     <element signature="e#166#184#0" expanded="true" />
                     <element signature="e#236#248#0" expanded="true" />
-                    <element signature="e#813#829#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -218,26 +202,26 @@
         <option value="$PROJECT_DIR$/2DAbstractIntegralSolver.cpp" />
         <option value="$PROJECT_DIR$/Tools.cpp" />
         <option value="$PROJECT_DIR$/Tools.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/SimpsonSolver.hpp" />
-        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.h" />
-        <option value="$PROJECT_DIR$/MidPointSolver.cpp" />
         <option value="$PROJECT_DIR$/TrapezSolver.cpp" />
         <option value="$PROJECT_DIR$/TrapezSolver.hpp" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.h" />
         <option value="$PROJECT_DIR$/SimpsonSolver.cpp" />
-        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.cpp" />
         <option value="$PROJECT_DIR$/Simpson2DSolver.h" />
         <option value="$PROJECT_DIR$/Simpson2DSolver.cpp" />
         <option value="$PROJECT_DIR$/Trapez2DSolver.h" />
         <option value="$PROJECT_DIR$/Trapez2DSolver.cpp" />
-        <option value="$PROJECT_DIR$/Abstract1DIntegralSolver.cpp" />
         <option value="$PROJECT_DIR$/testSuite1D.cpp" />
-        <option value="$PROJECT_DIR$/MidPointSolver.hpp" />
-        <option value="$PROJECT_DIR$/AbstractIntegralSolver.hpp" />
         <option value="$PROJECT_DIR$/AbstractIntegralSolver.cpp" />
         <option value="$PROJECT_DIR$/Abstract1DIntegralSolver.h" />
+        <option value="$PROJECT_DIR$/Abstract1DIntegralSolver.cpp" />
+        <option value="$PROJECT_DIR$/MidPointSolver.cpp" />
+        <option value="$PROJECT_DIR$/MidPointSolver.hpp" />
+        <option value="$PROJECT_DIR$/MidPoint2DSolver.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/MidPoint2DSolver.cpp" />
+        <option value="$PROJECT_DIR$/AbstractIntegralSolver.hpp" />
+        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" />
+        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.h" />
       </list>
     </option>
   </component>
@@ -267,11 +251,6 @@
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,12 +313,12 @@
       <workItem from="1543216689813" duration="60000" />
       <workItem from="1543220488276" duration="604000" />
       <workItem from="1543223415628" duration="4371000" />
-      <workItem from="1543562864499" duration="11350000" />
+      <workItem from="1543562864499" duration="13601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32797000" />
+    <option name="totallyTimeSpent" value="35048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -441,23 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#248#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSuite1D.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -472,20 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -517,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpsonSolver.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -538,16 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#87#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -555,52 +486,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
+    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="e#166#184#0" expanded="true" />
-            <element signature="e#236#248#0" expanded="true" />
-            <element signature="e#813#829#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MidPointSolver.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#142#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.cpp">
+    <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#87#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
-            <element signature="e#41#60#0" expanded="true" />
+            <element signature="e#166#184#0" expanded="true" />
+            <element signature="e#236#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#248#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <element signature="e#408#420#0" expanded="true" />
+            <element signature="e#95#114#0" expanded="true" />
+            <element signature="e#182#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.h">
+    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="375">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>

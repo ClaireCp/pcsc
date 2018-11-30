@@ -44,6 +44,11 @@ int main(int argc, char* argv[])
 	MidPointSolver* MSolver = new MidPointSolver(10, 0, 2, function);
     double MIntegral= MSolver->SolveIntegral();
     std::cout << MIntegral << std::endl;
+
+    MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+    double M2DIntegral = M2DSolver->SolveIntegral();
+    std::cout << M2DIntegral << std::endl;
+
 	/**
 	MSolver->SetFunction(function);
 	MSolver->SetInterval(0, 2);

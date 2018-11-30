@@ -14,10 +14,8 @@
 class MidPointSolver : public Abstract1DIntegralSolver {
 public:
     using t = std::function<double(double)>;
-    //MidPointSolver();
-    //MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument);
-    MidPointSolver(int numberOfSteps, double initialArgument, double finalArgument, t function): Abstract1DIntegralSolver(numberOfSteps, initialArgument, finalArgument, function) {}
-    //virtual ~MidPointSolver();
+
+    MidPointSolver(int n, double x0, double xf, t f): Abstract1DIntegralSolver(n, x0, xf, f) {}
 
     double SolveIntegral();
 };

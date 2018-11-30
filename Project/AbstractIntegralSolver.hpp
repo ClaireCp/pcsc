@@ -17,9 +17,8 @@ class AbstractIntegralSolver  {
 public:
 
   // Constructor and destructor
-  //AbstractIntegralSolver();
   AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument, t function);
-  //virtual ~AbstractIntegralSolver();
+  virtual ~AbstractIntegralSolver() {}
 
   // Other public methods
   void SetNumberOfSteps(const double n) {
@@ -49,15 +48,16 @@ public:
   double GetNumberOfSteps() const { return numberOfSteps; }
   double GetStepSize() const { return (finalArgument-initialArgument)/numberOfSteps; }
 
+  t function;
 private:
   double numberOfSteps;
   double initialArgument;
   double finalArgument;
-  t function;
+
 };
 
 template class AbstractIntegralSolver<std::function<double(double)>>;
-
+template class AbstractIntegralSolver<std::function<double(double, double)>>;
 
 #endif /* ABSTRACTINTEGRALSOLVER_HPP */
 
