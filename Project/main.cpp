@@ -1,5 +1,5 @@
 /*
- * SolveIntegral.cpp
+ * Main.cpp
  *
  * <--- Description of the program goes here.
  *
@@ -18,6 +18,8 @@
 #include "SimpsonSolver.hpp"
 #include "Abstract2DIntegralSolver.h"
 #include "MidPoint2DSolver.h"
+#include "Trapez2DSolver.h"
+#include "Simpson2DSolver.h"
 
 double function(double x) {
     return pow(x,2);
@@ -58,6 +60,20 @@ int main(int argc, char* argv[])
     std::cout << SIntegral << std::endl;
     delete SSolver;
 
+    MidPoint2DSolver* M2Dsolver = new MidPoint2DSolver(10,0,2,10,0,2,function2D);
+    double M2Dintegral= M2Dsolver->SolveIntegral();
+    std::cout << M2Dintegral << std::endl;
+    delete M2Dsolver;
+
+    Trapez2DSolver* T2Dsolver = new Trapez2DSolver(10,0,2,10,0,2,function2D);
+    double T2Dintegral=T2Dsolver->SolveIntegral();
+    std::cout << T2Dintegral << std::endl;
+
+    Simpson2DSolver* S2Dsolver = new Simpson2DSolver(10,0,2,10,0,2,function2D);
+    double S2Dintegral=S2Dsolver->SolveIntegral();
+    std::cout << S2Dintegral << std::endl;
+
+
     // Check if overloaded constructor works
     MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
     MSolver2->SetFunction(function);
@@ -91,10 +107,6 @@ int main(int argc, char* argv[])
     std::cout << "MSolverWrongParams->initialArgument = " << MSolverWrongParams->GetInitialArgument() << std::endl;
     std::cout << "MSolverWrongParams->finalArgument = " << MSolverWrongParams->GetFinalArgument() << std::endl;
 
-    // Check if third overloaded constructor works
-    MidPointSolver* MSolverThirdConstructor = new MidPointSolver(10, 0, 2, function2D);
-    double MIntegralThirdConstructor = MSolverThirdConstructor->SolveIntegral();
-    std::cout << "Check if third overloaded constructor works:" << MIntegralThirdConstructor << std::endl;
 
 
     return 0;

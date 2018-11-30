@@ -24,10 +24,10 @@ double MidPoint2DSolver::SolveIntegral() {
         // Loop over y
         for (int j = 0; j < GetNumberOfSteps_y(); j++) {
             double x = x0 + h_x/2 + i*h_x;
-            double y = y0 + h_y/2 + i*h_y;
+            double y = y0 + h_y/2 + j*h_y;
             // TODO: look at how to implement the solveIntegral for functions with 2 variables
             // OK
-            Integral += my2DFunction_xy(x,y);
+            Integral += h_x*h_y*my2DFunction_xy(x,y);
         }
     }
     return Integral;
