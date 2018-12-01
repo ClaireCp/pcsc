@@ -44,6 +44,7 @@ CMakeFiles/main.dir/Trapez2DSolver.o: ../Tools.h
 CMakeFiles/main.dir/Trapez2DSolver.o: ../Trapez2DSolver.cpp
 CMakeFiles/main.dir/Trapez2DSolver.o: ../Trapez2DSolver.h
 
+CMakeFiles/main.dir/TrapezSolver.o: ../Abstract1DIntegralSolver.h
 CMakeFiles/main.dir/TrapezSolver.o: ../AbstractIntegralSolver.hpp
 CMakeFiles/main.dir/TrapezSolver.o: ../Tools.h
 CMakeFiles/main.dir/TrapezSolver.o: ../TrapezSolver.cpp
@@ -57,6 +58,7 @@ CMakeFiles/main.dir/main.o: ../MidPointSolver.hpp
 CMakeFiles/main.dir/main.o: ../Simpson2DSolver.h
 CMakeFiles/main.dir/main.o: ../SimpsonSolver.hpp
 CMakeFiles/main.dir/main.o: ../Tools.h
+CMakeFiles/main.dir/main.o: ../Trapez2DSolver.h
 CMakeFiles/main.dir/main.o: ../TrapezSolver.hpp
 CMakeFiles/main.dir/main.o: ../main.cpp
 

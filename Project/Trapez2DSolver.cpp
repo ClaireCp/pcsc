@@ -1,14 +1,9 @@
 //
 // Created by claire on 25.11.18.
 //
-/**
 
 #include "Trapez2DSolver.h"
 #include "Abstract2DIntegralSolver.h"
-
-Trapez2DSolver::Trapez2DSolver(int n_x, double x0, double xf, int n_y, double y0, double yf,
-                               double (*my2DFunction)(double x, double y)) :
-        Abstract2DIntegralSolver(n_x, x0, xf, n_y, y0, yf, my2DFunction) {}
 
 double Trapez2DSolver::SolveIntegral() {
     double Integral = 0;
@@ -34,4 +29,3 @@ double Trapez2DSolver::SolveIntegral() {
     }
     return Integral;
 }
-*/

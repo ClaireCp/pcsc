@@ -44,9 +44,25 @@ Abstract1DIntegralSolver.h
 
 /home/claire/Documents/pcsc/Project/Tools.h
 
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/TrapezSolver.cpp
+cassert
+-
+cmath
+-
+iostream
+-
+TrapezSolver.hpp
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+
 /home/claire/Documents/pcsc/Project/TrapezSolver.hpp
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+Abstract1DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
 
 /home/claire/Documents/pcsc/Project/main.cpp
 iostream
@@ -67,4 +83,6 @@ MidPoint2DSolver.h
 /home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
 Simpson2DSolver.h
 /home/claire/Documents/pcsc/Project/Simpson2DSolver.h
+Trapez2DSolver.h
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
 

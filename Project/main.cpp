@@ -19,6 +19,7 @@
 #include "Abstract2DIntegralSolver.h"
 #include "MidPoint2DSolver.h"
 #include "Simpson2DSolver.h"
+#include "Trapez2DSolver.h"
 
 /** TODO:
  * -> is it bad practice to provide multiple constructors?
@@ -49,7 +50,11 @@ int main(int argc, char* argv[])
 
     SimpsonSolver* SSolver = new SimpsonSolver(10, 0, 2, function);
     double SIntegral = SSolver->SolveIntegral();
-    std::cout << SIntegral <<std::endl;
+    std::cout << SIntegral << std::endl;
+
+    TrapezSolver* TSolver = new TrapezSolver(10, 0, 2, function);
+    double TIntegral = TSolver->SolveIntegral();
+    std::cout << TIntegral << std::endl;
 
     MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double M2DIntegral = M2DSolver->SolveIntegral();
@@ -58,6 +63,12 @@ int main(int argc, char* argv[])
     Simpson2DSolver* S2DSolver = new Simpson2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double S2DIntegral = S2DSolver->SolveIntegral();
     std::cout << S2DIntegral << std::endl;
+
+    Trapez2DSolver* T2DSolver = new Trapez2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
+    double T2DIntegral = T2DSolver->SolveIntegral();
+    std::cout << T2DIntegral << std::endl;
+
+
 
 	/**
 	MSolver->SetFunction(function);

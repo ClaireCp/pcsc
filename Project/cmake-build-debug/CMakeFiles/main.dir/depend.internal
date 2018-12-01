@@ -45,6 +45,7 @@ CMakeFiles/main.dir/Trapez2DSolver.o
  /home/claire/Documents/pcsc/Project/Trapez2DSolver.cpp
  /home/claire/Documents/pcsc/Project/Trapez2DSolver.h
 CMakeFiles/main.dir/TrapezSolver.o
+ /home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
  /home/claire/Documents/pcsc/Project/Tools.h
  /home/claire/Documents/pcsc/Project/TrapezSolver.cpp
@@ -58,6 +59,7 @@ CMakeFiles/main.dir/main.o
  /home/claire/Documents/pcsc/Project/Simpson2DSolver.h
  /home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
  /home/claire/Documents/pcsc/Project/Tools.h
+ /home/claire/Documents/pcsc/Project/Trapez2DSolver.h
  /home/claire/Documents/pcsc/Project/TrapezSolver.hpp
  /home/claire/Documents/pcsc/Project/main.cpp
 CMakeFiles/main.dir/testSuite1D.o

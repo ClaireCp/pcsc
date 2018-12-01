@@ -5,18 +5,20 @@
  *      Author: beschenk
  */
 
-/**
 #ifndef TRAPEZSOLVER_HPP
 #define TRAPEZSOLVER_HPP
 
 #include "AbstractIntegralSolver.hpp"
+#include "Abstract1DIntegralSolver.h"
 
-class TrapezSolver : public AbstractIntegralSolver {
+
+class TrapezSolver : public Abstract1DIntegralSolver {
 public:
-  TrapezSolver();
-  virtual ~TrapezSolver();
+    using t = std::function<double(double)>;
 
-  double SolveIntegral();
+    TrapezSolver(int n, double x0, double xf, t f): Abstract1DIntegralSolver(n, x0, xf, f) {}
+
+    double SolveIntegral() override;
 };
 
-#endif /* TRAPEZSOLVER_HPP */
+#endif // TRAPEZSOLVER_HPP
