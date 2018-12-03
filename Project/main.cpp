@@ -42,19 +42,32 @@ double function2D(double x, double y) {
     return y*pow(x, 2);
 }
 
+
 int main(int argc, char* argv[])
 {
 	MidPointSolver* MSolver = new MidPointSolver(10, 0, 2, function);
     double MIntegral = MSolver->SolveIntegral();
     std::cout << MIntegral << std::endl;
 
+    MidPoint2DSolver* M2DSolverBis = new MidPoint2DSolver(10, 0, 2, 10, 0, 2, function2D);
+    double M2DIntegralBis = M2DSolverBis->SolveIntegral();
+    std::cout << M2DIntegralBis << std::endl;
+
     SimpsonSolver* SSolver = new SimpsonSolver(10, 0, 2, function);
     double SIntegral = SSolver->SolveIntegral();
     std::cout << SIntegral << std::endl;
 
+    Simpson2DSolver* S2DSolverBis = new Simpson2DSolver(10, 0, 2, 10, 0, 2, function2D);
+    double S2DIntegralBis = S2DSolverBis->SolveIntegral();
+    std::cout << S2DIntegralBis << std::endl;
+
     TrapezSolver* TSolver = new TrapezSolver(10, 0, 2, function);
     double TIntegral = TSolver->SolveIntegral();
     std::cout << TIntegral << std::endl;
+
+    Trapez2DSolver* T2DSolverBis = new Trapez2DSolver(10, 0, 2, 10, 0, 2, function2D);
+    double T2DIntegralBis = T2DSolverBis->SolveIntegral();
+    std::cout << T2DIntegralBis << std::endl;
 
     MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double M2DIntegral = M2DSolver->SolveIntegral();
@@ -138,7 +151,6 @@ int main(int argc, char* argv[])
     std::cout << "Check if third overloaded constructor works:" << MIntegralThirdConstructor << std::endl;
 
 	 */
-
     return 0;
 }
 
