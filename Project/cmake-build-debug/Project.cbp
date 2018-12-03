@@ -146,10 +146,10 @@
 		<Unit filename="/home/claire/Documents/pcsc/Project/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite1D.cpp">
+		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite1D.h">
+		<Unit filename="/home/claire/Documents/pcsc/Project/testSuite.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/CMakeLists.txt">

@@ -274,19 +274,19 @@ main.s:
 .PHONY : main.s
 
 # target to build an object file
-testSuite1D.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite1D.o
-.PHONY : testSuite1D.o
+testSuite.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.o
+.PHONY : testSuite.o
 
 # target to preprocess a source file
-testSuite1D.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite1D.i
-.PHONY : testSuite1D.i
+testSuite.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.i
+.PHONY : testSuite.i
 
 # target to generate assembly for a file
-testSuite1D.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite1D.s
-.PHONY : testSuite1D.s
+testSuite.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.s
+.PHONY : testSuite.s
 
 # Help Target
 help:
@@ -327,9 +327,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... testSuite1D.o"
-	@echo "... testSuite1D.i"
-	@echo "... testSuite1D.s"
+	@echo "... testSuite.o"
+	@echo "... testSuite.i"
+	@echo "... testSuite.s"
 .PHONY : help
 
 

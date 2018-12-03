@@ -14,7 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/claire/Documents/pcsc/Project/Trapez2DSolver.cpp" "/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Trapez2DSolver.o"
   "/home/claire/Documents/pcsc/Project/TrapezSolver.cpp" "/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TrapezSolver.o"
   "/home/claire/Documents/pcsc/Project/main.cpp" "/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/main.o"
-  "/home/claire/Documents/pcsc/Project/testSuite1D.cpp" "/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/testSuite1D.o"
+  "/home/claire/Documents/pcsc/Project/testSuite.cpp" "/home/claire/Documents/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/testSuite.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

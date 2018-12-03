@@ -10,6 +10,10 @@
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 ostream
 -
@@ -18,7 +22,21 @@ functional
 Tools.h
 /home/claire/Documents/pcsc/Project/Tools.h
 
+/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
 /home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+Abstract1DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/Simpson2DSolver.h
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
 AbstractIntegralSolver.hpp
 /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.h
@@ -26,17 +44,41 @@ Abstract1DIntegralSolver.h
 
 /home/claire/Documents/pcsc/Project/Tools.h
 
-/home/claire/Documents/pcsc/Project/testSuite1D.cpp
-testSuite1D.h
-/home/claire/Documents/pcsc/Project/testSuite1D.h
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+Abstract1DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
+
+/home/claire/Documents/pcsc/Project/main.cpp
+iostream
+-
+cmath
+-
+AbstractIntegralSolver.hpp
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
 MidPointSolver.hpp
 /home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+TrapezSolver.hpp
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+SimpsonSolver.hpp
+/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
+Abstract2DIntegralSolver.h
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+MidPoint2DSolver.h
+/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
+Simpson2DSolver.h
+/home/claire/Documents/pcsc/Project/Simpson2DSolver.h
+Trapez2DSolver.h
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
 cmath
 -
 exception
 -
 gtest/gtest.h
 -
-
-/home/claire/Documents/pcsc/Project/testSuite1D.h
 

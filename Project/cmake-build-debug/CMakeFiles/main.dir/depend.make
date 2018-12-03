@@ -60,10 +60,10 @@ CMakeFiles/main.dir/main.o: ../Trapez2DSolver.h
 CMakeFiles/main.dir/main.o: ../TrapezSolver.hpp
 CMakeFiles/main.dir/main.o: ../main.cpp
 
-CMakeFiles/main.dir/testSuite1D.o: ../Abstract1DIntegralSolver.h
-CMakeFiles/main.dir/testSuite1D.o: ../AbstractIntegralSolver.hpp
-CMakeFiles/main.dir/testSuite1D.o: ../MidPointSolver.hpp
-CMakeFiles/main.dir/testSuite1D.o: ../Tools.h
-CMakeFiles/main.dir/testSuite1D.o: ../testSuite1D.cpp
-CMakeFiles/main.dir/testSuite1D.o: ../testSuite1D.h
+CMakeFiles/main.dir/testSuite.o: ../Abstract1DIntegralSolver.h
+CMakeFiles/main.dir/testSuite.o: ../AbstractIntegralSolver.hpp
+CMakeFiles/main.dir/testSuite.o: ../MidPointSolver.hpp
+CMakeFiles/main.dir/testSuite.o: ../Tools.h
+CMakeFiles/main.dir/testSuite.o: ../testSuite.cpp
+CMakeFiles/main.dir/testSuite.o: ../testSuite.h
 

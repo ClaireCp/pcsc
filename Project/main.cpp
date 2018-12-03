@@ -50,13 +50,13 @@ double function2D(double x, double y) {
     return y*pow(x, 2);
 }
 
-/**
+
 TEST(IntervalTest, reversed_intervals) {
     MidPointSolver* MSolver = new MidPointSolver(10, 12, -4, function);
     EXPECT_EQ(-4, MSolver->GetInitialArgument());
     EXPECT_EQ(12, MSolver->GetFinalArgument());
 }
- */
+
 
 int main(int argc, char* argv[])
 {
@@ -96,8 +96,8 @@ int main(int argc, char* argv[])
     double T2DIntegral = T2DSolver->SolveIntegral();
     std::cout << T2DIntegral << std::endl;
 
-    //testing::InitGoogleTest(&argc, argv);
-    //RUN_ALL_TESTS();
+    testing::InitGoogleTest(&argc, argv);
+    RUN_ALL_TESTS();
 
 
 

@@ -60,10 +60,10 @@ CMakeFiles/main.dir/main.o
  /home/claire/Documents/pcsc/Project/Trapez2DSolver.h
  /home/claire/Documents/pcsc/Project/TrapezSolver.hpp
  /home/claire/Documents/pcsc/Project/main.cpp
-CMakeFiles/main.dir/testSuite1D.o
+CMakeFiles/main.dir/testSuite.o
  /home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
  /home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
  /home/claire/Documents/pcsc/Project/MidPointSolver.hpp
  /home/claire/Documents/pcsc/Project/Tools.h
- /home/claire/Documents/pcsc/Project/testSuite1D.cpp
- /home/claire/Documents/pcsc/Project/testSuite1D.h
+ /home/claire/Documents/pcsc/Project/testSuite.cpp
+ /home/claire/Documents/pcsc/Project/testSuite.h
