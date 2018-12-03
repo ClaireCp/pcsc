@@ -1,0 +1,6 @@
+<map id="Abstract2DIntegralSolver" name="Abstract2DIntegralSolver">
+<area shape="rect" id="node3" href="$class_mid_point2_d_solver.html" title="MidPoint2DSolver" alt="" coords="5,184,132,211"/>
+<area shape="rect" id="node4" href="$class_simpson2_d_solver.html" title="Simpson2DSolver" alt="" coords="156,184,283,211"/>
+<area shape="rect" id="node5" href="$class_trapez2_d_solver.html" title="Trapez2DSolver" alt="" coords="307,184,423,211"/>
+<area shape="rect" id="node2" href="$class_abstract_integral_solver.html" title="AbstractIntegralSolver\l\&lt; std::function\&lt; double\l(double, double)\&gt; \&gt;" alt="" coords="141,5,297,61"/>
+</map>

@@ -1,0 +1,99 @@
+\hypertarget{class_mid_point2_d_solver}{}\section{Mid\+Point2\+D\+Solver Class Reference}
+\label{class_mid_point2_d_solver}\index{Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}}
+
+
+{\ttfamily \#include $<$Mid\+Point2\+D\+Solver.\+h$>$}
+
+
+
+Inheritance diagram for Mid\+Point2\+D\+Solver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{class_mid_point2_d_solver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Mid\+Point2\+D\+Solver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{class_mid_point2_d_solver__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \hyperlink{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}{t} = std\+::function$<$ double(double, double)$>$
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_mid_point2_d_solver_a9cc9f211031ce410a2fe5287db720460}{Mid\+Point2\+D\+Solver} (int n\+\_\+x, double x0, double xf, int n\+\_\+y, double y0, double yf, \hyperlink{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}{t} f)
+\item 
+double \hyperlink{class_mid_point2_d_solver_a45c6c6802b7d40c35f1f60f1a39f5042}{Solve\+Integral} () override
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Daughter Class of \hyperlink{class_abstract2_d_integral_solver}{Abstract2\+D\+Integral\+Solver} which computes a 2D integral using the Midpoint2D method. The Midpoint2D algorithm takes the function value in the middle of the square of length h\+\_\+x and h\+\_\+y. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}\label{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}} 
+\index{Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}!t@{t}}
+\index{t@{t}!Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}}
+\subsubsection{\texorpdfstring{t}{t}}
+{\footnotesize\ttfamily using \hyperlink{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}{Mid\+Point2\+D\+Solver\+::t} =  std\+::function$<$double(double, double)$>$}
+
+namespace t is defined as a function which takes two double as an input and returns a double. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mid_point2_d_solver_a9cc9f211031ce410a2fe5287db720460}\label{class_mid_point2_d_solver_a9cc9f211031ce410a2fe5287db720460}} 
+\index{Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}!Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}}
+\index{Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}!Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}}
+\subsubsection{\texorpdfstring{Mid\+Point2\+D\+Solver()}{MidPoint2DSolver()}}
+{\footnotesize\ttfamily Mid\+Point2\+D\+Solver\+::\+Mid\+Point2\+D\+Solver (\begin{DoxyParamCaption}\item[{int}]{n\+\_\+x,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{int}]{n\+\_\+y,  }\item[{double}]{y0,  }\item[{double}]{yf,  }\item[{\hyperlink{class_mid_point2_d_solver_a1f2d1dcde9b60f07f70d3e8581635714}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor for \hyperlink{class_mid_point2_d_solver}{Mid\+Point2\+D\+Solver} inherited of \hyperlink{class_abstract2_d_integral_solver}{Abstract2\+D\+Integral\+Solver} 
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+x} & number of steps in the x direction \\
+\hline
+{\em x0} & the beginning of the x interval \\
+\hline
+{\em xf} & the end of the x interval \\
+\hline
+{\em n\+\_\+y} & number of steps in the y direction \\
+\hline
+{\em y0} & the beginning of the y interval \\
+\hline
+{\em yf} & the end of the y interval \\
+\hline
+{\em f} & function to integrate dependent on x and y \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mid_point2_d_solver_a45c6c6802b7d40c35f1f60f1a39f5042}\label{class_mid_point2_d_solver_a45c6c6802b7d40c35f1f60f1a39f5042}} 
+\index{Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}!Solve\+Integral@{Solve\+Integral}}
+\index{Solve\+Integral@{Solve\+Integral}!Mid\+Point2\+D\+Solver@{Mid\+Point2\+D\+Solver}}
+\subsubsection{\texorpdfstring{Solve\+Integral()}{SolveIntegral()}}
+{\footnotesize\ttfamily double Mid\+Point2\+D\+Solver\+::\+Solve\+Integral (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Overridden virtual function to solve the integral for the 2D midpoint method \begin{DoxyReturn}{Returns}
+the calculated integral of f over the rectangular 2D domain 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double, double)$>$ $>$}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Mid\+Point2\+D\+Solver.\+h\item 
+Mid\+Point2\+D\+Solver.\+cpp\end{DoxyCompactItemize}

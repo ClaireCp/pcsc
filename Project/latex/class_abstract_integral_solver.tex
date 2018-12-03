@@ -1,0 +1,57 @@
+\hypertarget{class_abstract_integral_solver}{}\section{Abstract\+Integral\+Solver$<$ t $>$ Class Template Reference}
+\label{class_abstract_integral_solver}\index{Abstract\+Integral\+Solver$<$ t $>$@{Abstract\+Integral\+Solver$<$ t $>$}}
+
+
+Collaboration diagram for Abstract\+Integral\+Solver$<$ t $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_abstract_integral_solver__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}\label{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}} 
+{\bfseries Abstract\+Integral\+Solver} (int number\+Of\+Steps, double initial\+Argument, double final\+Argument, t function)
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}\label{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}} 
+void {\bfseries Set\+Number\+Of\+Steps} (const double n)
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}\label{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}} 
+void {\bfseries Set\+Interval} (double x0, double xf)
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}\label{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}} 
+void {\bfseries Set\+Function} (t f)
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a094212bdcdd007d75586495ff838f436}\label{class_abstract_integral_solver_a094212bdcdd007d75586495ff838f436}} 
+{\footnotesize template$<$typename param $>$ }\\double {\bfseries my\+Function} (param x) const
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}\label{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}} 
+virtual double {\bfseries Solve\+Integral} ()=0
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}\label{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}} 
+double {\bfseries Get\+Initial\+Argument} () const
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}\label{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}} 
+double {\bfseries Get\+Final\+Argument} () const
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}\label{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}} 
+double {\bfseries Get\+Number\+Of\+Steps} () const
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}\label{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}} 
+double {\bfseries Get\+Step\+Size} () const
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_abstract_integral_solver_ae31c391a21c6057e313295ad04de8a69}\label{class_abstract_integral_solver_ae31c391a21c6057e313295ad04de8a69}} 
+t {\bfseries function}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Abstract\+Integral\+Solver.\+hpp\item 
+Abstract\+Integral\+Solver.\+cpp\end{DoxyCompactItemize}

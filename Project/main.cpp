@@ -52,9 +52,9 @@ double function2D(double x, double y) {
 
 
 TEST(IntervalTest, reversed_intervals) {
-    MidPointSolver* MSolver = new MidPointSolver(10, 12, -4, function);
-    EXPECT_EQ(-4, MSolver->GetInitialArgument());
-    EXPECT_EQ(12, MSolver->GetFinalArgument());
+   MidPointSolver* MSolver = new MidPointSolver(10, 12, -4, function);
+   EXPECT_EQ(-4, MSolver->GetInitialArgument());
+   EXPECT_EQ(12, MSolver->GetFinalArgument());
 }
 
 
