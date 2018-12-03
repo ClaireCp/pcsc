@@ -26,7 +26,7 @@ public:
         //std::cout << "In myFunction in Abstract2DIntegralSolver" << std::endl;
         return function(x, y);
     }
-    virtual double SolveIntegral() = 0;
+
 
     // Get methods
     double GetInitialArgument_y() const { return initialArgument_y; }
