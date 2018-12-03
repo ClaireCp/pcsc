@@ -1,5 +1,5 @@
 /*
- * SolveIntegral.cpp
+ * Main.cpp
  *
  * <--- Description of the program goes here.
  *
@@ -34,6 +34,9 @@
  * -> how to use google testing?
  * -> would it be better to put class variables as public so as not to use getters in the subclasses and uncluster code?
 */
+
+
+
 double function(double x) {
     return pow(x,2);
 }
@@ -112,6 +115,20 @@ int main(int argc, char* argv[])
     std::cout << SIntegral << std::endl;
     delete SSolver;
 
+    MidPoint2DSolver* M2Dsolver = new MidPoint2DSolver(10,0,2,10,0,2,function2D);
+    double M2Dintegral= M2Dsolver->SolveIntegral();
+    std::cout << M2Dintegral << std::endl;
+    delete M2Dsolver;
+
+    Trapez2DSolver* T2Dsolver = new Trapez2DSolver(10,0,2,10,0,2,function2D);
+    double T2Dintegral=T2Dsolver->SolveIntegral();
+    std::cout << T2Dintegral << std::endl;
+
+    Simpson2DSolver* S2Dsolver = new Simpson2DSolver(10,0,2,10,0,2,function2D);
+    double S2Dintegral=S2Dsolver->SolveIntegral();
+    std::cout << S2Dintegral << std::endl;
+
+
     // Check if overloaded constructor works
     MidPointSolver* MSolver2 = new MidPointSolver(10, 0, 2);
     MSolver2->SetFunction(function);
@@ -145,10 +162,13 @@ int main(int argc, char* argv[])
     std::cout << "MSolverWrongParams->initialArgument = " << MSolverWrongParams->GetInitialArgument() << std::endl;
     std::cout << "MSolverWrongParams->finalArgument = " << MSolverWrongParams->GetFinalArgument() << std::endl;
 
+<<<<<<< HEAD
     // Check if third overloaded constructor works
     MidPointSolver* MSolverThirdConstructor = new MidPointSolver(10, 0., 2., function);
     double MIntegralThirdConstructor = MSolverThirdConstructor->SolveIntegral();
     std::cout << "Check if third overloaded constructor works:" << MIntegralThirdConstructor << std::endl;
+=======
+>>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
 
 	 */
     return 0;

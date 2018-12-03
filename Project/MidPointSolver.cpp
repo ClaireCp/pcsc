@@ -11,6 +11,7 @@
 
 #include "MidPointSolver.hpp"
 
+
 // TODO: simplify the function solveintegral which is unecessarily complicated
 double MidPointSolver::SolveIntegral() {
   double Integral = 0;

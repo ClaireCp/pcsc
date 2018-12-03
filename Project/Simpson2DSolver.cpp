@@ -22,6 +22,7 @@ double Simpson2DSolver::SolveIntegral() {
             double y1=y0+j*h_y;
             double y2=y0+(j+0.5)*h_y;
             double y3=y0+(j+1)*h_y;
+
             Integral+= h_x*h_y*((myFunction(x1,y1)+myFunction(x1,y3)+myFunction(x3,y1)+myFunction(x3,y3))+
                                 4*(myFunction(x1,y2)+myFunction(x2,y1)+myFunction(x2,y3)+myFunction(x3,y2))+
                                 16*myFunction(x2,y2))/36;
