@@ -2,6 +2,7 @@
 // Created by claire on 29.11.18.
 //
 /**
+
 #include "testSuite1D.h"
 #include "MidPointSolver.hpp"
 #include <cmath>
@@ -12,11 +13,13 @@ double function(double x) {
     return pow(x,2);
 }
 
+
 TEST(IntervalTest, reversed_intervals) {
     MidPointSolver *midPointSolver = new MidPointSolver(3, 12, -4, function);
     EXPECT_EQ(-4, midPointSolver->GetInitialArgument());
     EXPECT_EQ(12, midPointSolver->GetFinalArgument());
 }
+
 
 TEST(EmptyConstructor, base_case) {
     MidPointSolver *midPointSolver1 = new MidPointSolver;
@@ -32,6 +35,6 @@ TEST(FullConstructor, base_case) {
     double mIntegral2 = midPointSolver2->SolveIntegral();
     ASSERT_FLOAT_EQ(2.66, mIntegral2);
 }
-
 */
+
 

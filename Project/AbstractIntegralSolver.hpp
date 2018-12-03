@@ -1,8 +1,7 @@
 /*
- * AbstractIntegralSolver.hpp
- *
- *  Created on: Nov 25, 2018
- *      Author: beschenk
+ * AbstractIntegralSolver is the abstract mother class for 1D and 2D abstract integral solvers.
+ * It provides a basic constructor as well as methods that are common for both 1D and 2D numerical solvers.
+ * In order to provide polymorphism to accept both 1D and 2D functions, this is a templated class.
  */
 
 #ifndef ABSTRACTINTEGRALSOLVER_HPP
@@ -16,9 +15,8 @@ template <typename t>
 class AbstractIntegralSolver  {
 public:
 
-  // Constructor and destructor
+  // Constructor
   AbstractIntegralSolver(int numberOfSteps, double initialArgument, double finalArgument, t function);
-  virtual ~AbstractIntegralSolver() {}
 
   // Other public methods
   void SetNumberOfSteps(const double n) {

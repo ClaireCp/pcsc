@@ -86,9 +86,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.cpp">
-			<Option target="main"/>
-		</Unit>
 		<Unit filename="/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h">
 			<Option target="main"/>
 		</Unit>
