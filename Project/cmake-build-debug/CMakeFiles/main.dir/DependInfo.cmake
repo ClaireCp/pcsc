@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pcsc/pcsc/Project/Abstract1DIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Abstract1DIntegralSolver.o"
   "/home/pcsc/pcsc/Project/Abstract2DIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Abstract2DIntegralSolver.o"
   "/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/AbstractIntegralSolver.o"
   "/home/pcsc/pcsc/Project/MidPoint2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPoint2DSolver.o"
@@ -15,7 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pcsc/pcsc/Project/Trapez2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Trapez2DSolver.o"
   "/home/pcsc/pcsc/Project/TrapezSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TrapezSolver.o"
   "/home/pcsc/pcsc/Project/main.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/main.o"
-  "/home/pcsc/pcsc/Project/testSuite1D.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/testSuite1D.o"
+  "/home/pcsc/pcsc/Project/testSuite.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/testSuite.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

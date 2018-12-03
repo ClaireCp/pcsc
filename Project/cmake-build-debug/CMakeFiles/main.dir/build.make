@@ -187,31 +187,18 @@ CMakeFiles/main.dir/Tools.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tools.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/Tools.cpp -o CMakeFiles/main.dir/Tools.s
 
-CMakeFiles/main.dir/testSuite1D.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/testSuite1D.o: ../testSuite1D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/testSuite1D.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/testSuite1D.o -c /home/pcsc/pcsc/Project/testSuite1D.cpp
+CMakeFiles/main.dir/testSuite.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/testSuite.o: ../testSuite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/testSuite.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/testSuite.o -c /home/pcsc/pcsc/Project/testSuite.cpp
 
-CMakeFiles/main.dir/testSuite1D.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/testSuite1D.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/testSuite1D.cpp > CMakeFiles/main.dir/testSuite1D.i
+CMakeFiles/main.dir/testSuite.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/testSuite.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/testSuite.cpp > CMakeFiles/main.dir/testSuite.i
 
-CMakeFiles/main.dir/testSuite1D.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/testSuite1D.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/testSuite1D.cpp -o CMakeFiles/main.dir/testSuite1D.s
-
-CMakeFiles/main.dir/Abstract1DIntegralSolver.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Abstract1DIntegralSolver.o: ../Abstract1DIntegralSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/Abstract1DIntegralSolver.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Abstract1DIntegralSolver.o -c /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.cpp
-
-CMakeFiles/main.dir/Abstract1DIntegralSolver.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Abstract1DIntegralSolver.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.cpp > CMakeFiles/main.dir/Abstract1DIntegralSolver.i
-
-CMakeFiles/main.dir/Abstract1DIntegralSolver.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Abstract1DIntegralSolver.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.cpp -o CMakeFiles/main.dir/Abstract1DIntegralSolver.s
+CMakeFiles/main.dir/testSuite.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/testSuite.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/testSuite.cpp -o CMakeFiles/main.dir/testSuite.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -225,8 +212,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/Simpson2DSolver.o" \
 "CMakeFiles/main.dir/Trapez2DSolver.o" \
 "CMakeFiles/main.dir/Tools.o" \
-"CMakeFiles/main.dir/testSuite1D.o" \
-"CMakeFiles/main.dir/Abstract1DIntegralSolver.o"
+"CMakeFiles/main.dir/testSuite.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -241,11 +227,10 @@ main: CMakeFiles/main.dir/MidPoint2DSolver.o
 main: CMakeFiles/main.dir/Simpson2DSolver.o
 main: CMakeFiles/main.dir/Trapez2DSolver.o
 main: CMakeFiles/main.dir/Tools.o
-main: CMakeFiles/main.dir/testSuite1D.o
-main: CMakeFiles/main.dir/Abstract1DIntegralSolver.o
+main: CMakeFiles/main.dir/testSuite.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

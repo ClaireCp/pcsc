@@ -6,12 +6,17 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.cpp
 
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.h
+=======
+/home/claire/Documents/pcsc/Project/Abstract1DIntegralSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.cpp
 iostream
 -
@@ -23,9 +28,13 @@ Tools.h
 /home/pcsc/pcsc/Project/Tools.h
 
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.h
+=======
+/home/claire/Documents/pcsc/Project/Abstract2DIntegralSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp
 iostream
 -
@@ -35,6 +44,9 @@ Tools.h
 /home/pcsc/pcsc/Project/Tools.h
 
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
+=======
+/home/claire/Documents/pcsc/Project/AbstractIntegralSolver.hpp
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 ostream
 -
 functional
@@ -42,14 +54,19 @@ functional
 Tools.h
 /home/pcsc/pcsc/Project/Tools.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/MidPoint2DSolver.cpp
 MidPoint2DSolver.h
 /home/pcsc/pcsc/Project/MidPoint2DSolver.h
 
 /home/pcsc/pcsc/Project/MidPoint2DSolver.h
+=======
+/home/claire/Documents/pcsc/Project/MidPoint2DSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 Abstract2DIntegralSolver.h
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/MidPointSolver.cpp
 cassert
 -
@@ -61,19 +78,27 @@ MidPointSolver.hpp
 /home/pcsc/pcsc/Project/MidPointSolver.hpp
 
 /home/pcsc/pcsc/Project/MidPointSolver.hpp
+=======
+/home/claire/Documents/pcsc/Project/MidPointSolver.hpp
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.h
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/Simpson2DSolver.cpp
 Simpson2DSolver.h
 /home/pcsc/pcsc/Project/Simpson2DSolver.h
 
 /home/pcsc/pcsc/Project/Simpson2DSolver.h
+=======
+/home/claire/Documents/pcsc/Project/Simpson2DSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 Abstract2DIntegralSolver.h
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/SimpsonSolver.cpp
 cassert
 -
@@ -85,6 +110,9 @@ SimpsonSolver.hpp
 /home/pcsc/pcsc/Project/SimpsonSolver.hpp
 
 /home/pcsc/pcsc/Project/SimpsonSolver.hpp
+=======
+/home/claire/Documents/pcsc/Project/SimpsonSolver.hpp
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.h
@@ -98,6 +126,7 @@ iostream
 
 /home/pcsc/pcsc/Project/Tools.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/Trapez2DSolver.cpp
 Trapez2DSolver.h
 /home/pcsc/pcsc/Project/Trapez2DSolver.h
@@ -105,9 +134,13 @@ Abstract2DIntegralSolver.h
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.h
 
 /home/pcsc/pcsc/Project/Trapez2DSolver.h
+=======
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 Abstract2DIntegralSolver.h
 /home/pcsc/pcsc/Project/Abstract2DIntegralSolver.h
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/TrapezSolver.cpp
 cassert
 -
@@ -119,6 +152,9 @@ TrapezSolver.hpp
 /home/pcsc/pcsc/Project/TrapezSolver.hpp
 
 /home/pcsc/pcsc/Project/TrapezSolver.hpp
+=======
+/home/claire/Documents/pcsc/Project/TrapezSolver.hpp
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.h
@@ -144,6 +180,7 @@ MidPoint2DSolver.h
 Simpson2DSolver.h
 /home/pcsc/pcsc/Project/Simpson2DSolver.h
 Trapez2DSolver.h
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/Trapez2DSolver.h
 
 /home/pcsc/pcsc/Project/testSuite1D.cpp
@@ -151,6 +188,9 @@ testSuite1D.h
 /home/pcsc/pcsc/Project/testSuite1D.h
 MidPointSolver.hpp
 /home/pcsc/pcsc/Project/MidPointSolver.hpp
+=======
+/home/claire/Documents/pcsc/Project/Trapez2DSolver.h
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba
 cmath
 -
 exception
@@ -158,5 +198,8 @@ exception
 gtest/gtest.h
 -
 
+<<<<<<< HEAD
 /home/pcsc/pcsc/Project/testSuite1D.h
 
+=======
+>>>>>>> 26ec0266dda263e8ae10008857abde868059faba

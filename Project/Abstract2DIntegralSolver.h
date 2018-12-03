@@ -1,6 +1,7 @@
-//
-// Created by claire on 25.11.18.
-//
+/*
+ * Abstract2DIntegralSolver is the abstract mother class for 2D integral solvers.
+ * It only defines the constructor for the 1D integral solver, which is simply the constructor of its mother class.
+ */
 
 #include "AbstractIntegralSolver.hpp"
 
@@ -11,22 +12,15 @@ class Abstract2DIntegralSolver: public AbstractIntegralSolver <std::function<dou
 public:
     using t = std::function<double(double, double)>;
 
-    // Constructor and destructor
+    // Constructor
     Abstract2DIntegralSolver(int n_x, double x0, double xf,
                              int n_y, double y0, double yf,
                              t f);
-    virtual ~Abstract2DIntegralSolver() {}
 
     // Other public methods
-    //void SetNumberOfSteps_y(double n);
-    //void SetInterval_y(double y0, double yf);
-    //void SetFunction_xy(double (*f_xy)(double x, double y));
-
     double myFunction(double x, double y) const {
-        //std::cout << "In myFunction in Abstract2DIntegralSolver" << std::endl;
         return function(x, y);
     }
-
 
     // Get methods
     double GetInitialArgument_y() const { return initialArgument_y; }

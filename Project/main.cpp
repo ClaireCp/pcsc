@@ -21,6 +21,10 @@
 #include "Simpson2DSolver.h"
 #include "Trapez2DSolver.h"
 
+#include <cmath>
+#include <exception>
+#include <gtest/gtest.h>
+
 /** TODO:
  * -> is it bad practice to provide multiple constructors?
  * What if a constructor is empty, meaning that all necessary variables are not initialized on instantiation?
@@ -37,12 +41,20 @@
 
 
 
+
 double function(double x) {
     return pow(x,2);
 }
 
 double function2D(double x, double y) {
     return y*pow(x, 2);
+}
+
+
+TEST(IntervalTest, reversed_intervals) {
+    MidPointSolver* MSolver = new MidPointSolver(10, 12, -4, function);
+    EXPECT_EQ(-4, MSolver->GetInitialArgument());
+    EXPECT_EQ(12, MSolver->GetFinalArgument());
 }
 
 
@@ -83,6 +95,9 @@ int main(int argc, char* argv[])
     Trapez2DSolver* T2DSolver = new Trapez2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double T2DIntegral = T2DSolver->SolveIntegral();
     std::cout << T2DIntegral << std::endl;
+
+    testing::InitGoogleTest(&argc, argv);
+    RUN_ALL_TESTS();
 
 
 
