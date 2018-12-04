@@ -1,21 +1,21 @@
 /*
  * MidPointSolver.hpp
  *
- *  Created on: Nov 25, 2018
- *      Author: beschenk
+ *  Created on: November 25, 2018
+ *      Author: Benjamin Schenk <benjamin.schenk@epfl.ch>
  */
 
 #ifndef MIDPOINTSOLVER_HPP
 #define MIDPOINTSOLVER_HPP
 
-#include "AbstractIntegralSolver.hpp"
-#include "Abstract1DIntegralSolver.h"
+#include "Abstract1DIntegralSolver.hpp"
 
 /**
  * Daughter Class of Abstract1DIntegralSolver which computes a 1D integral using the midpoint method.
  * The Midpoint1D algorithm takes the function value in the middle of the sub interval of length h_x.
  */
 class MidPointSolver : public Abstract1DIntegralSolver {
+
 public:
     /**
      * namespace t is defined as a function which takes a double as an input and returns a double.
@@ -38,4 +38,4 @@ public:
     double SolveIntegral() override;
 };
 
-#endif /* MIDPOINTSOLVER_HPP */
+#endif // MIDPOINTSOLVER_HPP

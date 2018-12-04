@@ -2,8 +2,11 @@
 \label{class_abstract1_d_integral_solver}\index{Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}}
 
 
-Inheritance diagram for Abstract1\+D\+Integral\+Solver\+:
-\nopagebreak
+{\ttfamily \#include $<$Abstract1\+D\+Integral\+Solver.\+hpp$>$}
+
+
+
+Inheritance diagram for Abstract1\+D\+Integral\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -12,8 +15,7 @@ Inheritance diagram for Abstract1\+D\+Integral\+Solver\+:
 \end{figure}
 
 
-Collaboration diagram for Abstract1\+D\+Integral\+Solver\+:
-\nopagebreak
+Collaboration diagram for Abstract1\+D\+Integral\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -23,18 +25,48 @@ Collaboration diagram for Abstract1\+D\+Integral\+Solver\+:
 \subsection*{Public Types}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}\label{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}} 
-using {\bfseries t} = std\+::function$<$ double(double)$>$
+using \hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{t} = std\+::function$<$ double(double)$>$
 \end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_abstract1_d_integral_solver_aff8ede805704db176953095b7578db37}\label{class_abstract1_d_integral_solver_aff8ede805704db176953095b7578db37}} 
-{\bfseries Abstract1\+D\+Integral\+Solver} (int n, double x0, double xf, t f)
+\hyperlink{class_abstract1_d_integral_solver_aff8ede805704db176953095b7578db37}{Abstract1\+D\+Integral\+Solver} (int n, double x0, double xf, \hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{t} f)
 \end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
+\subsection{Detailed Description}
+\hyperlink{class_abstract1_d_integral_solver}{Abstract1\+D\+Integral\+Solver} is the abstract mother class for 1D integral solvers. It defines the constructor for the 1D integral solver, which is simply the constructor of its mother class and the type of the function. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}\label{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}} 
+\index{Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}!t@{t}}
+\index{t@{t}!Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{t}{t}}
+{\footnotesize\ttfamily using \hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{Abstract1\+D\+Integral\+Solver\+::t} =  std\+::function$<$double(double)$>$}
+
+namespace t is defined as a function which takes one double as an argument and returns a double. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_abstract1_d_integral_solver_aff8ede805704db176953095b7578db37}\label{class_abstract1_d_integral_solver_aff8ede805704db176953095b7578db37}} 
+\index{Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}!Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}}
+\index{Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}!Abstract1\+D\+Integral\+Solver@{Abstract1\+D\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Abstract1\+D\+Integral\+Solver()}{Abstract1DIntegralSolver()}}
+{\footnotesize\ttfamily Abstract1\+D\+Integral\+Solver\+::\+Abstract1\+D\+Integral\+Solver (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{\hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor for \hyperlink{class_abstract1_d_integral_solver}{Abstract1\+D\+Integral\+Solver} inherited of \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver} 
+\begin{DoxyParams}{Parameters}
+{\em n} & number of steps in the x direction \\
+\hline
+{\em x0} & the beginning of the x interval \\
+\hline
+{\em xf} & the end of the x interval \\
+\hline
+{\em f} & function to integrate dependent on x \\
+\hline
+\end{DoxyParams}
+
+
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-Abstract1\+D\+Integral\+Solver.\+h\end{DoxyCompactItemize}
+Abstract1\+D\+Integral\+Solver.\+hpp\end{DoxyCompactItemize}

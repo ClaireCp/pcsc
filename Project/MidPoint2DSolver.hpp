@@ -1,12 +1,14 @@
-//
-// Created by claire on 25.11.18.
-//
+/*
+ * MidPoint2DSolver.cpp
+ *
+ *  Created on: November 25, 2018
+ *      Author: Claire Capelo <claire.capelo@epfl.ch>
+ */
 
+#ifndef MIDPOINT2DSOLVER_HPP
+#define MIDPOINT2DSOLVER_HPP
 
-#ifndef MIDPOINT2DSOLVER_H
-#define MIDPOINT2DSOLVER_H
-
-#include "Abstract2DIntegralSolver.h"
+#include "Abstract2DIntegralSolver.hpp"
 
 /**
  * Daughter Class of Abstract2DIntegralSolver which computes a 2D integral using the Midpoint2D method.
@@ -42,4 +44,4 @@ public:
     double SolveIntegral() override;
 };
 
-#endif //MIDPOINT2DSOLVER_H
+#endif // MIDPOINT2DSOLVER_HPP

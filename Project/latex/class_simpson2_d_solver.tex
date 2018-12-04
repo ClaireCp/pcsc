@@ -2,12 +2,11 @@
 \label{class_simpson2_d_solver}\index{Simpson2\+D\+Solver@{Simpson2\+D\+Solver}}
 
 
-{\ttfamily \#include $<$Simpson2\+D\+Solver.\+h$>$}
+{\ttfamily \#include $<$Simpson2\+D\+Solver.\+hpp$>$}
 
 
 
-Inheritance diagram for Simpson2\+D\+Solver\+:
-\nopagebreak
+Inheritance diagram for Simpson2\+D\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -16,8 +15,7 @@ Inheritance diagram for Simpson2\+D\+Solver\+:
 \end{figure}
 
 
-Collaboration diagram for Simpson2\+D\+Solver\+:
-\nopagebreak
+Collaboration diagram for Simpson2\+D\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -32,7 +30,7 @@ using \hyperlink{class_simpson2_d_solver_a0267d4b1dec3215e954667b1699e687f}{t} =
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{class_simpson2_d_solver_a16ade6b2b5e89031c452f11e70c2f8fb}{Simpson2\+D\+Solver} (int n\+\_\+x, double x0, double xf, int n\+\_\+y, double y0, double yf, \hyperlink{class_simpson2_d_solver_a0267d4b1dec3215e954667b1699e687f}{t} f)
+\hyperlink{class_simpson2_d_solver_a16ade6b2b5e89031c452f11e70c2f8fb}{Simpson2\+D\+Solver} (int n\+\_\+x, double x0, double xf, int n\+\_\+y, double y0, double yf, \hyperlink{class_abstract2_d_integral_solver_ab660df32953c6b0f9f3a45a8720eaeb3}{t} f)
 \item 
 double \hyperlink{class_simpson2_d_solver_a3fc19037fef83ad05381138d9f7da939}{Solve\+Integral} () override
 \end{DoxyCompactItemize}
@@ -56,7 +54,7 @@ namespace t is defined as a function which takes two doubles as an input and ret
 \index{Simpson2\+D\+Solver@{Simpson2\+D\+Solver}!Simpson2\+D\+Solver@{Simpson2\+D\+Solver}}
 \index{Simpson2\+D\+Solver@{Simpson2\+D\+Solver}!Simpson2\+D\+Solver@{Simpson2\+D\+Solver}}
 \subsubsection{\texorpdfstring{Simpson2\+D\+Solver()}{Simpson2DSolver()}}
-{\footnotesize\ttfamily Simpson2\+D\+Solver\+::\+Simpson2\+D\+Solver (\begin{DoxyParamCaption}\item[{int}]{n\+\_\+x,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{int}]{n\+\_\+y,  }\item[{double}]{y0,  }\item[{double}]{yf,  }\item[{\hyperlink{class_simpson2_d_solver_a0267d4b1dec3215e954667b1699e687f}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily Simpson2\+D\+Solver\+::\+Simpson2\+D\+Solver (\begin{DoxyParamCaption}\item[{int}]{n\+\_\+x,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{int}]{n\+\_\+y,  }\item[{double}]{y0,  }\item[{double}]{yf,  }\item[{\hyperlink{class_abstract2_d_integral_solver_ab660df32953c6b0f9f3a45a8720eaeb3}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor for \hyperlink{class_simpson2_d_solver}{Simpson2\+D\+Solver} inherited of \hyperlink{class_abstract2_d_integral_solver}{Abstract2\+D\+Integral\+Solver} 
 \begin{DoxyParams}{Parameters}
@@ -89,11 +87,11 @@ the calculated integral of f over the rectangular 2D domain
 \end{DoxyReturn}
 
 
-Implements \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double, double)$>$ $>$}.
+Implements \hyperlink{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double, double)$>$ $>$}.
 
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-Simpson2\+D\+Solver.\+h\item 
+Simpson2\+D\+Solver.\+hpp\item 
 Simpson2\+D\+Solver.\+cpp\end{DoxyCompactItemize}

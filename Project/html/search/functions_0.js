@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['midpoint2dsolver',['MidPoint2DSolver',['../class_mid_point2_d_solver.html#a9cc9f211031ce410a2fe5287db720460',1,'MidPoint2DSolver']]],
-  ['midpointsolver',['MidPointSolver',['../class_mid_point_solver.html#afc0c085bfd86c3f17cb6dd0852ab7426',1,'MidPointSolver']]]
+  ['abstract1dintegralsolver',['Abstract1DIntegralSolver',['../class_abstract1_d_integral_solver.html#aff8ede805704db176953095b7578db37',1,'Abstract1DIntegralSolver']]],
+  ['abstract2dintegralsolver',['Abstract2DIntegralSolver',['../class_abstract2_d_integral_solver.html#ad25b34f07befbbad7d3ec2b76d47b2b7',1,'Abstract2DIntegralSolver']]],
+  ['abstractintegralsolver',['AbstractIntegralSolver',['../class_abstract_integral_solver.html#a44d64706b428c7b0bd4c9779c4d32b6f',1,'AbstractIntegralSolver']]]
 ];

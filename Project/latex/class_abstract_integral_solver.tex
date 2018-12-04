@@ -2,8 +2,11 @@
 \label{class_abstract_integral_solver}\index{Abstract\+Integral\+Solver$<$ t $>$@{Abstract\+Integral\+Solver$<$ t $>$}}
 
 
-Collaboration diagram for Abstract\+Integral\+Solver$<$ t $>$\+:
-\nopagebreak
+{\ttfamily \#include $<$Abstract\+Integral\+Solver.\+hpp$>$}
+
+
+
+Collaboration diagram for Abstract\+Integral\+Solver$<$ t $>$\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -13,35 +16,25 @@ Collaboration diagram for Abstract\+Integral\+Solver$<$ t $>$\+:
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}\label{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}} 
-{\bfseries Abstract\+Integral\+Solver} (int number\+Of\+Steps, double initial\+Argument, double final\+Argument, t function)
+\hyperlink{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}{Abstract\+Integral\+Solver} (int number\+Of\+Steps, double initial\+Argument, double final\+Argument, t function)
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}\label{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}} 
-void {\bfseries Set\+Number\+Of\+Steps} (const double n)
+void \hyperlink{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}{Set\+Number\+Of\+Steps} (const double n)
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}\label{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}} 
-void {\bfseries Set\+Interval} (double x0, double xf)
+void \hyperlink{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}{Set\+Interval} (double x0, double xf)
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}\label{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}} 
-void {\bfseries Set\+Function} (t f)
+void \hyperlink{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}{Set\+Function} (t f)
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a094212bdcdd007d75586495ff838f436}\label{class_abstract_integral_solver_a094212bdcdd007d75586495ff838f436}} 
-{\footnotesize template$<$typename param $>$ }\\double {\bfseries my\+Function} (param x) const
+{\footnotesize template$<$typename param $>$ }\\double \hyperlink{class_abstract_integral_solver_ae2f3d78fabe31ebe3b328fb6c52a2209}{Get\+Function\+Value} (param x) const
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}\label{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}} 
-virtual double {\bfseries Solve\+Integral} ()=0
+virtual double \hyperlink{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}{Solve\+Integral} ()=0
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}\label{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}} 
-double {\bfseries Get\+Initial\+Argument} () const
+double \hyperlink{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}{Get\+Initial\+Argument} () const
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}\label{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}} 
-double {\bfseries Get\+Final\+Argument} () const
+double \hyperlink{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}{Get\+Final\+Argument} () const
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}\label{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}} 
-double {\bfseries Get\+Number\+Of\+Steps} () const
+double \hyperlink{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}{Get\+Number\+Of\+Steps} () const
 \item 
-\mbox{\Hypertarget{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}\label{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}} 
-double {\bfseries Get\+Step\+Size} () const
+double \hyperlink{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}{Get\+Step\+Size} () const
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
@@ -49,6 +42,154 @@ double {\bfseries Get\+Step\+Size} () const
 \mbox{\Hypertarget{class_abstract_integral_solver_ae31c391a21c6057e313295ad04de8a69}\label{class_abstract_integral_solver_ae31c391a21c6057e313295ad04de8a69}} 
 t {\bfseries function}
 \end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename t$>$\newline
+class Abstract\+Integral\+Solver$<$ t $>$}
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em t} & \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver} is the abstract mother class for 1D and 2D abstract integral solvers. It provides a basic constructor as well as methods that are common for both 1D and 2D numerical solvers. In order to provide polymorphism to accept both 1D and 2D functions, this is a templated class. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}\label{class_abstract_integral_solver_a44d64706b428c7b0bd4c9779c4d32b6f}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Abstract\+Integral\+Solver()}{AbstractIntegralSolver()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+\hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::\hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver} (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Steps,  }\item[{double}]{initial\+Argument,  }\item[{double}]{final\+Argument,  }\item[{t}]{function }\end{DoxyParamCaption})}
+
+Constructor with every necessary argument 
+\begin{DoxyParams}{Parameters}
+{\em number\+Of\+Steps} & the number of steps \\
+\hline
+{\em initial\+Argument} & the beginning of the interval \\
+\hline
+{\em final\+Argument} & the end of the interval \\
+\hline
+{\em function} & the function \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}\label{class_abstract_integral_solver_a30f25ec2dff6d5881875952bec1d1774}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Get\+Final\+Argument@{Get\+Final\+Argument}}
+\index{Get\+Final\+Argument@{Get\+Final\+Argument}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Get\+Final\+Argument()}{GetFinalArgument()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Get\+Final\+Argument (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to access to the end of the interval \begin{DoxyReturn}{Returns}
+the final argument 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_abstract_integral_solver_ae2f3d78fabe31ebe3b328fb6c52a2209}\label{class_abstract_integral_solver_ae2f3d78fabe31ebe3b328fb6c52a2209}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Get\+Function\+Value@{Get\+Function\+Value}}
+\index{Get\+Function\+Value@{Get\+Function\+Value}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Get\+Function\+Value()}{GetFunctionValue()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+template$<$typename param $>$ \\
+double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Get\+Function\+Value (\begin{DoxyParamCaption}\item[{param}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to get the value of the function at x 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em param} & the type of the function argument x \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the argument of the function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value of the function at x 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}\label{class_abstract_integral_solver_adb8ef30d8231a173ee85e91155829daa}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Get\+Initial\+Argument@{Get\+Initial\+Argument}}
+\index{Get\+Initial\+Argument@{Get\+Initial\+Argument}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Get\+Initial\+Argument()}{GetInitialArgument()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Get\+Initial\+Argument (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to access to the beginning of the interval \begin{DoxyReturn}{Returns}
+the initial argument 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}\label{class_abstract_integral_solver_a90148ecbeb6396638c428a319a7031dd}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Get\+Number\+Of\+Steps@{Get\+Number\+Of\+Steps}}
+\index{Get\+Number\+Of\+Steps@{Get\+Number\+Of\+Steps}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Get\+Number\+Of\+Steps()}{GetNumberOfSteps()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Get\+Number\+Of\+Steps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to access to the number of steps used \begin{DoxyReturn}{Returns}
+the number of steps 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}\label{class_abstract_integral_solver_a0220c77810a813699748b875627da1a7}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Get\+Step\+Size@{Get\+Step\+Size}}
+\index{Get\+Step\+Size@{Get\+Step\+Size}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Get\+Step\+Size()}{GetStepSize()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Get\+Step\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to calculate the step size which is function of the interval and the number of steps \begin{DoxyReturn}{Returns}
+the step size 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}\label{class_abstract_integral_solver_adfb6eb8d70ebaf103e25ce468ac38b40}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Set\+Function@{Set\+Function}}
+\index{Set\+Function@{Set\+Function}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Set\+Function()}{SetFunction()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+void \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Set\+Function (\begin{DoxyParamCaption}\item[{t}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to set the function of type t 
+\begin{DoxyParams}{Parameters}
+{\em f} & the function of type t \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}\label{class_abstract_integral_solver_a891baae0103a8b488cf6cd007c109844}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Set\+Interval@{Set\+Interval}}
+\index{Set\+Interval@{Set\+Interval}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Set\+Interval()}{SetInterval()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+void \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Set\+Interval (\begin{DoxyParamCaption}\item[{double}]{x0,  }\item[{double}]{xf }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to set the interval in which the function will be integrated 
+\begin{DoxyParams}{Parameters}
+{\em x0} & the initial argument \\
+\hline
+{\em xf} & the final argument \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}\label{class_abstract_integral_solver_ab74cb9894daf3bcc97e14158a6087d99}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Set\+Number\+Of\+Steps@{Set\+Number\+Of\+Steps}}
+\index{Set\+Number\+Of\+Steps@{Set\+Number\+Of\+Steps}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Set\+Number\+Of\+Steps()}{SetNumberOfSteps()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+void \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Set\+Number\+Of\+Steps (\begin{DoxyParamCaption}\item[{const double}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method to set the number of steps / the number of sub intervals 
+\begin{DoxyParams}{Parameters}
+{\em n} & the number of steps \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}\label{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}} 
+\index{Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}!Solve\+Integral@{Solve\+Integral}}
+\index{Solve\+Integral@{Solve\+Integral}!Abstract\+Integral\+Solver@{Abstract\+Integral\+Solver}}
+\subsubsection{\texorpdfstring{Solve\+Integral()}{SolveIntegral()}}
+{\footnotesize\ttfamily template$<$typename t$>$ \\
+virtual double \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver}$<$ t $>$\+::Solve\+Integral (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method to solve the integral \begin{DoxyReturn}{Returns}
+integral of the function over the given domain 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_mid_point2_d_solver_a45c6c6802b7d40c35f1f60f1a39f5042}{Mid\+Point2\+D\+Solver}, \hyperlink{class_simpson2_d_solver_a3fc19037fef83ad05381138d9f7da939}{Simpson2\+D\+Solver}, \hyperlink{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}{Trapez2\+D\+Solver}, \hyperlink{class_mid_point_solver_a3e7224a0fb07b3ef7f5f9e7e577216cf}{Mid\+Point\+Solver}, \hyperlink{class_simpson_solver_a4843e8bfc0344d9a9cae8688d1114667}{Simpson\+Solver}, and \hyperlink{class_trapez_solver_a15651e2fba081b87b484a83fc424c81d}{Trapez\+Solver}.
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

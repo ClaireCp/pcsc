@@ -2,8 +2,11 @@
 \label{class_trapez2_d_solver}\index{Trapez2\+D\+Solver@{Trapez2\+D\+Solver}}
 
 
-Inheritance diagram for Trapez2\+D\+Solver\+:
-\nopagebreak
+{\ttfamily \#include $<$Trapez2\+D\+Solver.\+hpp$>$}
+
+
+
+Inheritance diagram for Trapez2\+D\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -12,8 +15,7 @@ Inheritance diagram for Trapez2\+D\+Solver\+:
 \end{figure}
 
 
-Collaboration diagram for Trapez2\+D\+Solver\+:
-\nopagebreak
+Collaboration diagram for Trapez2\+D\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -23,22 +25,73 @@ Collaboration diagram for Trapez2\+D\+Solver\+:
 \subsection*{Public Types}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}\label{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}} 
-using {\bfseries t} = std\+::function$<$ double(double, double)$>$
+using \hyperlink{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}{t} = std\+::function$<$ double(double, double)$>$
 \end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_trapez2_d_solver_a95b57f9279e40991610b4e91747d7e0d}\label{class_trapez2_d_solver_a95b57f9279e40991610b4e91747d7e0d}} 
-{\bfseries Trapez2\+D\+Solver} (int n\+\_\+x, double x0, double xf, int n\+\_\+y, double y0, double yf, t f)
+\hyperlink{class_trapez2_d_solver_a95b57f9279e40991610b4e91747d7e0d}{Trapez2\+D\+Solver} (int n\+\_\+x, double x0, double xf, int n\+\_\+y, double y0, double yf, \hyperlink{class_abstract2_d_integral_solver_ab660df32953c6b0f9f3a45a8720eaeb3}{t} f)
 \item 
-\mbox{\Hypertarget{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}\label{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}} 
-double {\bfseries Solve\+Integral} () override
+double \hyperlink{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}{Solve\+Integral} () override
 \end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
+\subsection{Detailed Description}
+Daughter Class of \hyperlink{class_abstract2_d_integral_solver}{Abstract2\+D\+Integral\+Solver} which computes a 2D integral using the Trapezoidal2D method. The Trapezoidal2D algorithm considers the function at the 4 corners of the domain with equal weight. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}\label{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}} 
+\index{Trapez2\+D\+Solver@{Trapez2\+D\+Solver}!t@{t}}
+\index{t@{t}!Trapez2\+D\+Solver@{Trapez2\+D\+Solver}}
+\subsubsection{\texorpdfstring{t}{t}}
+{\footnotesize\ttfamily using \hyperlink{class_trapez2_d_solver_a2af165a7995664482df24eec24a39ec3}{Trapez2\+D\+Solver\+::t} =  std\+::function$<$double(double, double)$>$}
+
+namespace t is defined as a function which takes two doubles as an input and returns a double. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_trapez2_d_solver_a95b57f9279e40991610b4e91747d7e0d}\label{class_trapez2_d_solver_a95b57f9279e40991610b4e91747d7e0d}} 
+\index{Trapez2\+D\+Solver@{Trapez2\+D\+Solver}!Trapez2\+D\+Solver@{Trapez2\+D\+Solver}}
+\index{Trapez2\+D\+Solver@{Trapez2\+D\+Solver}!Trapez2\+D\+Solver@{Trapez2\+D\+Solver}}
+\subsubsection{\texorpdfstring{Trapez2\+D\+Solver()}{Trapez2DSolver()}}
+{\footnotesize\ttfamily Trapez2\+D\+Solver\+::\+Trapez2\+D\+Solver (\begin{DoxyParamCaption}\item[{int}]{n\+\_\+x,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{int}]{n\+\_\+y,  }\item[{double}]{y0,  }\item[{double}]{yf,  }\item[{\hyperlink{class_abstract2_d_integral_solver_ab660df32953c6b0f9f3a45a8720eaeb3}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor for \hyperlink{class_trapez2_d_solver}{Trapez2\+D\+Solver} inherited of \hyperlink{class_abstract2_d_integral_solver}{Abstract2\+D\+Integral\+Solver} 
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+x} & number of steps in the x direction \\
+\hline
+{\em x0} & the beginning of the x interval \\
+\hline
+{\em xf} & the end of the x interval \\
+\hline
+{\em n\+\_\+y} & number of steps in the y direction \\
+\hline
+{\em y0} & the beginning of the y interval \\
+\hline
+{\em yf} & the end of the y interval \\
+\hline
+{\em f} & function to integrate dependent on x and y \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}\label{class_trapez2_d_solver_a88f724ff6fd2c566d54f5d0ccc500cb9}} 
+\index{Trapez2\+D\+Solver@{Trapez2\+D\+Solver}!Solve\+Integral@{Solve\+Integral}}
+\index{Solve\+Integral@{Solve\+Integral}!Trapez2\+D\+Solver@{Trapez2\+D\+Solver}}
+\subsubsection{\texorpdfstring{Solve\+Integral()}{SolveIntegral()}}
+{\footnotesize\ttfamily double Trapez2\+D\+Solver\+::\+Solve\+Integral (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Overridden virtual function to solve the integral for the 2D simpson method \begin{DoxyReturn}{Returns}
+the calculated integral of f over the rectangular 2D domain 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double, double)$>$ $>$}.
+
+
+
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-Trapez2\+D\+Solver.\+h\item 
+Trapez2\+D\+Solver.\+hpp\item 
 Trapez2\+D\+Solver.\+cpp\end{DoxyCompactItemize}

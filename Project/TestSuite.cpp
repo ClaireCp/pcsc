@@ -3,7 +3,7 @@
 //
 /**
 
-#include "testSuite.h"
+#include "testSuite.hpp"
 #include "MidPointSolver.hpp"
 #include <cmath>
 #include <exception>

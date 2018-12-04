@@ -1,15 +1,14 @@
 /*
  * SimpsonSolver.hpp
  *
- *  Created on: Nov 25, 2018
- *      Author: beschenk
+ *  Created on: November 25, 2018
+ *      Author: Benjamin Schenk <benjamin.schenk@epfl.ch>
  */
 
 #ifndef SIMPSONSOLVER_HPP
 #define SIMPSONSOLVER_HPP
 
-#include "AbstractIntegralSolver.hpp"
-#include "Abstract1DIntegralSolver.h"
+#include "Abstract1DIntegralSolver.hpp"
 
 /**
  * Daughter Class of Abstract1DIntegralSolver which computes a 1D integral using the Simpson2D method.
@@ -28,7 +27,7 @@ public:
      * @param n number of steps in the x direction
      * @param x0 the beginning of the x interval
      * @param xf the end of the x interval
-     * @param f function to integrate dependent on x
+     * @param f function to integrate over the interval [x0, xf] dependent on x
      */
     SimpsonSolver(int n, double x0, double xf, t f): Abstract1DIntegralSolver(n, x0, xf, f) {}
 
@@ -39,4 +38,4 @@ public:
     double SolveIntegral() override;
 };
 
-#endif /* TRAPEZSOLVER_HPP */
+#endif

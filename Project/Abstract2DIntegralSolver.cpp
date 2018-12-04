@@ -4,8 +4,8 @@
 
 #include <iostream>
 #include "AbstractIntegralSolver.hpp"
-#include "Abstract2DIntegralSolver.h"
-#include "Tools.h"
+#include "Abstract2DIntegralSolver.hpp"
+#include "Tools.hpp"
 
 Abstract2DIntegralSolver::Abstract2DIntegralSolver(int n_x, double x0, double xf,
                                                    int n_y, double y0, double yf,

@@ -2,12 +2,13 @@
  * AbstractIntegralSolver.cpp
  *
  *  Created on: Nov 25, 2018
- *      Author: beschenk
+ *      Author: Benjamin Schenk <benjamin.schenk@epfl.ch>
  */
 
+ // TODO: Do we really need this file?
 #include <iostream>
 #include "AbstractIntegralSolver.hpp"
-#include "Tools.h"
+#include "Tools.hpp"
 
 template <typename t>
 AbstractIntegralSolver<t>::AbstractIntegralSolver(int n, double x0, double xf, t f) {

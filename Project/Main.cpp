@@ -1,8 +1,6 @@
 /*
  * Main.cpp
  *
- * <--- Description of the program goes here.
- *
  * Created on: November 25, 2018
  * 	   Author: Benjamin Schenk <benjamin.schenk@epfl>
  */
@@ -13,15 +11,16 @@
 #include <iostream>
 #include <cmath>
 #include "AbstractIntegralSolver.hpp"
+#include "Abstract1DIntegralSolver.hpp"
 #include "MidPointSolver.hpp"
 #include "TrapezSolver.hpp"
 #include "SimpsonSolver.hpp"
-#include "Abstract2DIntegralSolver.h"
-#include "MidPoint2DSolver.h"
-#include "Simpson2DSolver.h"
-#include "Trapez2DSolver.h"
+#include "Abstract2DIntegralSolver.hpp"
+#include "MidPoint2DSolver.hpp"
+#include "Trapez2DSolver.hpp"
+#include "Simpson2DSolver.hpp"
 
-#include <cmath>
+
 #include <exception>
 #include <gtest/gtest.h>
 
@@ -51,38 +50,38 @@ double function2D(double x, double y) {
 }
 
 
-TEST(IntervalTest, reversed_intervals) {
+/*TEST(IntervalTest, reversed_intervals) {
    MidPointSolver* MSolver = new MidPointSolver(10, 12, -4, function);
    EXPECT_EQ(-4, MSolver->GetInitialArgument());
    EXPECT_EQ(12, MSolver->GetFinalArgument());
 }
-
+*/
 
 int main(int argc, char* argv[])
 {
 	MidPointSolver* MSolver = new MidPointSolver(10, 0, 2, function);
     double MIntegral = MSolver->SolveIntegral();
-    std::cout << MIntegral << std::endl;
+    std::cout << "Integral of x² from 0 to 2 using MidPoint " << MIntegral << std::endl;
 
     MidPoint2DSolver* M2DSolverBis = new MidPoint2DSolver(10, 0, 2, 10, 0, 2, function2D);
     double M2DIntegralBis = M2DSolverBis->SolveIntegral();
-    std::cout << M2DIntegralBis << std::endl;
+    std::cout << "Integral of y*x² from 0 to 2 using MidPoint2D " << M2DIntegralBis << std::endl;
 
     SimpsonSolver* SSolver = new SimpsonSolver(10, 0, 2, function);
     double SIntegral = SSolver->SolveIntegral();
-    std::cout << SIntegral << std::endl;
+    std::cout << "Integral of x² from 0 to 2 using Simpson " << SIntegral << std::endl;
 
     Simpson2DSolver* S2DSolverBis = new Simpson2DSolver(10, 0, 2, 10, 0, 2, function2D);
     double S2DIntegralBis = S2DSolverBis->SolveIntegral();
-    std::cout << S2DIntegralBis << std::endl;
+    std::cout << "Integral of y*x² from 0 to 2 using Simpson2D " << S2DIntegralBis << std::endl;
 
     TrapezSolver* TSolver = new TrapezSolver(10, 0, 2, function);
     double TIntegral = TSolver->SolveIntegral();
-    std::cout << TIntegral << std::endl;
+    std::cout << "Integral of x² from 0 to 2 using Trapez " << TIntegral << std::endl;
 
     Trapez2DSolver* T2DSolverBis = new Trapez2DSolver(10, 0, 2, 10, 0, 2, function2D);
     double T2DIntegralBis = T2DSolverBis->SolveIntegral();
-    std::cout << T2DIntegralBis << std::endl;
+    std::cout << "Integral of y*x² from 0 to 2 using Trapez2D " << T2DIntegralBis << std::endl;
 
     MidPoint2DSolver* M2DSolver = new MidPoint2DSolver(3, 0.1, 1.1, 3, 0.2, 1.2, function2D);
     double M2DIntegral = M2DSolver->SolveIntegral();
@@ -96,10 +95,10 @@ int main(int argc, char* argv[])
     double T2DIntegral = T2DSolver->SolveIntegral();
     std::cout << T2DIntegral << std::endl;
 
-    testing::InitGoogleTest(&argc, argv);
+/*    testing::InitGoogleTest(&argc, argv);
     RUN_ALL_TESTS();
 
-
+*/
 
 	/**
 	MSolver->SetFunction(function);

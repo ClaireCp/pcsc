@@ -1,13 +1,14 @@
-//
-// Created by claire on 25.11.18.
-//
+/*
+ * Simpson2DSolver.hpp
+ *
+ *  Created on: November 25, 2018
+ *      Author: Benjamin Schenk <benjamin.schenk@epfl.ch>
+ */
 
+#ifndef SIMPSON2DSOLVER_HPP
+#define SIMPSON2DSOLVER_HPP
 
-#ifndef SIMPSON2DSOLVER_H
-#define SIMPSON2DSOLVER_H
-
-
-#include "Abstract2DIntegralSolver.h"
+#include "Abstract2DIntegralSolver.hpp"
 
 /**
  * Daughter Class of Abstract2DIntegralSolver which computes a 2D integral using the Simpson2D method.
@@ -43,4 +44,4 @@ public:
 };
 
 
-#endif //SIMPSON2DSOLVER_H
+#endif // SIMPSON2DSOLVER_HPP

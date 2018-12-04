@@ -6,8 +6,7 @@
 
 
 
-Inheritance diagram for Simpson\+Solver\+:
-\nopagebreak
+Inheritance diagram for Simpson\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -16,8 +15,7 @@ Inheritance diagram for Simpson\+Solver\+:
 \end{figure}
 
 
-Collaboration diagram for Simpson\+Solver\+:
-\nopagebreak
+Collaboration diagram for Simpson\+Solver\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -32,7 +30,7 @@ using \hyperlink{class_simpson_solver_aa31ea3c884d669836ba1d0399aa53479}{t} = st
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{class_simpson_solver_abc9059969016bce44332013d48baeed2}{Simpson\+Solver} (int n, double x0, double xf, \hyperlink{class_simpson_solver_aa31ea3c884d669836ba1d0399aa53479}{t} f)
+\hyperlink{class_simpson_solver_abc9059969016bce44332013d48baeed2}{Simpson\+Solver} (int n, double x0, double xf, \hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{t} f)
 \item 
 double \hyperlink{class_simpson_solver_a4843e8bfc0344d9a9cae8688d1114667}{Solve\+Integral} () override
 \end{DoxyCompactItemize}
@@ -56,7 +54,7 @@ namespace t is defined as a function which takes a double as an input and return
 \index{Simpson\+Solver@{Simpson\+Solver}!Simpson\+Solver@{Simpson\+Solver}}
 \index{Simpson\+Solver@{Simpson\+Solver}!Simpson\+Solver@{Simpson\+Solver}}
 \subsubsection{\texorpdfstring{Simpson\+Solver()}{SimpsonSolver()}}
-{\footnotesize\ttfamily Simpson\+Solver\+::\+Simpson\+Solver (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{\hyperlink{class_simpson_solver_aa31ea3c884d669836ba1d0399aa53479}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily Simpson\+Solver\+::\+Simpson\+Solver (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{double}]{x0,  }\item[{double}]{xf,  }\item[{\hyperlink{class_abstract1_d_integral_solver_a7d8e60dfe7eb70e5c19dd71ac0b03880}{t}}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor for \hyperlink{class_simpson_solver}{Simpson\+Solver} inherited of \hyperlink{class_abstract1_d_integral_solver}{Abstract1\+D\+Integral\+Solver} 
 \begin{DoxyParams}{Parameters}
@@ -66,7 +64,7 @@ Constructor for \hyperlink{class_simpson_solver}{Simpson\+Solver} inherited of \
 \hline
 {\em xf} & the end of the x interval \\
 \hline
-{\em f} & function to integrate dependent on x \\
+{\em f} & function to integrate over the interval \mbox{[}x0, xf\mbox{]} dependent on x \\
 \hline
 \end{DoxyParams}
 
@@ -83,7 +81,7 @@ the calculated integral of f over the interval \mbox{[}x0, xf\mbox{]}
 \end{DoxyReturn}
 
 
-Implements \hyperlink{class_abstract_integral_solver}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double)$>$ $>$}.
+Implements \hyperlink{class_abstract_integral_solver_ad87cb44c5ef3122bc95be48f473ba399}{Abstract\+Integral\+Solver$<$ std\+::function$<$ double(double)$>$ $>$}.
 
 
 
