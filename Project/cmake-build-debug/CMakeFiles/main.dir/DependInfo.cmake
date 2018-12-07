@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pcsc/pcsc/Project/Abstract2DIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Abstract2DIntegralSolver.o"
-  "/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/AbstractIntegralSolver.o"
-  "/home/pcsc/pcsc/Project/MidPoint2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPoint2DSolver.o"
-  "/home/pcsc/pcsc/Project/MidPointSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPointSolver.o"
-  "/home/pcsc/pcsc/Project/Simpson2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Simpson2DSolver.o"
-  "/home/pcsc/pcsc/Project/SimpsonSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/SimpsonSolver.o"
-  "/home/pcsc/pcsc/Project/Tools.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Tools.o"
-  "/home/pcsc/pcsc/Project/Trapez2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Trapez2DSolver.o"
-  "/home/pcsc/pcsc/Project/TrapezSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TrapezSolver.o"
-  "/home/pcsc/pcsc/Project/main.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/main.o"
-  "/home/pcsc/pcsc/Project/testSuite.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/testSuite.o"
+  "/home/pcsc/pcsc/Project/Abstract2DIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/AbstractIntegralSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/Main.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Main.cpp.o"
+  "/home/pcsc/pcsc/Project/MidPoint2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPoint2DSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/MidPointSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPointSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/Simpson2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Simpson2DSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/SimpsonSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/SimpsonSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/TestSuite.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TestSuite.cpp.o"
+  "/home/pcsc/pcsc/Project/Tools.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Tools.cpp.o"
+  "/home/pcsc/pcsc/Project/Trapez2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Trapez2DSolver.cpp.o"
+  "/home/pcsc/pcsc/Project/TrapezSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TrapezSolver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

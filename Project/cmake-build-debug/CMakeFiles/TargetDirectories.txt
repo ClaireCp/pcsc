@@ -1,3 +1,5 @@
-/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/doxygen.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/test.dir

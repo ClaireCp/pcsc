@@ -78,6 +78,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/opt/clion-2018.2.3/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles /home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/progress.marks
@@ -123,170 +134,315 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-# target to build an object file
-Abstract2DIntegralSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.o
+#=============================================================================
+# Target rules for targets named doxygen
+
+# Build rule for target.
+doxygen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen
+.PHONY : doxygen
+
+# fast build rule for target.
+doxygen/fast:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+.PHONY : doxygen/fast
+
+Abstract2DIntegralSolver.o: Abstract2DIntegralSolver.cpp.o
+
 .PHONY : Abstract2DIntegralSolver.o
 
-# target to preprocess a source file
-Abstract2DIntegralSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.i
+# target to build an object file
+Abstract2DIntegralSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.o
+.PHONY : Abstract2DIntegralSolver.cpp.o
+
+Abstract2DIntegralSolver.i: Abstract2DIntegralSolver.cpp.i
+
 .PHONY : Abstract2DIntegralSolver.i
 
-# target to generate assembly for a file
-Abstract2DIntegralSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.s
+# target to preprocess a source file
+Abstract2DIntegralSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.i
+.PHONY : Abstract2DIntegralSolver.cpp.i
+
+Abstract2DIntegralSolver.s: Abstract2DIntegralSolver.cpp.s
+
 .PHONY : Abstract2DIntegralSolver.s
 
-# target to build an object file
-AbstractIntegralSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.o
+# target to generate assembly for a file
+Abstract2DIntegralSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.s
+.PHONY : Abstract2DIntegralSolver.cpp.s
+
+AbstractIntegralSolver.o: AbstractIntegralSolver.cpp.o
+
 .PHONY : AbstractIntegralSolver.o
 
-# target to preprocess a source file
-AbstractIntegralSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.i
+# target to build an object file
+AbstractIntegralSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.o
+.PHONY : AbstractIntegralSolver.cpp.o
+
+AbstractIntegralSolver.i: AbstractIntegralSolver.cpp.i
+
 .PHONY : AbstractIntegralSolver.i
 
-# target to generate assembly for a file
-AbstractIntegralSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.s
+# target to preprocess a source file
+AbstractIntegralSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.i
+.PHONY : AbstractIntegralSolver.cpp.i
+
+AbstractIntegralSolver.s: AbstractIntegralSolver.cpp.s
+
 .PHONY : AbstractIntegralSolver.s
 
+# target to generate assembly for a file
+AbstractIntegralSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.s
+.PHONY : AbstractIntegralSolver.cpp.s
+
+Main.o: Main.cpp.o
+
+.PHONY : Main.o
+
 # target to build an object file
-MidPoint2DSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.o
+Main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.o
+.PHONY : Main.cpp.o
+
+Main.i: Main.cpp.i
+
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
+MidPoint2DSolver.o: MidPoint2DSolver.cpp.o
+
 .PHONY : MidPoint2DSolver.o
 
-# target to preprocess a source file
-MidPoint2DSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.i
+# target to build an object file
+MidPoint2DSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.o
+.PHONY : MidPoint2DSolver.cpp.o
+
+MidPoint2DSolver.i: MidPoint2DSolver.cpp.i
+
 .PHONY : MidPoint2DSolver.i
 
-# target to generate assembly for a file
-MidPoint2DSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.s
+# target to preprocess a source file
+MidPoint2DSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.i
+.PHONY : MidPoint2DSolver.cpp.i
+
+MidPoint2DSolver.s: MidPoint2DSolver.cpp.s
+
 .PHONY : MidPoint2DSolver.s
 
-# target to build an object file
-MidPointSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.o
+# target to generate assembly for a file
+MidPoint2DSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.s
+.PHONY : MidPoint2DSolver.cpp.s
+
+MidPointSolver.o: MidPointSolver.cpp.o
+
 .PHONY : MidPointSolver.o
 
-# target to preprocess a source file
-MidPointSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.i
+# target to build an object file
+MidPointSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.o
+.PHONY : MidPointSolver.cpp.o
+
+MidPointSolver.i: MidPointSolver.cpp.i
+
 .PHONY : MidPointSolver.i
 
-# target to generate assembly for a file
-MidPointSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.s
+# target to preprocess a source file
+MidPointSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.i
+.PHONY : MidPointSolver.cpp.i
+
+MidPointSolver.s: MidPointSolver.cpp.s
+
 .PHONY : MidPointSolver.s
 
-# target to build an object file
-Simpson2DSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.o
+# target to generate assembly for a file
+MidPointSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.s
+.PHONY : MidPointSolver.cpp.s
+
+Simpson2DSolver.o: Simpson2DSolver.cpp.o
+
 .PHONY : Simpson2DSolver.o
 
-# target to preprocess a source file
-Simpson2DSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.i
+# target to build an object file
+Simpson2DSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.o
+.PHONY : Simpson2DSolver.cpp.o
+
+Simpson2DSolver.i: Simpson2DSolver.cpp.i
+
 .PHONY : Simpson2DSolver.i
 
-# target to generate assembly for a file
-Simpson2DSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.s
+# target to preprocess a source file
+Simpson2DSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.i
+.PHONY : Simpson2DSolver.cpp.i
+
+Simpson2DSolver.s: Simpson2DSolver.cpp.s
+
 .PHONY : Simpson2DSolver.s
 
-# target to build an object file
-SimpsonSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.o
+# target to generate assembly for a file
+Simpson2DSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.s
+.PHONY : Simpson2DSolver.cpp.s
+
+SimpsonSolver.o: SimpsonSolver.cpp.o
+
 .PHONY : SimpsonSolver.o
 
-# target to preprocess a source file
-SimpsonSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.i
+# target to build an object file
+SimpsonSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.o
+.PHONY : SimpsonSolver.cpp.o
+
+SimpsonSolver.i: SimpsonSolver.cpp.i
+
 .PHONY : SimpsonSolver.i
 
-# target to generate assembly for a file
-SimpsonSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.s
+# target to preprocess a source file
+SimpsonSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.i
+.PHONY : SimpsonSolver.cpp.i
+
+SimpsonSolver.s: SimpsonSolver.cpp.s
+
 .PHONY : SimpsonSolver.s
 
+# target to generate assembly for a file
+SimpsonSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.s
+.PHONY : SimpsonSolver.cpp.s
+
+TestSuite.o: TestSuite.cpp.o
+
+.PHONY : TestSuite.o
+
 # target to build an object file
-Tools.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.o
+TestSuite.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.o
+.PHONY : TestSuite.cpp.o
+
+TestSuite.i: TestSuite.cpp.i
+
+.PHONY : TestSuite.i
+
+# target to preprocess a source file
+TestSuite.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.i
+.PHONY : TestSuite.cpp.i
+
+TestSuite.s: TestSuite.cpp.s
+
+.PHONY : TestSuite.s
+
+# target to generate assembly for a file
+TestSuite.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.s
+.PHONY : TestSuite.cpp.s
+
+Tools.o: Tools.cpp.o
+
 .PHONY : Tools.o
 
-# target to preprocess a source file
-Tools.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.i
+# target to build an object file
+Tools.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.o
+.PHONY : Tools.cpp.o
+
+Tools.i: Tools.cpp.i
+
 .PHONY : Tools.i
 
-# target to generate assembly for a file
-Tools.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.s
+# target to preprocess a source file
+Tools.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.i
+.PHONY : Tools.cpp.i
+
+Tools.s: Tools.cpp.s
+
 .PHONY : Tools.s
 
-# target to build an object file
-Trapez2DSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.o
+# target to generate assembly for a file
+Tools.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.s
+.PHONY : Tools.cpp.s
+
+Trapez2DSolver.o: Trapez2DSolver.cpp.o
+
 .PHONY : Trapez2DSolver.o
 
-# target to preprocess a source file
-Trapez2DSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.i
+# target to build an object file
+Trapez2DSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.o
+.PHONY : Trapez2DSolver.cpp.o
+
+Trapez2DSolver.i: Trapez2DSolver.cpp.i
+
 .PHONY : Trapez2DSolver.i
 
-# target to generate assembly for a file
-Trapez2DSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.s
+# target to preprocess a source file
+Trapez2DSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.i
+.PHONY : Trapez2DSolver.cpp.i
+
+Trapez2DSolver.s: Trapez2DSolver.cpp.s
+
 .PHONY : Trapez2DSolver.s
 
-# target to build an object file
-TrapezSolver.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.o
+# target to generate assembly for a file
+Trapez2DSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.s
+.PHONY : Trapez2DSolver.cpp.s
+
+TrapezSolver.o: TrapezSolver.cpp.o
+
 .PHONY : TrapezSolver.o
 
-# target to preprocess a source file
-TrapezSolver.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.i
+# target to build an object file
+TrapezSolver.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.o
+.PHONY : TrapezSolver.cpp.o
+
+TrapezSolver.i: TrapezSolver.cpp.i
+
 .PHONY : TrapezSolver.i
 
-# target to generate assembly for a file
-TrapezSolver.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.s
+# target to preprocess a source file
+TrapezSolver.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.i
+.PHONY : TrapezSolver.cpp.i
+
+TrapezSolver.s: TrapezSolver.cpp.s
+
 .PHONY : TrapezSolver.s
 
-# target to build an object file
-main.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.o
-.PHONY : main.o
-
-# target to preprocess a source file
-main.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.i
-.PHONY : main.i
-
 # target to generate assembly for a file
-main.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.s
-.PHONY : main.s
-
-# target to build an object file
-testSuite.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.o
-.PHONY : testSuite.o
-
-# target to preprocess a source file
-testSuite.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.i
-.PHONY : testSuite.i
-
-# target to generate assembly for a file
-testSuite.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testSuite.s
-.PHONY : testSuite.s
+TrapezSolver.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.s
+.PHONY : TrapezSolver.cpp.s
 
 # Help Target
 help:
@@ -294,15 +450,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... rebuild_cache"
+	@echo "... doxygen"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... Abstract2DIntegralSolver.o"
 	@echo "... Abstract2DIntegralSolver.i"
 	@echo "... Abstract2DIntegralSolver.s"
 	@echo "... AbstractIntegralSolver.o"
 	@echo "... AbstractIntegralSolver.i"
 	@echo "... AbstractIntegralSolver.s"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 	@echo "... MidPoint2DSolver.o"
 	@echo "... MidPoint2DSolver.i"
 	@echo "... MidPoint2DSolver.s"
@@ -315,6 +476,9 @@ help:
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"
+	@echo "... TestSuite.o"
+	@echo "... TestSuite.i"
+	@echo "... TestSuite.s"
 	@echo "... Tools.o"
 	@echo "... Tools.i"
 	@echo "... Tools.s"
@@ -324,12 +488,6 @@ help:
 	@echo "... TrapezSolver.o"
 	@echo "... TrapezSolver.i"
 	@echo "... TrapezSolver.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... testSuite.o"
-	@echo "... testSuite.i"
-	@echo "... testSuite.s"
 .PHONY : help
 
 

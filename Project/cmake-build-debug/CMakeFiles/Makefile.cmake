@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "CMakeDoxyfile.in"
+  "CMakeDoxygenDefaults.cmake"
   "CMakeFiles/3.12.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.12.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.12.1/CMakeSystem.cmake"
@@ -21,10 +23,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckIncludeFile.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckLibraryExists.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckSymbolExists.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/GNU-C.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/GNU-CXX.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/GNU.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/FindDoxygen.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/FindGTest.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/FindPackageMessage.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/FindThreads.cmake"
+  "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/GoogleTest.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU-C.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU-CXX.cmake"
   "/opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU.cmake"
@@ -41,10 +52,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "Doxyfile.doxygen"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/doxygen.dir/DependInfo.cmake"
   )
