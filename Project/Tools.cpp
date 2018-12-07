@@ -9,7 +9,7 @@
 
 void checkNumberOfSteps(int n) {
     if (n < 0) {
-        std::cout << "The number of iteration has to be strictly superior to 0." << std::endl;
+        std::cerr << "The number of iteration has to be strictly superior to 0." << std::endl;
         exit(1);
     }
 }

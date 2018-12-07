@@ -46,12 +46,6 @@ CMakeFiles/main.dir/SimpsonSolver.cpp.o: ../SimpsonSolver.cpp
 CMakeFiles/main.dir/SimpsonSolver.cpp.o: ../SimpsonSolver.hpp
 CMakeFiles/main.dir/SimpsonSolver.cpp.o: ../Tools.hpp
 
-CMakeFiles/main.dir/TestSuite.cpp.o: ../Abstract1DIntegralSolver.hpp
-CMakeFiles/main.dir/TestSuite.cpp.o: ../AbstractIntegralSolver.hpp
-CMakeFiles/main.dir/TestSuite.cpp.o: ../MidPointSolver.hpp
-CMakeFiles/main.dir/TestSuite.cpp.o: ../TestSuite.cpp
-CMakeFiles/main.dir/TestSuite.cpp.o: ../Tools.hpp
-
 CMakeFiles/main.dir/Tools.cpp.o: ../Tools.cpp
 CMakeFiles/main.dir/Tools.cpp.o: ../Tools.hpp
 

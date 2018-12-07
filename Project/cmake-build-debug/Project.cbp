@@ -148,12 +148,6 @@
 		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.hpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/TestSuite.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/pcsc/pcsc/Project/TestSuite.hpp">
-			<Option target="main"/>
-		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Tools.cpp">
 			<Option target="main"/>
 		</Unit>

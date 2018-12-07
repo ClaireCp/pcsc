@@ -49,6 +49,8 @@ exception
 -
 gtest/gtest.h
 -
+gtest/gtest-death-test.h
+-
 
 /home/pcsc/pcsc/Project/MidPoint2DSolver.hpp
 Abstract2DIntegralSolver.hpp
@@ -65,6 +67,14 @@ Abstract2DIntegralSolver.hpp
 /home/pcsc/pcsc/Project/SimpsonSolver.hpp
 Abstract1DIntegralSolver.hpp
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.hpp
+
+/home/pcsc/pcsc/Project/Tools.cpp
+cstdlib
+-
+iostream
+-
+Tools.hpp
+/home/pcsc/pcsc/Project/Tools.hpp
 
 /home/pcsc/pcsc/Project/Tools.hpp
 

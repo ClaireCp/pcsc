@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pcsc/pcsc/Project/MidPointSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/MidPointSolver.cpp.o"
   "/home/pcsc/pcsc/Project/Simpson2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Simpson2DSolver.cpp.o"
   "/home/pcsc/pcsc/Project/SimpsonSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/SimpsonSolver.cpp.o"
-  "/home/pcsc/pcsc/Project/TestSuite.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TestSuite.cpp.o"
   "/home/pcsc/pcsc/Project/Tools.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Tools.cpp.o"
   "/home/pcsc/pcsc/Project/Trapez2DSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/Trapez2DSolver.cpp.o"
   "/home/pcsc/pcsc/Project/TrapezSolver.cpp" "/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles/main.dir/TrapezSolver.cpp.o"

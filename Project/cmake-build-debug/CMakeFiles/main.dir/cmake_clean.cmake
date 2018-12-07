@@ -10,7 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Simpson2DSolver.cpp.o"
   "CMakeFiles/main.dir/Trapez2DSolver.cpp.o"
   "CMakeFiles/main.dir/Tools.cpp.o"
-  "CMakeFiles/main.dir/TestSuite.cpp.o"
   "main.pdb"
   "main"
 )

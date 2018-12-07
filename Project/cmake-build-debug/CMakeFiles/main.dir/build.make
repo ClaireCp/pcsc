@@ -187,19 +187,6 @@ CMakeFiles/main.dir/Tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tools.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/Tools.cpp -o CMakeFiles/main.dir/Tools.cpp.s
 
-CMakeFiles/main.dir/TestSuite.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/TestSuite.cpp.o: ../TestSuite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/TestSuite.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/TestSuite.cpp.o -c /home/pcsc/pcsc/Project/TestSuite.cpp
-
-CMakeFiles/main.dir/TestSuite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/TestSuite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcsc/pcsc/Project/TestSuite.cpp > CMakeFiles/main.dir/TestSuite.cpp.i
-
-CMakeFiles/main.dir/TestSuite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/TestSuite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcsc/pcsc/Project/TestSuite.cpp -o CMakeFiles/main.dir/TestSuite.cpp.s
-
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/Main.cpp.o" \
@@ -211,8 +198,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/MidPoint2DSolver.cpp.o" \
 "CMakeFiles/main.dir/Simpson2DSolver.cpp.o" \
 "CMakeFiles/main.dir/Trapez2DSolver.cpp.o" \
-"CMakeFiles/main.dir/Tools.cpp.o" \
-"CMakeFiles/main.dir/TestSuite.cpp.o"
+"CMakeFiles/main.dir/Tools.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -227,12 +213,11 @@ main: CMakeFiles/main.dir/MidPoint2DSolver.cpp.o
 main: CMakeFiles/main.dir/Simpson2DSolver.cpp.o
 main: CMakeFiles/main.dir/Trapez2DSolver.cpp.o
 main: CMakeFiles/main.dir/Tools.cpp.o
-main: CMakeFiles/main.dir/TestSuite.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libgtest.a
 main: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pcsc/pcsc/Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 	/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -D TEST_TARGET=main -D TEST_EXECUTABLE=/home/pcsc/pcsc/Project/cmake-build-debug/main -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/pcsc/pcsc/Project/cmake-build-debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=main_TESTS -D CTEST_FILE=/home/pcsc/pcsc/Project/cmake-build-debug/main[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /opt/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/GoogleTestAddTests.cmake
 

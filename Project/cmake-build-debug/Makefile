@@ -336,33 +336,6 @@ SimpsonSolver.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.s
 .PHONY : SimpsonSolver.cpp.s
 
-TestSuite.o: TestSuite.cpp.o
-
-.PHONY : TestSuite.o
-
-# target to build an object file
-TestSuite.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.o
-.PHONY : TestSuite.cpp.o
-
-TestSuite.i: TestSuite.cpp.i
-
-.PHONY : TestSuite.i
-
-# target to preprocess a source file
-TestSuite.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.i
-.PHONY : TestSuite.cpp.i
-
-TestSuite.s: TestSuite.cpp.s
-
-.PHONY : TestSuite.s
-
-# target to generate assembly for a file
-TestSuite.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestSuite.cpp.s
-.PHONY : TestSuite.cpp.s
-
 Tools.o: Tools.cpp.o
 
 .PHONY : Tools.o
@@ -476,9 +449,6 @@ help:
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"
-	@echo "... TestSuite.o"
-	@echo "... TestSuite.i"
-	@echo "... TestSuite.s"
 	@echo "... Tools.o"
 	@echo "... Tools.i"
 	@echo "... Tools.s"
