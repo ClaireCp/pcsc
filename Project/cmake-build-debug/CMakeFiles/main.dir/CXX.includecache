@@ -68,14 +68,6 @@ Abstract2DIntegralSolver.hpp
 Abstract1DIntegralSolver.hpp
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.hpp
 
-/home/pcsc/pcsc/Project/Tools.cpp
-cstdlib
--
-iostream
--
-Tools.hpp
-/home/pcsc/pcsc/Project/Tools.hpp
-
 /home/pcsc/pcsc/Project/Tools.hpp
 
 /home/pcsc/pcsc/Project/Trapez2DSolver.hpp

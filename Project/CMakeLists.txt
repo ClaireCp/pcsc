@@ -6,6 +6,8 @@ cmake_policy(VERSION 3.3)
 set(CMAKE_CXX_STANDARD 14)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
+add_executable(Main Main.cpp AbstractIntegralSolver.cpp MidPointSolver.cpp TrapezSolver.cpp SimpsonSolver.cpp Abstract2DIntegralSolver.cpp Abstract2DIntegralSolver.hpp MidPoint2DSolver.cpp MidPoint2DSolver.hpp Simpson2DSolver.cpp Simpson2DSolver.hpp Trapez2DSolver.cpp Trapez2DSolver.hpp Tools.cpp Tools.hpp Abstract1DIntegralSolver.hpp)
+
 ################################################################
 # Google test
 ################################################################
@@ -15,9 +17,9 @@ enable_testing()
 find_package(GTest)
 if (GTEST_FOUND)
     include_directories(${GTEST_INCLUDE_DIRS})
-    add_executable(main Main.cpp AbstractIntegralSolver.cpp MidPointSolver.cpp TrapezSolver.cpp SimpsonSolver.cpp Abstract2DIntegralSolver.cpp Abstract2DIntegralSolver.hpp MidPoint2DSolver.cpp MidPoint2DSolver.hpp Simpson2DSolver.cpp Simpson2DSolver.hpp Trapez2DSolver.cpp Trapez2DSolver.hpp Tools.cpp Tools.hpp Abstract1DIntegralSolver.hpp)
-    target_link_libraries(main ${GTEST_BOTH_LIBRARIES} pthread)
-    gtest_discover_tests(main)
+    add_executable(Tests Tests.cpp AbstractIntegralSolver.cpp MidPointSolver.cpp TrapezSolver.cpp SimpsonSolver.cpp Abstract2DIntegralSolver.cpp Abstract2DIntegralSolver.hpp MidPoint2DSolver.cpp MidPoint2DSolver.hpp Simpson2DSolver.cpp Simpson2DSolver.hpp Trapez2DSolver.cpp Trapez2DSolver.hpp Tools.cpp Tools.hpp Abstract1DIntegralSolver.hpp)
+    target_link_libraries(Tests ${GTEST_BOTH_LIBRARIES} pthread)
+    gtest_discover_tests(Tests)
 endif()
 
 

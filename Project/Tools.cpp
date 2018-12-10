@@ -1,6 +1,9 @@
-//
-// Created by claire on 26.11.18.
-//
+/*
+ * Tools.cpp
+ *
+ * Created on: December 1, 2018
+ * 	   Author: Claire Capelo <claire.capelo@epfl.ch>
+ */
 
 #include <cstdlib>
 #include <iostream>

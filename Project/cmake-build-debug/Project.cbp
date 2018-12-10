@@ -17,32 +17,18 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main">
-				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/pcsc/pcsc/Project"/>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main/fast">
-				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+			<Target title="Main">
+				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/Main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -59,7 +45,89 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Main/fast">
+				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/Main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pcsc/pcsc/Project"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests">
+				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pcsc/pcsc/Project"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests/fast">
+				<Option output="/home/pcsc/pcsc/Project/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pcsc/pcsc/Project"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,86 +153,88 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test">
-				<Option working_dir="/home/pcsc/pcsc/Project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcsc/pcsc/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/home/pcsc/pcsc/Project/Abstract1DIntegralSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Abstract2DIntegralSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Abstract2DIntegralSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/AbstractIntegralSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Main.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/MidPoint2DSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/MidPoint2DSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/MidPointSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/MidPointSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Simpson2DSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Simpson2DSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/SimpsonSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/pcsc/pcsc/Project/Tests.cpp">
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Tools.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Tools.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Trapez2DSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/Trapez2DSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.cpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/TrapezSolver.hpp">
-			<Option target="main"/>
+			<Option target="Main"/>
+			<Option target="Tests"/>
 		</Unit>
 		<Unit filename="/home/pcsc/pcsc/Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

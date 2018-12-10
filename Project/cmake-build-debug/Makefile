@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/pcsc/pcsc/Project/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -88,6 +77,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/clion-2018.2.3/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,17 +122,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named Main
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+Main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Main
+.PHONY : Main
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+Main/fast:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
+
+#=============================================================================
+# Target rules for targets named Tests
+
+# Build rule for target.
+Tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Tests
+.PHONY : Tests
+
+# fast build rule for target.
+Tests/fast:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/build
+.PHONY : Tests/fast
 
 #=============================================================================
 # Target rules for targets named doxygen
@@ -153,7 +166,8 @@ Abstract2DIntegralSolver.o: Abstract2DIntegralSolver.cpp.o
 
 # target to build an object file
 Abstract2DIntegralSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Abstract2DIntegralSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Abstract2DIntegralSolver.cpp.o
 .PHONY : Abstract2DIntegralSolver.cpp.o
 
 Abstract2DIntegralSolver.i: Abstract2DIntegralSolver.cpp.i
@@ -162,7 +176,8 @@ Abstract2DIntegralSolver.i: Abstract2DIntegralSolver.cpp.i
 
 # target to preprocess a source file
 Abstract2DIntegralSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Abstract2DIntegralSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Abstract2DIntegralSolver.cpp.i
 .PHONY : Abstract2DIntegralSolver.cpp.i
 
 Abstract2DIntegralSolver.s: Abstract2DIntegralSolver.cpp.s
@@ -171,7 +186,8 @@ Abstract2DIntegralSolver.s: Abstract2DIntegralSolver.cpp.s
 
 # target to generate assembly for a file
 Abstract2DIntegralSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Abstract2DIntegralSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Abstract2DIntegralSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Abstract2DIntegralSolver.cpp.s
 .PHONY : Abstract2DIntegralSolver.cpp.s
 
 AbstractIntegralSolver.o: AbstractIntegralSolver.cpp.o
@@ -180,7 +196,8 @@ AbstractIntegralSolver.o: AbstractIntegralSolver.cpp.o
 
 # target to build an object file
 AbstractIntegralSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/AbstractIntegralSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/AbstractIntegralSolver.cpp.o
 .PHONY : AbstractIntegralSolver.cpp.o
 
 AbstractIntegralSolver.i: AbstractIntegralSolver.cpp.i
@@ -189,7 +206,8 @@ AbstractIntegralSolver.i: AbstractIntegralSolver.cpp.i
 
 # target to preprocess a source file
 AbstractIntegralSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/AbstractIntegralSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/AbstractIntegralSolver.cpp.i
 .PHONY : AbstractIntegralSolver.cpp.i
 
 AbstractIntegralSolver.s: AbstractIntegralSolver.cpp.s
@@ -198,7 +216,8 @@ AbstractIntegralSolver.s: AbstractIntegralSolver.cpp.s
 
 # target to generate assembly for a file
 AbstractIntegralSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AbstractIntegralSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/AbstractIntegralSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/AbstractIntegralSolver.cpp.s
 .PHONY : AbstractIntegralSolver.cpp.s
 
 Main.o: Main.cpp.o
@@ -207,7 +226,7 @@ Main.o: Main.cpp.o
 
 # target to build an object file
 Main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -216,7 +235,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -225,7 +244,7 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Main.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
 MidPoint2DSolver.o: MidPoint2DSolver.cpp.o
@@ -234,7 +253,8 @@ MidPoint2DSolver.o: MidPoint2DSolver.cpp.o
 
 # target to build an object file
 MidPoint2DSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPoint2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPoint2DSolver.cpp.o
 .PHONY : MidPoint2DSolver.cpp.o
 
 MidPoint2DSolver.i: MidPoint2DSolver.cpp.i
@@ -243,7 +263,8 @@ MidPoint2DSolver.i: MidPoint2DSolver.cpp.i
 
 # target to preprocess a source file
 MidPoint2DSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPoint2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPoint2DSolver.cpp.i
 .PHONY : MidPoint2DSolver.cpp.i
 
 MidPoint2DSolver.s: MidPoint2DSolver.cpp.s
@@ -252,7 +273,8 @@ MidPoint2DSolver.s: MidPoint2DSolver.cpp.s
 
 # target to generate assembly for a file
 MidPoint2DSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPoint2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPoint2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPoint2DSolver.cpp.s
 .PHONY : MidPoint2DSolver.cpp.s
 
 MidPointSolver.o: MidPointSolver.cpp.o
@@ -261,7 +283,8 @@ MidPointSolver.o: MidPointSolver.cpp.o
 
 # target to build an object file
 MidPointSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPointSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPointSolver.cpp.o
 .PHONY : MidPointSolver.cpp.o
 
 MidPointSolver.i: MidPointSolver.cpp.i
@@ -270,7 +293,8 @@ MidPointSolver.i: MidPointSolver.cpp.i
 
 # target to preprocess a source file
 MidPointSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPointSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPointSolver.cpp.i
 .PHONY : MidPointSolver.cpp.i
 
 MidPointSolver.s: MidPointSolver.cpp.s
@@ -279,7 +303,8 @@ MidPointSolver.s: MidPointSolver.cpp.s
 
 # target to generate assembly for a file
 MidPointSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MidPointSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/MidPointSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/MidPointSolver.cpp.s
 .PHONY : MidPointSolver.cpp.s
 
 Simpson2DSolver.o: Simpson2DSolver.cpp.o
@@ -288,7 +313,8 @@ Simpson2DSolver.o: Simpson2DSolver.cpp.o
 
 # target to build an object file
 Simpson2DSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Simpson2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Simpson2DSolver.cpp.o
 .PHONY : Simpson2DSolver.cpp.o
 
 Simpson2DSolver.i: Simpson2DSolver.cpp.i
@@ -297,7 +323,8 @@ Simpson2DSolver.i: Simpson2DSolver.cpp.i
 
 # target to preprocess a source file
 Simpson2DSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Simpson2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Simpson2DSolver.cpp.i
 .PHONY : Simpson2DSolver.cpp.i
 
 Simpson2DSolver.s: Simpson2DSolver.cpp.s
@@ -306,7 +333,8 @@ Simpson2DSolver.s: Simpson2DSolver.cpp.s
 
 # target to generate assembly for a file
 Simpson2DSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simpson2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Simpson2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Simpson2DSolver.cpp.s
 .PHONY : Simpson2DSolver.cpp.s
 
 SimpsonSolver.o: SimpsonSolver.cpp.o
@@ -315,7 +343,8 @@ SimpsonSolver.o: SimpsonSolver.cpp.o
 
 # target to build an object file
 SimpsonSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/SimpsonSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/SimpsonSolver.cpp.o
 .PHONY : SimpsonSolver.cpp.o
 
 SimpsonSolver.i: SimpsonSolver.cpp.i
@@ -324,7 +353,8 @@ SimpsonSolver.i: SimpsonSolver.cpp.i
 
 # target to preprocess a source file
 SimpsonSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/SimpsonSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/SimpsonSolver.cpp.i
 .PHONY : SimpsonSolver.cpp.i
 
 SimpsonSolver.s: SimpsonSolver.cpp.s
@@ -333,8 +363,36 @@ SimpsonSolver.s: SimpsonSolver.cpp.s
 
 # target to generate assembly for a file
 SimpsonSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SimpsonSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/SimpsonSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/SimpsonSolver.cpp.s
 .PHONY : SimpsonSolver.cpp.s
+
+Tests.o: Tests.cpp.o
+
+.PHONY : Tests.o
+
+# target to build an object file
+Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tests.cpp.o
+.PHONY : Tests.cpp.o
+
+Tests.i: Tests.cpp.i
+
+.PHONY : Tests.i
+
+# target to preprocess a source file
+Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tests.cpp.i
+.PHONY : Tests.cpp.i
+
+Tests.s: Tests.cpp.s
+
+.PHONY : Tests.s
+
+# target to generate assembly for a file
+Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tests.cpp.s
+.PHONY : Tests.cpp.s
 
 Tools.o: Tools.cpp.o
 
@@ -342,7 +400,8 @@ Tools.o: Tools.cpp.o
 
 # target to build an object file
 Tools.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Tools.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tools.cpp.o
 .PHONY : Tools.cpp.o
 
 Tools.i: Tools.cpp.i
@@ -351,7 +410,8 @@ Tools.i: Tools.cpp.i
 
 # target to preprocess a source file
 Tools.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Tools.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tools.cpp.i
 .PHONY : Tools.cpp.i
 
 Tools.s: Tools.cpp.s
@@ -360,7 +420,8 @@ Tools.s: Tools.cpp.s
 
 # target to generate assembly for a file
 Tools.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Tools.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Tools.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Tools.cpp.s
 .PHONY : Tools.cpp.s
 
 Trapez2DSolver.o: Trapez2DSolver.cpp.o
@@ -369,7 +430,8 @@ Trapez2DSolver.o: Trapez2DSolver.cpp.o
 
 # target to build an object file
 Trapez2DSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Trapez2DSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Trapez2DSolver.cpp.o
 .PHONY : Trapez2DSolver.cpp.o
 
 Trapez2DSolver.i: Trapez2DSolver.cpp.i
@@ -378,7 +440,8 @@ Trapez2DSolver.i: Trapez2DSolver.cpp.i
 
 # target to preprocess a source file
 Trapez2DSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Trapez2DSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Trapez2DSolver.cpp.i
 .PHONY : Trapez2DSolver.cpp.i
 
 Trapez2DSolver.s: Trapez2DSolver.cpp.s
@@ -387,7 +450,8 @@ Trapez2DSolver.s: Trapez2DSolver.cpp.s
 
 # target to generate assembly for a file
 Trapez2DSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Trapez2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Trapez2DSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/Trapez2DSolver.cpp.s
 .PHONY : Trapez2DSolver.cpp.s
 
 TrapezSolver.o: TrapezSolver.cpp.o
@@ -396,7 +460,8 @@ TrapezSolver.o: TrapezSolver.cpp.o
 
 # target to build an object file
 TrapezSolver.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/TrapezSolver.cpp.o
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/TrapezSolver.cpp.o
 .PHONY : TrapezSolver.cpp.o
 
 TrapezSolver.i: TrapezSolver.cpp.i
@@ -405,7 +470,8 @@ TrapezSolver.i: TrapezSolver.cpp.i
 
 # target to preprocess a source file
 TrapezSolver.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/TrapezSolver.cpp.i
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/TrapezSolver.cpp.i
 .PHONY : TrapezSolver.cpp.i
 
 TrapezSolver.s: TrapezSolver.cpp.s
@@ -414,7 +480,8 @@ TrapezSolver.s: TrapezSolver.cpp.s
 
 # target to generate assembly for a file
 TrapezSolver.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TrapezSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/TrapezSolver.cpp.s
+	$(MAKE) -f CMakeFiles/Tests.dir/build.make CMakeFiles/Tests.dir/TrapezSolver.cpp.s
 .PHONY : TrapezSolver.cpp.s
 
 # Help Target
@@ -423,11 +490,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... main"
+	@echo "... edit_cache"
+	@echo "... Main"
+	@echo "... Tests"
+	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... doxygen"
-	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... Abstract2DIntegralSolver.o"
 	@echo "... Abstract2DIntegralSolver.i"
 	@echo "... Abstract2DIntegralSolver.s"
@@ -449,6 +517,9 @@ help:
 	@echo "... SimpsonSolver.o"
 	@echo "... SimpsonSolver.i"
 	@echo "... SimpsonSolver.s"
+	@echo "... Tests.o"
+	@echo "... Tests.i"
+	@echo "... Tests.s"
 	@echo "... Tools.o"
 	@echo "... Tools.i"
 	@echo "... Tools.s"
