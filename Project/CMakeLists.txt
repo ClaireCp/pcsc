@@ -6,6 +6,10 @@ cmake_policy(VERSION 3.3)
 set(CMAKE_CXX_STANDARD 14)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
+################################################################
+# Main
+################################################################
+
 add_executable(Main Main.cpp AbstractIntegralSolver.cpp MidPointSolver.cpp TrapezSolver.cpp SimpsonSolver.cpp Abstract2DIntegralSolver.cpp Abstract2DIntegralSolver.hpp MidPoint2DSolver.cpp MidPoint2DSolver.hpp Simpson2DSolver.cpp Simpson2DSolver.hpp Trapez2DSolver.cpp Trapez2DSolver.hpp Tools.cpp Tools.hpp Abstract1DIntegralSolver.hpp)
 
 ################################################################

@@ -2,7 +2,7 @@
  * Test.cpp
  *
  * Created on: December 10, 2018
- * 	   Author: Benjamin Schenk <benjamin.schenk@epfl>
+ * 	   Author: Claire Capelo <claire.capelo@epfl>
  */
 
 

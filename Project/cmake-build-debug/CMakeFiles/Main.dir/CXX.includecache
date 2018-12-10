@@ -23,10 +23,6 @@ Tools.hpp
 /home/pcsc/pcsc/Project/Tools.hpp
 
 /home/pcsc/pcsc/Project/Main.cpp
-iostream
--
-cmath
--
 AbstractIntegralSolver.hpp
 /home/pcsc/pcsc/Project/AbstractIntegralSolver.hpp
 Abstract1DIntegralSolver.hpp
@@ -45,6 +41,10 @@ Trapez2DSolver.hpp
 /home/pcsc/pcsc/Project/Trapez2DSolver.hpp
 Simpson2DSolver.hpp
 /home/pcsc/pcsc/Project/Simpson2DSolver.hpp
+iostream
+-
+cmath
+-
 
 /home/pcsc/pcsc/Project/MidPoint2DSolver.hpp
 Abstract2DIntegralSolver.hpp
@@ -61,6 +61,14 @@ Abstract2DIntegralSolver.hpp
 /home/pcsc/pcsc/Project/SimpsonSolver.hpp
 Abstract1DIntegralSolver.hpp
 /home/pcsc/pcsc/Project/Abstract1DIntegralSolver.hpp
+
+/home/pcsc/pcsc/Project/Tools.cpp
+cstdlib
+-
+iostream
+-
+Tools.hpp
+/home/pcsc/pcsc/Project/Tools.hpp
 
 /home/pcsc/pcsc/Project/Tools.hpp
 
