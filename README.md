@@ -51,7 +51,16 @@ The check on the arguments is such that if the provided number of steps is infer
 	delete(solver);
 
 2) Tests
-The second executable provides a test suite
+The second executable provides a test suite for the program.
+This code is open for modification and given the hierarchy and structure of the code, it would be very easy to add more numerical solvers for 1D and 2D cases, as well as considering higher order cases (3D, ...). 
+It is always a good idea to provide a test suite, such that in case of modifications and refactoring, tests can be added fast, but most importantly to ensure that new code doesn't cause bugs or causes the program to crash for code that was already implemented and working.
+
+
+## List of features ##
+
+## List of tests ##
+
+## Issues and perspectives ##
 
 
 
