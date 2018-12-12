@@ -26,8 +26,8 @@ The Main.cpp provides an example as how to use the program in order to numerical
 1) Define function
 
 First, the user has to define the function he wants to compute the integral of as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
-    double function(double x) { ... } // for the 1D case
-    double function(double x, double y) { ... } // for the 2D case
+    - double function(double x) { ... } // for the 1D case
+    - double function(double x, double y) { ... } // for the 2D case
 
 2) Define and initialize numerical solver
 
