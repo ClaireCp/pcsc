@@ -7,12 +7,12 @@ Project 7 - Numerical Integration: Implementation of methods for the numerical c
 2) Move to that directory: cd pcsc
 
 3) If you want to run the file from the command line: 
-	mkdir build
-	cd build
-	cmake ..
-	make
-	./Main   //to run the Main executable
-	./Tests  //to run the Tests executable
+	<br /> mkdir build
+	<br /> cd build
+	<br /> cmake ..
+	<br /> make
+	<br /> ./Main   //to run the Main executable
+	<br /> ./Tests  //to run the Tests executable
 
 4) Else open clion and run the code manually
 
