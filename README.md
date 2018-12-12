@@ -11,8 +11,8 @@ Project 7 - Numerical Integration: Implementation of methods for the numerical c
 <br />	cd build
 <br />	cmake ..
 <br /> 	make
-<br />	./Main   <--to run the Main executable-->
-<br />	./Tests  //to run the Tests executable
+<br />	./Main   <--!to run the Main executable-->
+<br />	./Tests  <--!to run the Tests executable-->
 
 4) Else open clion and run the code manually
 
