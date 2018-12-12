@@ -11,7 +11,7 @@
 #include "Tools.hpp"
 
 void checkNumberOfSteps(int n) {
-    if (n < 0) {
+    if (n <= 0) {
         std::cerr << "The number of iteration has to be strictly superior to 0." << std::endl;
         exit(1);
     }

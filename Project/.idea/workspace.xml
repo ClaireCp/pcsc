@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project" targetName="main" />
+      <config projectName="Project" targetName="Main" />
+      <config projectName="Project" targetName="Tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +12,266 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2ec21d5-f06c-4d3c-b071-af08b9e88eab" name="Default Changelist" comment="">
+    <list default="true" id="53aff454-6037-4e2d-ae9d-76ac074386f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tests.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Tests[1]_include.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Tests[1]_tests.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/Abstract1DIntegralSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/Abstract2DIntegralSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/AbstractIntegralSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/MidPoint2DSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/MidPointSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/Simpson2DSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/SimpsonSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/Trapez2DSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/TrapezSolver_8hpp_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/annotated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/bc_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/bdwn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract1DIntegralSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstract2DIntegralSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstractIntegralSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstractIntegralSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstractIntegralSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstractIntegralSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classAbstractIntegralSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPoint2DSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classMidPointSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpson2DSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classSimpsonSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapez2DSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classTrapezSolver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/doxygen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/doxygen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/dynsections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/folderclosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/folderopen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/functions_func.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/graph_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/graph_legend.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/graph_legend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/hierarchy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_0.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_0.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_1.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_2.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherit_graph_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/inherits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/menudata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/nav_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/nav_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/nav_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/all_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/classes_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/functions_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/mag_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/nomatches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/search_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/search_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/search_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/searchdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/typedefs_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/search/typedefs_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/splitbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/sync_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/sync_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/tab_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/tab_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/tab_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/tab_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/html/tabs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tools.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/doxygen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main[1]_tests.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main[1]_tests.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_abstract1_d_integral_solver_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_abstract2_d_integral_solver_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_mid_point2_d_solver_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_simpson2_d_solver_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_simpson2_d_solver_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_simpson2_d_solver_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_test_suite_8hpp_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_tools_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/html/functions_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_tools_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_tools_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_trapez2_d_solver_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_trapez2_d_solver_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_trapez2_d_solver_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_abstract_integral_solver.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_abstract_integral_solver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classtest_suite1_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherit_graph_3.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherit_graph_3.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherit_graph_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherits.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/inherits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/all_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/search/all_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/search/classes_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/test_suite_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/html/Tools_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/annotated.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/annotated.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract1_d_integral_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract2_d_integral_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract_integral_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract_integral_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_abstract_integral_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_abstract_integral_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point2_d_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point2_d_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point2_d_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point2_d_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point2_d_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point2_d_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_mid_point_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_mid_point_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson2_d_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson2_d_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson2_d_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson2_d_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson2_d_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson2_d_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_simpson_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_simpson_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez2_d_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez2_d_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez2_d_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez2_d_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez2_d_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez2_d_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez_solver.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez_solver.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez_solver__coll__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez_solver__coll__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/class_trapez_solver__inherit__graph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/class_trapez_solver__inherit__graph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/classtest_suite1_d.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/hierarchy.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/hierarchy.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/refman.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/refman.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,200 +282,115 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="-442747422">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="11" />
-          <entry key="h" value="3" />
-          <entry key="hpp" value="4" />
-          <entry key="txt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="3" />
-          <entry key="ObjectiveC" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="1243" />
-          <entry key="hpp" value="265" />
-          <entry key="txt" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="4" />
-          <entry key="ObjectiveC" value="1508" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="378311846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Makefile" value="1" />
-          <entry key="cbp" value="1" />
-          <entry key="cmake" value="2" />
-          <entry key="cpp" value="111" />
-          <entry key="h" value="45" />
-          <entry key="hpp" value="51" />
-          <entry key="txt" value="5" />
-          <entry key="xml" value="1" />
+          <entry key="cpp" value="6" />
+          <entry key="hpp" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="207" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="1" />
+          <entry key="ObjectiveC" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages">
+        <counts>
+          <entry key="Google Test" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="7701" />
-          <entry key="h" value="1696" />
-          <entry key="hpp" value="1226" />
-          <entry key="txt" value="4" />
+          <entry key="cpp" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="4" />
-          <entry key="Doxygen file" value="29" />
-          <entry key="ObjectiveC" value="10594" />
+          <entry key="ObjectiveC" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="67" column="86" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
-              <folding>
-                <element signature="e#248#267#0" expanded="true" />
-=======
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="738">
+              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
               <folding>
-                <element signature="e#239#258#0" expanded="true" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+                <element signature="e#110#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/TrapezSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-=======
-        <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/Trapez2DSolver.cpp">
+        <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="38" column="102" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
               <folding>
-                <element signature="e#41#68#0" expanded="true" />
+                <element signature="e#1967#1983#0" expanded="true" />
               </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/Trapez2DSolver.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trapez2DSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/Simpson2DSolver.cpp">
+        <entry file="file://$PROJECT_DIR$/Tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-=======
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+            <state relative-caret-position="1428">
+              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tools.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-=======
-        <entry file="file://$PROJECT_DIR$/Simpson2DSolver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -229,52 +403,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SolveIntegeal.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/2DIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/2DAbstractIntegralSolver.h" />
-        <option value="$PROJECT_DIR$/2DAbstractIntegralSolver.cpp" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Tools.cpp" />
-        <option value="$PROJECT_DIR$/Tools.h" />
-        <option value="$PROJECT_DIR$/testSuite1D.cpp" />
-        <option value="$PROJECT_DIR$/AbstractIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/Abstract1DIntegralSolver.h" />
-        <option value="$PROJECT_DIR$/Abstract1DIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/AbstractIntegralSolver.hpp" />
-        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" />
-=======
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.h" />
-        <option value="$PROJECT_DIR$/MidPointSolver.hpp" />
-        <option value="$PROJECT_DIR$/SimpsonSolver.cpp" />
-        <option value="$PROJECT_DIR$/MidPointSolver.cpp" />
-        <option value="$PROJECT_DIR$/SimpsonSolver.hpp" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.h" />
-        <option value="$PROJECT_DIR$/Simpson2DSolver.h" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/TrapezSolver.cpp" />
-        <option value="$PROJECT_DIR$/Trapez2DSolver.h" />
-        <option value="$PROJECT_DIR$/TrapezSolver.hpp" />
-        <option value="$PROJECT_DIR$/Simpson2DSolver.cpp" />
-        <option value="$PROJECT_DIR$/Trapez2DSolver.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.cpp" />
-=======
-        <option value="$PROJECT_DIR$/Trapez2DSolver.h" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.h" />
-        <option value="$PROJECT_DIR$/Tools.cpp" />
-        <option value="$PROJECT_DIR$/Tools.h" />
-        <option value="$PROJECT_DIR$/Abstract2DIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/AbstractIntegralSolver.cpp" />
-        <option value="$PROJECT_DIR$/AbstractIntegralSolver.hpp" />
-        <option value="$PROJECT_DIR$/MidPointSolver.hpp" />
-        <option value="$PROJECT_DIR$/MidPointSolver.cpp" />
-        <option value="$PROJECT_DIR$/MidPoint2DSolver.cpp" />
-        <option value="$PROJECT_DIR$/Trapez2DSolver.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Simpson2DSolver.cpp" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
       </list>
     </option>
   </component>
@@ -284,9 +413,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="993" />
     <option name="y" value="25" />
     <option name="width" value="927" />
     <option name="height" value="1055" />
@@ -312,16 +440,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="workspace&#9;FILE&#9;file:///home/claire/Documents/pcsc/Project/.idea/workspace.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -335,20 +456,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="main">
+    <configuration name="Main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Google Test.Tests" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -356,106 +483,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2ec21d5-f06c-4d3c-b071-af08b9e88eab" name="Default Changelist" comment="" />
-      <created>1543146785098</created>
+      <changelist id="53aff454-6037-4e2d-ae9d-76ac074386f9" name="Default Changelist" comment="" />
+      <created>1544171820547</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543146785098</updated>
-      <workItem from="1543146787633" duration="3820000" />
-      <workItem from="1543153287641" duration="9137000" />
-      <workItem from="1543216689813" duration="60000" />
-      <workItem from="1543220488276" duration="604000" />
-<<<<<<< HEAD
-      <workItem from="1543223415628" duration="4371000" />
-      <workItem from="1543562864499" duration="13736000" />
-      <workItem from="1543594143359" duration="945000" />
-      <workItem from="1543651795252" duration="5000" />
-      <workItem from="1543664634605" duration="581000" />
-      <workItem from="1543681864136" duration="2119000" />
-      <workItem from="1543756929350" duration="1916000" />
-      <workItem from="1543824585736" duration="1135000" />
-=======
-      <workItem from="1543223415628" duration="4959000" />
-      <workItem from="1543248050430" duration="395000" />
-      <workItem from="1543562398913" duration="1425000" />
-      <workItem from="1543567584092" duration="2745000" />
-      <workItem from="1543824658441" duration="208000" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+      <updated>1544171820547</updated>
+      <workItem from="1544171824500" duration="1499000" />
+      <workItem from="1544606798920" duration="1512000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="main - 2018.12.07 at 09h 37m 28s.xml">
+      <configuration name="main" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="41884000" />
+    <option name="totallyTimeSpent" value="3011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="993" y="25" width="927" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19645822" />
-=======
-    <option name="totallyTimeSpent" value="23416000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1366" height="586" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20182094" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5164586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924126" visible="true" weight="0.45945945" />
-=======
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924126" visible="true" weight="0.3267974" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32756758" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.23510292" />
-=======
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3267974" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32608697" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18539014" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924126" weight="0.32864866" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32864866" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32864866" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -464,310 +534,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/2DIntegralSolver.cpp" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="480">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools.h">
+    <entry file="file://$PROJECT_DIR$/TestSuite.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="1428">
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="102" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+          <folding>
+            <element signature="e#1967#1983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Project.cbp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSuite1D.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSuite1D.cpp">
-=======
-    <entry file="file://$PROJECT_DIR$/Simpson2DSolver.h">
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.cpp">
+    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="378">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract1DIntegralSolver.h">
-=======
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="150">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpsonSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-=======
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpsonSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPointSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Simpson2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrapezSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-=======
-    <entry file="file://$PROJECT_DIR$/Abstract2DIntegralSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trapez2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="738">
+          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
           <folding>
-            <element signature="e#236#248#0" expanded="true" />
+            <element signature="e#110#147#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-=======
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPointSolver.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractIntegralSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPointSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simpson2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="300">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrapezSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trapez2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="67" column="86" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
-          <folding>
-            <element signature="e#248#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-=======
-        <state relative-caret-position="360">
-          <caret line="24" column="23" selection-start-line="22" selection-start-column="9" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trapez2DSolver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trapez2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simpson2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MidPoint2DSolver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="64" column="38" lean-forward="true" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-          <folding>
-            <element signature="e#239#258#0" expanded="true" />
-          </folding>
->>>>>>> 5049ae93514c0a2a777aae95b947bac13fbdba6d
         </state>
       </provider>
     </entry>
