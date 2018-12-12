@@ -51,12 +51,12 @@ For the 2D case, the arguments are (in that order):
 
 The check on the arguments is such that if the provided number of steps is inferior or equal to 0, the program stops with an error. Moreover, if the start and the end of the range are inverted, the  program deals with it under the hood by switching both arguments without warning the user.
 
-3) Compute integral: 
+3) Compute integral
 
 The user can then call the method SolveIntegral() on the numerical solver object to obtain the numerical approximation of the integral:
 	double result = solver->SolveIntegral();
 
-4) Deallocate pointer: 
+4) Deallocate pointer
 
 Don't forget to deallocate the pointer!
 <br />	delete(solver);
@@ -71,15 +71,15 @@ It is always a good idea to provide a test suite, such that in case of modificat
 
 ## List of features ##
 The program allows for numerical solving of 1D and 2D functions, with the following numerical methods:
-<br />	Midpoint
-<br />	Trapezoidal
-<br />	Cavalieri-Simpson
+<br />	- Midpoint
+<br />	- Trapezoidal
+<br />	- Cavalieri-Simpson
 
 ## List of tests ##
 The tests provided in the Tests.cpp file are:
-<br />	WrongStepNumber: checks the expected behavior of the program when a negative number of step is given to the constructor of a numerical solver (expected = program exits with 1)
-<br />	IntervalTest: when the integration interval is reversed, program should switch the initial and final arguments
-<br />	MethodName1D/2DTests: checks the numerical solution obtained from each solver with its analytical solution to ensure that each method computes the correct integral
+<br />	- WrongStepNumber: checks the expected behavior of the program when a negative number of step is given to the constructor of a numerical solver (expected = program exits with 1)
+<br />	- IntervalTest: when the integration interval is reversed, program should switch the initial and final arguments
+<br />	- MethodName1D/2DTests: checks the numerical solution obtained from each solver with its analytical solution to ensure that each method computes the correct integral
 
 ## Issues and perspectives ##
 It would be interesting to add a parser such that a user might input the function and bounds of the integral he wants solved from the command line. The choice of the numerical method could also be done through the command line.
