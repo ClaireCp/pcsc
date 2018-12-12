@@ -23,12 +23,17 @@ The source code generates two executables.
 ### 1) Main ###
 The Main.cpp provides an example as how to use the program in order to numerically compute an integral for a given method and a given function.
 
-1) Define function: First, the user has to define the function he wants to compute the integral of as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
-* double function(double x) { ... } // for the 1D case
-* double function(double x, double y) { ... } // for the 2D case
+1) Define function
 
-2) Define and initialize numerical solver: Then in the main function, the user instantiates the numerical solver he wants to use. The numerical solvers are objects and can be instiantiated as:
+First, the user has to define the function he wants to compute the integral of as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
+- double function(double x) { ... } // for the 1D case
+- double function(double x, double y) { ... } // for the 2D case
+
+2) Define and initialize numerical solver
+
+Then in the main function, the user instantiates the numerical solver he wants to use. The numerical solvers are objects and can be instiantiated as:
 <br />	MethodName* solver = new MethodName(args);
+
 For the 1D case, the arguments are (in that order):
 <br />	n = number of steps
 <br />	x0 = initial argument (start of range)
@@ -46,10 +51,14 @@ For the 2D case, the arguments are (in that order):
 
 The check on the arguments is such that if the provided number of steps is inferior or equal to 0, the program stops with an error. Moreover, if the start and the end of the range are inverted, the  program deals with it under the hood by switching both arguments without warning the user.
 
-3) Compute integral: The user can then call the method SolveIntegral() on the numerical solver object to obtain the numerical approximation of the integral:
+3) Compute integral: 
+
+The user can then call the method SolveIntegral() on the numerical solver object to obtain the numerical approximation of the integral:
 	double result = solver->SolveIntegral();
 
-4) Deallocate pointer: Don't forget to deallocate the pointer!
+4) Deallocate pointer: 
+
+Don't forget to deallocate the pointer!
 <br />	delete(solver);
 
 ### 2) Tests ###
