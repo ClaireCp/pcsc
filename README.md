@@ -26,28 +26,28 @@ The Main.cpp provides an example as how to use the program in order to numerical
 1) Define function
 
 First, the user has to define the function he wants to compute the integral of as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
-    - double function(double x) { ... } // for the 1D case
-    - double function(double x, double y) { ... } // for the 2D case
+<br />	- double function(double x) { ... } // for the 1D case
+<br />	- double function(double x, double y) { ... } // for the 2D case
 
 2) Define and initialize numerical solver
 
 Then in the main function, the user instantiates the numerical solver he wants to use. The numerical solvers are objects and can be instiantiated as:
-<br />	MethodName* solver = new MethodName(args);
+<br />    MethodName* solver = new MethodName(args);
 
 For the 1D case, the arguments are (in that order):
-<br />	n = number of steps
-<br />	x0 = initial argument (start of range)
-<br />	xf = final argument (end of range)
-<br />	t = function to be integrated
+<br />	- n = number of steps
+<br />	- x0 = initial argument (start of range)
+<br />	- xf = final argument (end of range)
+<br />	- t = function to be integrated
 
 For the 2D case, the arguments are (in that order):
-<br />	n_x = number of steps in the x direction
-<br />	x0 = initial argument for the x direction
-<br />	xf = final argument for the x direction
-<br />	n_y = number of steps in the y direction
-<br />	y0 = initial arguments for the y direction
-<br />	yf = final argument for the y direction
-<br />	t = 2D function
+<br />	- n_x = number of steps in the x direction
+<br />	- x0 = initial argument for the x direction
+<br />	- xf = final argument for the x direction
+<br />	- n_y = number of steps in the y direction
+<br />	- y0 = initial arguments for the y direction
+<br />	- yf = final argument for the y direction
+<br />	- t = 2D function
 
 The check on the arguments is such that if the provided number of steps is inferior or equal to 0, the program stops with an error. Moreover, if the start and the end of the range are inverted, the  program deals with it under the hood by switching both arguments without warning the user.
 
