@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['trapez2dsolver',['Trapez2DSolver',['../class_trapez2_d_solver.html#a95b57f9279e40991610b4e91747d7e0d',1,'Trapez2DSolver']]],
-  ['trapezsolver',['TrapezSolver',['../class_trapez_solver.html#aacba017d146636c666dff931f6c43323',1,'TrapezSolver']]]
+  ['main',['main',['../_main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'Main.cpp']]],
+  ['midpoint2dsolver',['MidPoint2DSolver',['../class_mid_point2_d_solver.html#a9cc9f211031ce410a2fe5287db720460',1,'MidPoint2DSolver']]],
+  ['midpointsolver',['MidPointSolver',['../class_mid_point_solver.html#afc0c085bfd86c3f17cb6dd0852ab7426',1,'MidPointSolver']]]
 ];

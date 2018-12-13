@@ -125,13 +125,4 @@ TEST(Trapez2DTest, normal_conditions) {
 }
 
 
-int main(int argc, char* argv[]) {
-
-    // Running of all Google test defined
-    testing::InitGoogleTest(&argc, argv);
-    int i = RUN_ALL_TESTS();
-
-
-    return 0;
-}
 

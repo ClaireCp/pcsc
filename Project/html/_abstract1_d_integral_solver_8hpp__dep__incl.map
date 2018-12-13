@@ -1,0 +1,10 @@
+<map id="Abstract1DIntegralSolver.hpp" name="Abstract1DIntegralSolver.hpp">
+<area shape="rect" id="node2" href="$_main_8cpp.html" title="Main.cpp" alt="" coords="165,155,239,181"/>
+<area shape="rect" id="node3" href="$_mid_point_solver_8hpp.html" title="MidPointSolver.hpp" alt="" coords="53,80,188,107"/>
+<area shape="rect" id="node5" href="$_tests_8cpp.html" title="Tests.cpp" alt="" coords="413,155,493,181"/>
+<area shape="rect" id="node6" href="$_trapez_solver_8hpp.html" title="TrapezSolver.hpp" alt="" coords="264,80,388,107"/>
+<area shape="rect" id="node8" href="$_simpson_solver_8hpp.html" title="SimpsonSolver.hpp" alt="" coords="464,80,599,107"/>
+<area shape="rect" id="node4" href="$_mid_point_solver_8cpp.html" title="MidPointSolver.cpp" alt="" coords="5,155,140,181"/>
+<area shape="rect" id="node7" href="$_trapez_solver_8cpp.html" title="TrapezSolver.cpp" alt="" coords="264,155,388,181"/>
+<area shape="rect" id="node9" href="$_simpson_solver_8cpp.html" title="SimpsonSolver.cpp" alt="" coords="517,155,652,181"/>
+</map>

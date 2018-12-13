@@ -1,0 +1,44 @@
+\hypertarget{_tools_8hpp}{}\section{Tools.\+hpp File Reference}
+\label{_tools_8hpp}\index{Tools.\+hpp@{Tools.\+hpp}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_tools_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_tools_8hpp_a37904a70719f6ad6814a9cb5c25e1ebe}{check\+Number\+Of\+Steps} (int n)
+\item 
+void \hyperlink{_tools_8hpp_ac7f71a5b9361856859549debbaa6748d}{check\+Interval} (double $\ast$x0, double $\ast$xf)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_tools_8hpp_ac7f71a5b9361856859549debbaa6748d}\label{_tools_8hpp_ac7f71a5b9361856859549debbaa6748d}} 
+\index{Tools.\+hpp@{Tools.\+hpp}!check\+Interval@{check\+Interval}}
+\index{check\+Interval@{check\+Interval}!Tools.\+hpp@{Tools.\+hpp}}
+\subsubsection{\texorpdfstring{check\+Interval()}{checkInterval()}}
+{\footnotesize\ttfamily void check\+Interval (\begin{DoxyParamCaption}\item[{double $\ast$}]{x0,  }\item[{double $\ast$}]{xf }\end{DoxyParamCaption})}
+
+Checks if the initial argument is smaller than the final argument. If not, it switches them. 
+\begin{DoxyParams}{Parameters}
+{\em x0} & initial argument of the interval \\
+\hline
+{\em xf} & final argument of the interval \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_tools_8hpp_a37904a70719f6ad6814a9cb5c25e1ebe}\label{_tools_8hpp_a37904a70719f6ad6814a9cb5c25e1ebe}} 
+\index{Tools.\+hpp@{Tools.\+hpp}!check\+Number\+Of\+Steps@{check\+Number\+Of\+Steps}}
+\index{check\+Number\+Of\+Steps@{check\+Number\+Of\+Steps}!Tools.\+hpp@{Tools.\+hpp}}
+\subsubsection{\texorpdfstring{check\+Number\+Of\+Steps()}{checkNumberOfSteps()}}
+{\footnotesize\ttfamily void check\+Number\+Of\+Steps (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+Tool functions to perform checks on the arguments of numerical solvers. Checks that the number of steps is stricly superior to zero. If not interrupts the program. 
+\begin{DoxyParams}{Parameters}
+{\em n} & number of steps \\
+\hline
+\end{DoxyParams}

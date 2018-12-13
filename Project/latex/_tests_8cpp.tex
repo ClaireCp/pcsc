@@ -1,0 +1,127 @@
+\hypertarget{_tests_8cpp}{}\section{Tests.\+cpp File Reference}
+\label{_tests_8cpp}\index{Tests.\+cpp@{Tests.\+cpp}}
+{\ttfamily \#include \char`\"{}Abstract\+Integral\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Abstract1\+D\+Integral\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Mid\+Point\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Trapez\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Simpson\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Abstract2\+D\+Integral\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Mid\+Point2\+D\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Trapez2\+D\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Simpson2\+D\+Solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include $<$gtest/gtest-\/death-\/test.\+h$>$}\newline
+Include dependency graph for Tests.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_tests_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{_tests_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}{function} (double x)
+\item 
+double \hyperlink{_tests_8cpp_abee31ee5c81b6568eceec14d8a380720}{function2D} (double x, double y)
+\item 
+\hyperlink{_tests_8cpp_a898c0634ff1532ee36095f3af0c1c90f}{T\+E\+ST} (Wrong\+Step\+Number, negative\+\_\+step\+\_\+number)
+\item 
+\hyperlink{_tests_8cpp_ab4ad1a04aa54ffb634be64591a1cbfd0}{T\+E\+ST} (Interval\+Test, reversed\+\_\+intervals)
+\item 
+\hyperlink{_tests_8cpp_a4045b73e25d6120121e4f5bfff555d58}{T\+E\+ST} (Mid\+Point1\+D\+Test, normal\+\_\+conditions)
+\item 
+\hyperlink{_tests_8cpp_ae0097ab018494c1ffaab4e9104865107}{T\+E\+ST} (Mid\+Point2\+D\+Test, normal\+\_\+conditions)
+\item 
+\hyperlink{_tests_8cpp_a34a7c9da2f5ba0a0a24ab6f323608c62}{T\+E\+ST} (Simpson1\+D\+Test, normal\+\_\+conditions)
+\item 
+\hyperlink{_tests_8cpp_a4153bdbb9725ea64da5ebaa169ae719c}{T\+E\+ST} (Simpson2\+D\+Test, normal\+\_\+conditions)
+\item 
+\hyperlink{_tests_8cpp_a633a173eed89db39f5352fb48f18a5c1}{T\+E\+ST} (Trapez\+Test, normal\+\_\+conditions)
+\item 
+\hyperlink{_tests_8cpp_aa4a6e93960d6fd24339087a656d72792}{T\+E\+ST} (Trapez2\+D\+Test, normal\+\_\+conditions)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_tests_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}\label{_tests_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!function@{function}}
+\index{function@{function}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{function()}{function()}}
+{\footnotesize\ttfamily double function (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})}
+
+1D function which is used for testing 
+\begin{DoxyParams}{Parameters}
+{\em x} & the argument of the function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value of the function at x 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_tests_8cpp_abee31ee5c81b6568eceec14d8a380720}\label{_tests_8cpp_abee31ee5c81b6568eceec14d8a380720}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!function2D@{function2D}}
+\index{function2D@{function2D}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{function2\+D()}{function2D()}}
+{\footnotesize\ttfamily double function2D (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+2D Function which is used for testing 
+\begin{DoxyParams}{Parameters}
+{\em x} & the first argument of the function \\
+\hline
+{\em y} & the second argument of the function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value of the function at the point (x, y) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_tests_8cpp_a898c0634ff1532ee36095f3af0c1c90f}\label{_tests_8cpp_a898c0634ff1532ee36095f3af0c1c90f}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Wrong\+Step\+Number}]{,  }\item[{negative\+\_\+step\+\_\+number}]{ }\end{DoxyParamCaption})}
+
+Test to ensure that the program crashes when a negative step number is given to a 1\+D-\/solver \mbox{\Hypertarget{_tests_8cpp_ab4ad1a04aa54ffb634be64591a1cbfd0}\label{_tests_8cpp_ab4ad1a04aa54ffb634be64591a1cbfd0}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Interval\+Test}]{,  }\item[{reversed\+\_\+intervals}]{ }\end{DoxyParamCaption})}
+
+Test to ensure that the 1\+D-\/solver works even when the interval is given reversed \mbox{\Hypertarget{_tests_8cpp_a4045b73e25d6120121e4f5bfff555d58}\label{_tests_8cpp_a4045b73e25d6120121e4f5bfff555d58}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Mid\+Point1\+D\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the mid-\/point 1\+D-\/solver by comparing with the analytical solution \mbox{\Hypertarget{_tests_8cpp_ae0097ab018494c1ffaab4e9104865107}\label{_tests_8cpp_ae0097ab018494c1ffaab4e9104865107}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Mid\+Point2\+D\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the mid-\/point 2\+D-\/solver by comparing with the analytical solution \mbox{\Hypertarget{_tests_8cpp_a34a7c9da2f5ba0a0a24ab6f323608c62}\label{_tests_8cpp_a34a7c9da2f5ba0a0a24ab6f323608c62}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Simpson1\+D\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the simpson 1\+D-\/solver by comparing with the analytical solution \mbox{\Hypertarget{_tests_8cpp_a4153bdbb9725ea64da5ebaa169ae719c}\label{_tests_8cpp_a4153bdbb9725ea64da5ebaa169ae719c}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Simpson2\+D\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the simpson 2\+D-\/solver by comparing with the analytical solution \mbox{\Hypertarget{_tests_8cpp_a633a173eed89db39f5352fb48f18a5c1}\label{_tests_8cpp_a633a173eed89db39f5352fb48f18a5c1}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Trapez\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the trapez 1\+D-\/solver by comparing with the analytical solution \mbox{\Hypertarget{_tests_8cpp_aa4a6e93960d6fd24339087a656d72792}\label{_tests_8cpp_aa4a6e93960d6fd24339087a656d72792}} 
+\index{Tests.\+cpp@{Tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!Tests.\+cpp@{Tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Trapez2\+D\+Test}]{,  }\item[{normal\+\_\+conditions}]{ }\end{DoxyParamCaption})}
+
+Test to control the functioning of the trapez 2\+D-\/solver by comparing with the analytical solution 

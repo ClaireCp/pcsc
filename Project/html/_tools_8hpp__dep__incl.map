@@ -1,0 +1,22 @@
+<map id="Tools.hpp" name="Tools.hpp">
+<area shape="rect" id="node2" href="$_abstract_integral_solver_8hpp.html" title="AbstractIntegralSolver.hpp" alt="" coords="1235,80,1411,107"/>
+<area shape="rect" id="node12" href="$_abstract2_d_integral_solver_8cpp.html" title="Abstract2DIntegralSolver.cpp" alt="" coords="1227,229,1420,256"/>
+<area shape="rect" id="node20" href="$_abstract_integral_solver_8cpp.html" title="AbstractIntegralSolver.cpp" alt="" coords="1453,155,1629,181"/>
+<area shape="rect" id="node21" href="$_tools_8cpp.html" title="Tools.cpp" alt="" coords="1704,80,1783,107"/>
+<area shape="rect" id="node3" href="$_abstract1_d_integral_solver_8hpp.html" title="Abstract1DIntegralSolver.hpp" alt="" coords="313,155,507,181"/>
+<area shape="rect" id="node4" href="$_main_8cpp.html" title="Main.cpp" alt="" coords="785,304,859,331"/>
+<area shape="rect" id="node7" href="$_tests_8cpp.html" title="Tests.cpp" alt="" coords="345,304,425,331"/>
+<area shape="rect" id="node13" href="$_abstract2_d_integral_solver_8hpp.html" title="Abstract2DIntegralSolver.hpp" alt="" coords="864,155,1057,181"/>
+<area shape="rect" id="node5" href="$_mid_point_solver_8hpp.html" title="MidPointSolver.hpp" alt="" coords="448,229,583,256"/>
+<area shape="rect" id="node8" href="$_trapez_solver_8hpp.html" title="TrapezSolver.hpp" alt="" coords="89,229,213,256"/>
+<area shape="rect" id="node10" href="$_simpson_solver_8hpp.html" title="SimpsonSolver.hpp" alt="" coords="237,229,372,256"/>
+<area shape="rect" id="node6" href="$_mid_point_solver_8cpp.html" title="MidPointSolver.cpp" alt="" coords="449,304,584,331"/>
+<area shape="rect" id="node9" href="$_trapez_solver_8cpp.html" title="TrapezSolver.cpp" alt="" coords="37,304,161,331"/>
+<area shape="rect" id="node11" href="$_simpson_solver_8cpp.html" title="SimpsonSolver.cpp" alt="" coords="185,304,320,331"/>
+<area shape="rect" id="node14" href="$_mid_point2_d_solver_8hpp.html" title="MidPoint2DSolver.hpp" alt="" coords="607,229,759,256"/>
+<area shape="rect" id="node16" href="$_trapez2_d_solver_8hpp.html" title="Trapez2DSolver.hpp" alt="" coords="1061,229,1202,256"/>
+<area shape="rect" id="node18" href="$_simpson2_d_solver_8hpp.html" title="Simpson2DSolver.hpp" alt="" coords="885,229,1037,256"/>
+<area shape="rect" id="node15" href="$_mid_point2_d_solver_8cpp.html" title="MidPoint2DSolver.cpp" alt="" coords="609,304,761,331"/>
+<area shape="rect" id="node17" href="$_trapez2_d_solver_8cpp.html" title="Trapez2DSolver.cpp" alt="" coords="1061,304,1202,331"/>
+<area shape="rect" id="node19" href="$_simpson2_d_solver_8cpp.html" title="Simpson2DSolver.cpp" alt="" coords="885,304,1037,331"/>
+</map>

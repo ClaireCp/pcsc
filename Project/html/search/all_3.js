@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['setfunction',['SetFunction',['../class_abstract_integral_solver.html#adfb6eb8d70ebaf103e25ce468ac38b40',1,'AbstractIntegralSolver']]],
-  ['setinterval',['SetInterval',['../class_abstract_integral_solver.html#a891baae0103a8b488cf6cd007c109844',1,'AbstractIntegralSolver']]],
-  ['setnumberofsteps',['SetNumberOfSteps',['../class_abstract_integral_solver.html#ab74cb9894daf3bcc97e14158a6087d99',1,'AbstractIntegralSolver']]],
-  ['simpson2dsolver',['Simpson2DSolver',['../class_simpson2_d_solver.html',1,'Simpson2DSolver'],['../class_simpson2_d_solver.html#a16ade6b2b5e89031c452f11e70c2f8fb',1,'Simpson2DSolver::Simpson2DSolver()']]],
-  ['simpsonsolver',['SimpsonSolver',['../class_simpson_solver.html',1,'SimpsonSolver'],['../class_simpson_solver.html#abc9059969016bce44332013d48baeed2',1,'SimpsonSolver::SimpsonSolver()']]],
-  ['solveintegral',['SolveIntegral',['../class_abstract_integral_solver.html#ad87cb44c5ef3122bc95be48f473ba399',1,'AbstractIntegralSolver::SolveIntegral()'],['../class_mid_point2_d_solver.html#a45c6c6802b7d40c35f1f60f1a39f5042',1,'MidPoint2DSolver::SolveIntegral()'],['../class_mid_point_solver.html#a3e7224a0fb07b3ef7f5f9e7e577216cf',1,'MidPointSolver::SolveIntegral()'],['../class_simpson2_d_solver.html#a3fc19037fef83ad05381138d9f7da939',1,'Simpson2DSolver::SolveIntegral()'],['../class_simpson_solver.html#a4843e8bfc0344d9a9cae8688d1114667',1,'SimpsonSolver::SolveIntegral()'],['../class_trapez2_d_solver.html#a88f724ff6fd2c566d54f5d0ccc500cb9',1,'Trapez2DSolver::SolveIntegral()'],['../class_trapez_solver.html#a15651e2fba081b87b484a83fc424c81d',1,'TrapezSolver::SolveIntegral()']]]
+  ['getfinalargument',['GetFinalArgument',['../class_abstract_integral_solver.html#a30f25ec2dff6d5881875952bec1d1774',1,'AbstractIntegralSolver']]],
+  ['getfinalargument_5fy',['GetFinalArgument_y',['../class_abstract2_d_integral_solver.html#ab4a24610598fa26556c60c449d757b65',1,'Abstract2DIntegralSolver']]],
+  ['getfunctionvalue',['GetFunctionValue',['../class_abstract2_d_integral_solver.html#a925351cc0ac65900e7ff42fd9d7e6973',1,'Abstract2DIntegralSolver::GetFunctionValue()'],['../class_abstract_integral_solver.html#ae2f3d78fabe31ebe3b328fb6c52a2209',1,'AbstractIntegralSolver::GetFunctionValue()']]],
+  ['getinitialargument',['GetInitialArgument',['../class_abstract_integral_solver.html#adb8ef30d8231a173ee85e91155829daa',1,'AbstractIntegralSolver']]],
+  ['getinitialargument_5fy',['GetInitialArgument_y',['../class_abstract2_d_integral_solver.html#a337907e938e5aa286618fd582b7b304e',1,'Abstract2DIntegralSolver']]],
+  ['getnumberofsteps',['GetNumberOfSteps',['../class_abstract_integral_solver.html#a90148ecbeb6396638c428a319a7031dd',1,'AbstractIntegralSolver']]],
+  ['getnumberofsteps_5fy',['GetNumberOfSteps_y',['../class_abstract2_d_integral_solver.html#ad82316695f57ad589714598617c7784d',1,'Abstract2DIntegralSolver']]],
+  ['getstepsize',['GetStepSize',['../class_abstract_integral_solver.html#a0220c77810a813699748b875627da1a7',1,'AbstractIntegralSolver']]],
+  ['getstepsize_5fy',['GetStepSize_y',['../class_abstract2_d_integral_solver.html#a5c23a838a4db9b607140d4d5f03b4f79',1,'Abstract2DIntegralSolver']]]
 ];

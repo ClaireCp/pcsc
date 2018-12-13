@@ -1,4 +1,13 @@
-Project 7 - Numerical Integration: Implementation of methods for the numerical computation of integrals in one or two dimensions
+Project 7 - Numerical Integration
+Implementation of methods for the numerical computation of integrals in one and two dimensions.
+
+## Functions of the program ##
+The program performs numerical integeration using three different methods:
+    - Midpoint
+    - Trapezoidal
+    - Cavalieri-Simpson
+This is possible for 1D functions (f:R->R) and 2D functions (f:R²->R).
+For the integration the range of a 1D function has to be continous and for a "D function only rectangular domain is accepted.
 
 ## How to compile the program ##
 
@@ -25,7 +34,7 @@ The Main.cpp provides an example as how to use the program in order to numerical
 
 1) Define function
 
-First, the user has to define the function he wants to compute the integral of as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
+First, the user has to define the function, he wants to compute the integral of, as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
 <br />	- double function(double x) { ... } // for the 1D case
 <br />	- double function(double x, double y) { ... } // for the 2D case
 
@@ -82,9 +91,15 @@ The tests provided in the Tests.cpp file are:
 <br />	- MethodName1D/2DTests: checks the numerical solution obtained from each solver with its analytical solution to ensure that each method computes the correct integral
 
 ## Issues and perspectives ##
-It would be interesting to add a parser such that a user might input the function and bounds of the integral he wants solved from the command line. The choice of the numerical method could also be done through the command line.
+A parsers such that a user could input the function and bounds of the integral from the command line could be added.
+
+The choice of the numerical method could also be done through the command line.
 
 Other numerical solvers or higher dimensions could also be added to the existing code.
+
+For 1D integration discontinued ranges could be integrated.
+
+For 2D integration other shapes such as circles or triangles could be added 
 
 
 
