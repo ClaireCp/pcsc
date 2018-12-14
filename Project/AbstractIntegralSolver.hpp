@@ -13,18 +13,12 @@
 #include <functional>
 #include "Tools.hpp"
 
-// TODO: Can you comment the template please?
-/**
- *
- * @tparam t
- */
-template <typename t>
-
 /**
  * AbstractIntegralSolver is the abstract mother class for 1D and 2D abstract integral solvers.
  * It provides a basic constructor as well as methods that are common for both 1D and 2D numerical solvers.
  * In order to provide polymorphism to accept both 1D and 2D functions, this is a templated class.
  */
+template <typename t>
 class AbstractIntegralSolver  {
 public:
 
@@ -63,16 +57,6 @@ public:
    */
   void SetFunction(t f) {
       function = f;
-  }
-
-  /**
-   * Method to get the value of the function at x
-   * @tparam param the type of the function argument x
-   * @param x the argument of the function
-   * @return the value of the function at x
-   */
-  template <typename param> double GetFunctionValue(param x) const {
-      return function(x);
   }
 
   /**

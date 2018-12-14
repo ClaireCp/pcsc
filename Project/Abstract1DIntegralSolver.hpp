@@ -33,6 +33,15 @@ public:
     */
     Abstract1DIntegralSolver(int n, double x0, double xf, t f): AbstractIntegralSolver(n, x0, xf, f) {};
 
+    /**
+    * Method to get the value of the function at x
+    * @param x the argument of the function
+    * @return the value of the function at x
+    */
+    double GetFunctionValue(double x) const {
+        return function(x);
+    }
+
 };
 
 #endif //ABSTRACT1DINTEGRALSOLVER_HPP

@@ -11,7 +11,7 @@
 /** Tool functions to perform checks on the arguments of numerical solvers.
  */
 
-/** Checks that the number of steps is stricly superior to zero. If not interrupts the program.
+/** Checks that the number of steps is strictly superior to zero. If not interrupts the program.
  * @param n number of steps
  */
 void checkNumberOfSteps(int n);

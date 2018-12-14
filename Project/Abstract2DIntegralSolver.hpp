@@ -42,7 +42,7 @@ public:
      * Method to get the value of the function
      * @param x the x argument
      * @param y the y argument
-     * @return the value of the funxtion at x and y
+     * @return the value of the function at x and y
      */
     double GetFunctionValue(double x, double y) const {
         return function(x, y);
