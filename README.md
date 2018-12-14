@@ -1,13 +1,14 @@
 Project 7 - Numerical Integration
+
 Implementation of methods for the numerical computation of integrals in one and two dimensions.
 
 ## Functions of the program ##
 The program performs numerical integeration using three different methods:
-    - Midpoint
-    - Trapezoidal
-    - Cavalieri-Simpson
+<br />	- Midpoint
+<br />	- Trapezoidal
+<br />	- Cavalieri-Simpson
 This is possible for 1D functions (f:R->R) and 2D functions (f:R²->R).
-For the integration the range of a 1D function has to be continous and for a "D function only rectangular domain is accepted.
+For the integration the range of a 1D function has to be continuous and for a 2D function only rectangular domain is accepted.
 
 ## How to compile the program ##
 
@@ -34,7 +35,7 @@ The Main.cpp provides an example as how to use the program in order to numerical
 
 1) Define function
 
-First, the user has to define the function, he wants to compute the integral of, as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
+First, the user has to define the function he wants to compute the integral of, as a method taking one or two parameters, for exemple in the Main.cpp file, eg:
 <br />	- double function(double x) { ... } // for the 1D case
 <br />	- double function(double x, double y) { ... } // for the 2D case
 
@@ -47,7 +48,7 @@ For the 1D case, the arguments are (in that order):
 <br />	- n = number of steps
 <br />	- x0 = initial argument (start of range)
 <br />	- xf = final argument (end of range)
-<br />	- t = function to be integrated
+<br />	- f = function to be integrated
 
 For the 2D case, the arguments are (in that order):
 <br />	- n_x = number of steps in the x direction
@@ -56,14 +57,14 @@ For the 2D case, the arguments are (in that order):
 <br />	- n_y = number of steps in the y direction
 <br />	- y0 = initial arguments for the y direction
 <br />	- yf = final argument for the y direction
-<br />	- t = 2D function
+<br />	- f = 2D function
 
 The check on the arguments is such that if the provided number of steps is inferior or equal to 0, the program stops with an error. Moreover, if the start and the end of the range are inverted, the  program deals with it under the hood by switching both arguments without warning the user.
 
 3) Compute integral
 
 The user can then call the method SolveIntegral() on the numerical solver object to obtain the numerical approximation of the integral:
-	double result = solver->SolveIntegral();
+<br />	double result = solver->SolveIntegral();
 
 4) Deallocate pointer
 
@@ -97,9 +98,9 @@ The choice of the numerical method could also be done through the command line.
 
 Other numerical solvers or higher dimensions could also be added to the existing code.
 
-For 1D integration discontinued ranges could be integrated.
+For 1D integration, discontinued ranges could be integrated.
 
-For 2D integration other shapes such as circles or triangles could be added 
+For 2D integration, other shapes such as circles or triangles could be added.
 
 
 
