@@ -18,6 +18,7 @@ For the integration the range of a 1D function has to be continuous and for a 2D
 2) Move to that directory: cd pcsc
 
 3) If you want to run the file from the command line: 
+<br />	cd Project
 <br />	mkdir build
 <br />	cd build
 <br />	cmake ..
