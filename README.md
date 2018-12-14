@@ -7,6 +7,7 @@ The program performs numerical integeration using three different methods:
 <br />	- Midpoint
 <br />	- Trapezoidal
 <br />	- Cavalieri-Simpson
+
 This is possible for 1D functions (f:R->R) and 2D functions (f:R²->R).
 For the integration the range of a 1D function has to be continuous and for a 2D function only rectangular domain is accepted.
 
